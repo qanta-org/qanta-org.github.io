@@ -1,0 +1,18 @@
+{%- assign projects = site.pages | where_exp: "p", "p.url contains '/research/projects/'" | sort: "year" | reverse %}
+{%- for p in projects %}
+{%- unless p.url == '/research/projects/' %}
+<div class="col-md-6 mb-4">
+    <div class="card h-100 shadow-sm">
+        <div class="card-body">
+            <div class="d-flex justify-content-between align-items-start mb-2">
+                <h5 class="mt-0 mb-0"><a href="{{ p.url }}">{{ p.title }}</a></h5>{% if p.venue %}<span
+                    class="badge badge-venue">{{ p.venue }}</span>{% endif %}
+            </div>
+            <p class="card-text">{{ p.description }}</p>{% for bk in p.badges %}{% assign bc =
+            site.data.badge_config[bk] %}{% if bc %}<span class="badge {{ bc.class }}">{{ bc.label }}</span> {% endif
+            %}{% endfor %}
+        </div>
+    </div>
+</div>
+{%- endunless %}
+{%- endfor %}

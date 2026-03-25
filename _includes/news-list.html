@@ -1,0 +1,4 @@
+{%- for item in site.data.news %}<div class="news-item"><span class="news-year">{{ item.year }}</span>{% if item.url
+    %}<a href="{{ item.url }}">{{ item.text }}</a>{% elsif item.html %}{{ item.html }}{% else %}{{ item.text }}{% endif
+    %}</div>
+{%- endfor %}

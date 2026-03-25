@@ -1,0 +1,11 @@
+{%- for card in page.explore %}<div class="col-md-4 mb-3">
+    <div class="card h-100 card-accent shadow-sm">
+        <div class="card-body">
+            <h5 class="card-title"><a href="{{ card.url }}" class="stretched-link text-decoration-none text-dark">{{
+                    card.title }}</a></h5>
+            <p class="card-text text-muted">{{ card.text }}</p>{% for b in card.badges %}<span
+                class="badge {{ b.class }}">{{ b.label }}</span> {% endfor %}
+        </div>
+    </div>
+</div>
+{%- endfor %}

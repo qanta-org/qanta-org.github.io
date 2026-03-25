@@ -1,0 +1,33 @@
+{% include top.html %}
+
+<body class="wrap">
+  <header>
+    {% include header.html %}
+  </header>
+
+  <div class="competition-strip">
+    <div class="container px-4">
+      <div class="col-lg-10 mx-auto py-2 d-flex align-items-center">
+        <a href="{{ site.baseurl }}/competition/" class="competition-back">
+          <i class="bi bi-arrow-left mr-1"></i>All Competitions
+        </a>
+        {% if page.status == 'current' %}
+          <span class="badge badge-current ml-3">Current</span>
+        {% elsif page.status == 'past' %}
+          <span class="badge badge-past ml-3">Past</span>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <div class="container p-4 pt-4">
+    <div class="col-lg-10 mx-auto">
+      <main role="main" class="pb-5">
+        {{ content }}
+      </main>
+    </div>
+
+    {% include footer.html %}
+  </div>
+</body>
+</html>

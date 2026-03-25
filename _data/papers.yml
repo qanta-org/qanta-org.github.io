@@ -1,0 +1,48 @@
+# QANTA publications catalog
+# Rendered by research/index.md via Liquid loops.
+# Fields:
+#   id          – unique slug (referenced by datasets.yml paper_id)
+#   title       – full paper title
+#   short_title – compact label for narrow tables (optional)
+#   authors     – author list string
+#   venue       – conference/journal abbreviation
+#   year        – publication year (integer)
+#   url         – link to paper (ACL Anthology, arXiv, publisher, etc.)
+#   project_page – internal path to project page (optional)
+#   dataset_ids  – list of dataset ids this paper introduced (optional)
+
+- id: adversarial-tacl-2019
+  title: "Trick Me If You Can: Human-in-the-loop Generation of Adversarial Examples for Question Answering"
+  authors: "Eric Wallace, Pedro Rodriguez, Shi Feng, Ikuya Yamada, Jordan Boyd-Graber"
+  venue: TACL
+  year: 2019
+  url: https://aclanthology.org/Q19-1029/
+  project_page: /research/projects/adversarial/
+  dataset_ids: [adversarial-qa]
+
+- id: qblink-emnlp-2018
+  title: "Dataset and Baselines for Sequential Open-Domain Question Answering"
+  authors: "Ahmed Elgohary, Chen Zhao, Jordan Boyd-Graber"
+  venue: EMNLP
+  year: 2018
+  url: https://aclanthology.org/D18-1134/
+  project_page: /research/projects/qblink/
+  dataset_ids: [qblink]
+
+- id: canard-emnlp-2019
+  title: "Can You Unpack That? Learning to Rewrite Questions-in-Context"
+  authors: "Ahmed Elgohary, Denis Peskov, Jordan Boyd-Graber"
+  venue: EMNLP
+  year: 2019
+  url: https://aclanthology.org/D19-1605/
+  project_page: /research/projects/canard/
+  dataset_ids: [canard]
+
+- id: delft-www-2020
+  title: "Complex Factoid Question Answering with a Free-Text Knowledge Graph"
+  authors: "Chen Zhao, Chenyan Xiong, Xin Qian, Jordan Boyd-Graber"
+  venue: WWW
+  year: 2020
+  url: https://dl.acm.org/doi/10.1145/3366423.3380197
+  project_page: /research/projects/delft/
+  dataset_ids: [delft-graph-links, delft-graph-tagme]

@@ -1,0 +1,24 @@
+# Competition nav configuration.
+# To make a new year current: set current: true on the new entry, remove/omit it on the old one.
+# The header dropdown is driven entirely by this file — no HTML changes needed when rotating years.
+#
+# Fields:
+#   year     – directory name under competition/ (also used in the URL)
+#   label    – display label in the dropdown (can differ from year, e.g. "2018 (NeurIPS HCQA)")
+#   current  – true for the one active competition; omit or false for past years
+
+- year: 2026
+  label: "2026"
+  current: true
+
+- year: 2025
+  label: "2025"
+
+- year: 2024
+  label: "2024"
+
+- year: 2023
+  label: "2023"
+
+- year: 2018
+  label: "2018 (NeurIPS HCQA)"

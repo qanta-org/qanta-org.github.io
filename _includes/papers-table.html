@@ -1,0 +1,18 @@
+<table class="table table-sm table-hover">
+    <thead>
+        <tr>
+            <th>Paper</th>
+            <th>Authors</th>
+            <th>Venue</th>
+        </tr>
+    </thead>
+    <tbody>
+        {%- for paper in site.data.papers %}<tr>
+            <td>{% if paper.url %}<a href="{{ paper.url }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}
+            </td>
+            <td>{{ paper.authors }}</td>
+            <td>{{ paper.venue }} {{ paper.year }}</td>
+        </tr>
+        {%- endfor %}
+    </tbody>
+</table>

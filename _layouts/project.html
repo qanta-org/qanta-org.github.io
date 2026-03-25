@@ -1,0 +1,112 @@
+{% include top.html %}
+
+<body class="wrap">
+  <header>
+    {% include header.html %}
+  </header>
+
+  <div class="container p-4 pt-5">
+    <div class="col-lg-10 mx-auto">
+      <div class="row">
+
+        <!-- Main content -->
+        <div class="col-lg-8 pr-lg-5">
+          <main role="main" class="pb-5">
+            {{ content }}
+          </main>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="col-lg-4 mt-4 mt-lg-0">
+          <div class="project-sidebar sticky-top" style="top: 80px;">
+
+            <!-- Venue + Year -->
+            {% if page.venue %}
+            <div class="sidebar-section">
+              <span class="badge badge-venue">{{ page.venue }}</span>
+              {% if page.year %}<span class="text-muted small ml-1">{{ page.year }}</span>{% endif %}
+            </div>
+            {% endif %}
+
+            <!-- Content badges -->
+            {% if page.badges %}
+            <div class="sidebar-section">
+              {% for bk in page.badges %}
+                {% assign bc = site.data.badge_config[bk] %}
+                {% if bc %}<span class="badge {{ bc.class }}">{{ bc.label }}</span>{% endif %}
+              {% endfor %}
+            </div>
+            {% endif %}
+
+            <!-- Paper -->
+            {% assign paper = site.data.papers | where: "project_page", page.url | first %}
+            {% if paper %}
+            <div class="sidebar-card">
+              <div class="sidebar-card-label">Paper</div>
+              <p class="small mb-1">
+                {% if paper.url %}<a href="{{ paper.url }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}
+              </p>
+              <p class="small text-muted mb-0">{{ paper.venue }} {{ paper.year }}</p>
+            </div>
+            {% endif %}
+
+            <!-- Datasets -->
+            {% assign datasets = site.data.datasets | where: "page", page.url %}
+            {% if datasets.size > 0 %}
+            <div class="sidebar-card">
+              <div class="sidebar-card-label">{% if datasets.size > 1 %}Datasets{% else %}Dataset{% endif %}</div>
+              {% for ds in datasets %}
+              <div class="{% unless forloop.last %}mb-3{% endunless %}">
+                <div class="small font-weight-bold mb-1">{{ ds.short_name | default: ds.name }}</div>
+                <div>
+                  {% for split in ds.splits %}
+                    {% if split.url %}
+                      <a href="{{ split.url }}" class="badge badge-split">{{ split.name }}</a>
+                    {% else %}
+                      <span class="badge badge-split-na">{{ split.name }}</span>
+                    {% endif %}
+                  {% endfor %}
+                </div>
+                {% if ds.license %}<div class="small text-muted mt-1">{{ ds.license }}</div>{% endif %}
+              </div>
+              {% endfor %}
+            </div>
+            {% endif %}
+
+            <!-- Authors -->
+            {% if page.authors %}
+            <div class="sidebar-card">
+              <div class="sidebar-card-label">Authors</div>
+              {% for author_id in page.authors %}
+                {% assign author = site.data.authors | where: "id", author_id | first %}
+                {% if author %}
+                <div class="d-flex align-items-center mb-2">
+                  {% if author.image %}
+                    <img src="{{ site.baseurl }}/assets/images/people/{{ author.image }}"
+                         alt="{{ author.name }}" class="rounded-circle mr-2 flex-shrink-0"
+                         style="width:32px;height:32px;object-fit:cover;">
+                  {% else %}
+                    <div class="rounded-circle bg-secondary d-inline-flex align-items-center justify-content-center mr-2 flex-shrink-0"
+                         style="width:32px;height:32px;">
+                      <span class="text-white" style="font-size:0.75rem;font-weight:700;">{{ author.name | slice: 0 }}</span>
+                    </div>
+                  {% endif %}
+                  <div class="small">
+                    {% if author.url %}<a href="{{ author.url }}" target="_blank" rel="noopener">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}
+                  </div>
+                </div>
+                {% endif %}
+              {% endfor %}
+            </div>
+            {% endif %}
+
+          </div><!-- /.project-sidebar -->
+        </div>
+
+      </div>
+    </div>
+
+    {% include footer.html %}
+  </div>
+</body>
+</html>

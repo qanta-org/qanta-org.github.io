@@ -1,0 +1,29 @@
+{%- for ds in site.data.datasets %}
+<h2>{{ ds.name }}</h2>
+<p>{{ ds.description }}</p>
+{%- if ds.splits %}
+<table class="table table-sm">
+    <thead>
+        <tr>
+            <th>Split</th>
+            <th>Download</th>
+        </tr>
+    </thead>
+    <tbody>
+        {%- for split in ds.splits %}<tr>
+            <td>{{ split.name }}</td>
+            <td>{% if split.url %}<a href="{{ split.url }}">Download</a>{% else %}—{% endif %}</td>
+        </tr>
+        {%- endfor %}</tbody>
+</table>
+{%- endif %}
+{%- if ds.paper_id %}{% assign paper = site.data.papers | where: "id", ds.paper_id | first %}{% if paper %}<p>
+    <strong>Paper</strong>: {{ paper.authors }} — <a href="{{ paper.url }}">{{ paper.title }}</a> · {{ paper.venue }} {{
+    paper.year }}{% if ds.page %} · <a href="{{ ds.page }}">Project page</a>{% endif %}
+</p>{% endif %}{% endif %}
+{%- if ds.code_url %}<p><strong>Code</strong>: <a href="{{ ds.code_url }}">{{ ds.code_url | remove: "https://" }}</a>
+</p>{% endif %}
+{%- if ds.license %}<p><strong>License</strong>: {{ ds.license }}</p>{% endif %}
+{%- if ds.notes %}<p><em>{{ ds.notes }}</em></p>{% endif %}
+<hr>
+{%- endfor %}

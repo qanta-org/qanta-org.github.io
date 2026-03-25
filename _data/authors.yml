@@ -1,0 +1,42 @@
+# Author / people catalog.
+# Used by _includes/author-grid.html — reference author ids in page front matter:
+#   authors: [eric-wallace, pedro-rodriguez, shi-feng, ikuya-yamada, jordan-boyd-graber]
+#
+# Fields:
+#   id       – unique slug
+#   name     – display name
+#   url      – personal/academic homepage (optional)
+#   image    – filename under assets/images/people/ (optional; initials avatar shown if absent)
+
+- id: jordan-boyd-graber
+  name: Jordan Boyd-Graber
+  url: http://users.umiacs.umd.edu/~jbg/
+  image: jordan-boyd-graber.png
+
+- id: eric-wallace
+  name: Eric Wallace
+  url: https://www.ericswallace.com/
+  image: eric-wallace.jpg
+
+- id: pedro-rodriguez
+  name: Pedro Rodriguez
+  url: https://pedro.ai/
+  image: pedro-rodriguez.jpg
+
+- id: shi-feng
+  name: Shi Feng
+  url: https://shi-feng.super.site/
+  image: shi-feng.jpg
+
+- id: ikuya-yamada
+  name: Ikuya Yamada
+  image: ikuya-yamada.jpg
+
+- id: ahmed-elgohary
+  name: Ahmed Elgohary
+
+- id: chen-zhao
+  name: Chen Zhao
+
+- id: denis-peskov
+  name: Denis Peskov

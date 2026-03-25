@@ -1,0 +1,15 @@
+{% comment %}
+Renders a row of circular author avatars.
+Usage — front matter: authors: [id1, id2, ...]
+Usage — in content: {% include author-grid.html author_ids=page.authors %}
+Uses _data/authors.yml. Falls back to an initial circle if no image is set.
+{% endcomment %}
+<div class="row mt-3 mb-2">{% for author_id in include.author_ids %}{% assign author = site.data.authors | where: "id",
+    author_id | first %}{% if author %}<div class="col-4 col-md-2 text-center mb-3">{% if author.image %}<img
+            src="{{ site.baseurl }}/assets/images/people/{{ author.image }}" alt="{{ author.name }}"
+            class="rounded-circle img-fluid mb-1 avatar-sm">{% else %}<div
+            class="rounded-circle bg-secondary d-inline-flex align-items-center justify-content-center mb-1"
+            style="width:80px;height:80px;"><span class="text-white font-weight-bold">{{ author.name | slice: 0
+                }}</span></div>{% endif %}<div class="small">{% if author.url %}<a href="{{ author.url }}"
+                target="_blank" rel="noopener">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}</div>
+    </div>{% endif %}{% endfor %}</div>

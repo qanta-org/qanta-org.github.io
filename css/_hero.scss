@@ -1,0 +1,51 @@
+// ── Home hero ─────────────────────────────────────────────────────────
+.qanta-hero {
+  background-color: $dark;
+  background-image:
+    linear-gradient(rgba(40,40,40,0.72), rgba(40,40,40,0.72)),
+    url("/assets/images/heroes/home-hero.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}
+
+.hero-body {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.hero-title {
+  font-size: 3.75rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  color: #ffffff;
+  margin-bottom: 0.75rem;
+}
+
+.hero-subtitle {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: rgba(255,255,255,0.88);
+  max-width: 36rem;
+  margin: 0 auto 0.5rem;
+}
+
+.hero-tagline {
+  font-size: 0.95rem;
+  color: rgba(255,255,255,0.65);
+  margin-bottom: 2.5rem;
+}
+
+.hero-socials {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255,255,255,0.12);
+}
+
+// ── Section card (white inset box on home Explore section) ─────────────
+.section-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+}

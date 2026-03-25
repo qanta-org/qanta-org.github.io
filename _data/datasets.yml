@@ -1,0 +1,136 @@
+# QANTA dataset catalog
+# Each entry is rendered by research/datasets.md and data-and-code.md via Liquid loops.
+# Fields:
+#   id          – unique slug
+#   name        – full display name
+#   short_name  – table-friendly label
+#   description – one-sentence summary
+#   type        – tossup | sequential | conversational | adversarial | graph | context
+#   paper_id    – matches id in papers.yml (optional)
+#   splits      – list of {name, url} download links (omit url to show "Contact us")
+#   code_url    – GitHub or other code link
+#   license     – license string (omit if none stated)
+#   page        – internal project page path (optional)
+#   notes       – free-text extra note (optional)
+
+- id: qanta-tossup-2021
+  name: QANTA Tossup Dataset (2021)
+  short_name: QANTA Tossup 2021
+  description: >
+    ~100k pyramid-style quiz bowl tossup questions with full text, answers, and metadata
+    (category, tournament, year). The primary benchmark for QANTA system evaluation.
+  type: tossup
+  splits:
+    - name: Train
+      url: https://obj.umiacs.umd.edu/qanta-jmlr-datasets/qanta.train.2021.12.20.json
+    - name: Dev
+      url: https://obj.umiacs.umd.edu/qanta-jmlr-datasets/qanta.dev.2021.12.20.json
+  code_url: https://github.com/Pinafore/qb
+  notes: "Historical releases: http://cs.umd.edu/~miyyer/qblearn/"
+
+- id: qanta-tossup-2018
+  name: QANTA Tossup Dataset (2018)
+  short_name: QANTA Tossup 2018
+  description: >
+    Full 2018 release including train/dev/test splits, SQLite database, Wikipedia title set,
+    and protobowl gameplay log. Predecessor to the 2021 release.
+  type: tossup
+  splits:
+    - name: Train
+    - name: Dev
+    - name: Test
+    - name: SQLite
+    - name: Wikipedia titles
+    - name: Gameplay log
+  code_url: https://github.com/Pinafore/qb
+  notes: "Contact us for download links."
+
+- id: qblink
+  name: QBLink
+  short_name: QBLink
+  description: >
+    18,644 sequential open-domain QA sequences (56,000 Q&A pairs) built from quiz bowl tossups.
+    Each sequence includes a topic lead-in followed by three related questions.
+  type: sequential
+  paper_id: qblink-emnlp-2018
+  splits:
+    - name: Train
+      url: https://drive.google.com/file/d/1OFNQcxv8l1R0xOrmz6mKqBfECBHBB_Yx/view
+    - name: Dev
+      url: https://drive.google.com/file/d/1OFNQcxv8l1R0xOrmz6mKqBfECBHBB_Yx/view
+    - name: Test
+      url: https://drive.google.com/file/d/1OFNQcxv8l1R0xOrmz6mKqBfECBHBB_Yx/view
+  page: /research/projects/qblink/
+
+- id: canard
+  name: CANARD
+  short_name: CANARD
+  description: >
+    40,527 question-in-context rewriting pairs for conversational QA.
+    Tests coreference resolution and ellipsis handling in multi-turn dialog, built on QuAC.
+  type: conversational
+  paper_id: canard-emnlp-2019
+  splits:
+    - name: "Train (31,526)"
+    - name: "Dev (3,430)"
+    - name: "Test (5,571)"
+  code_url: https://github.com/aagohary/canard
+  license: CC BY-SA 4.0
+  page: /research/projects/canard/
+  notes: "Download via GitHub repo."
+
+- id: adversarial-qa
+  name: Adversarial QA
+  short_name: Adversarial QA
+  description: >
+    ~1,000 questions created through a human-in-the-loop adversarial writing process —
+    designed to stump state-of-the-art QA systems while remaining answerable by expert humans.
+  type: adversarial
+  paper_id: adversarial-tacl-2019
+  splits:
+    - name: Dataset (JSON)
+    - name: Edit histories
+    - name: Prelim & final questions
+  page: /research/projects/adversarial/
+  notes: "Contact us for download links."
+
+- id: delft-graph-links
+  name: DELFT Wikipedia Graph (links)
+  short_name: DELFT Graph (links)
+  description: >
+    Entity-annotated Wikipedia graph using original article hyperlinks.
+    JSON format with page IDs, titles, sentences, and entity annotations.
+  type: graph
+  paper_id: delft-www-2020
+  splits:
+    - name: Download
+      url: https://obj.umiacs.umd.edu/delft_wiki_graph/enwiki_links_anchor_1101.zip
+  code_url: https://github.com/henryzhao5852/DELFT
+  page: /research/projects/delft/
+
+- id: delft-graph-tagme
+  name: DELFT Wikipedia Graph (TagMe)
+  short_name: DELFT Graph (TagMe)
+  description: >
+    Entity-annotated Wikipedia graph using TagMe entity tagging.
+    Alternative graph construction to the links version.
+  type: graph
+  paper_id: delft-www-2020
+  splits:
+    - name: Download
+      url: https://obj.umiacs.umd.edu/delft_wiki_graph/wiki_anchor_1101.zip
+  code_url: https://github.com/henryzhao5852/DELFT
+  page: /research/projects/delft/
+
+- id: paragraph-context-2018
+  name: Paragraph Context Data (2018)
+  short_name: Paragraph Context 2018
+  description: >
+    TFIDF-retrieved Wikipedia paragraphs with TAGME entity annotations —
+    top-10 articles and paragraphs per quiz bowl question, with character indices and relevance scores.
+  type: context
+  splits:
+    - name: Train
+    - name: Dev
+    - name: Test
+  notes: "Contact us for download links."

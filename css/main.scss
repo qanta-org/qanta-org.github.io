@@ -1,0 +1,23 @@
+---
+---
+// ── Brand tokens ──────────────────────────────────────────────────────
+// Override Bootstrap defaults before the @import so Bootstrap picks them up.
+$primary: #CC412F; // rust red
+$dark: #3A3A3A; // charcoal
+$body-bg: #F5F5F5;
+$body-color: #212121;
+$link-color: $primary;
+
+// ── Bootstrap ─────────────────────────────────────────────────────────
+// @import required by Bootstrap 4 — @use is not compatible with BS4's
+// variable-override pattern. Dart Sass will emit deprecation warnings about @import; this is expected.
+@import "bootstrap/scss/bootstrap";
+
+// ── QANTA styles ──────────────────────────────────────────────────────
+@import "base"; // body, headings, links, code, utility
+@import "navbar"; // navigation + dropdowns
+@import "hero"; // home hero + .section-card
+@import "components"; // cards, tables, blockquotes, badges, news, avatars
+@import "layouts"; // competition strip, project sidebar
+@import "footer"; // footer
+@import "responsive"; // mobile breakpoints

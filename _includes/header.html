@@ -1,0 +1,55 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <a class="navbar-brand no-padding" href="{{ site.baseurl }}/">QANTA</a>
+
+  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#qanta-navbar"
+    aria-controls="qanta-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-end" id="qanta-navbar">
+    <ul class="nav navbar-nav">
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle{% if page.url contains '/competition/' %} active-section{% endif %}" href="#"
+          id="navbarCompetition" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Competition
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarCompetition">
+          {% assign current_comp = site.data.competitions | where: "current", true | first %}
+          {% if current_comp %}
+          <a class="dropdown-item" href="{{ site.baseurl }}/competition/{{ current_comp.year }}/">{{ current_comp.label
+            }} <span class="badge badge-primary ml-1">Current</span></a>
+          <div class="dropdown-divider"></div>
+          <h6 class="dropdown-header">Past Years</h6>
+          {% endif %}
+          {% for comp in site.data.competitions %}{% unless comp.current %}
+          <a class="dropdown-item" href="{{ site.baseurl }}/competition/{{ comp.year }}/">{{ comp.label }}</a>
+          {% endunless %}{% endfor %}
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{{ site.baseurl }}/competition/">All Competitions</a>
+        </div>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle{% if page.url contains '/research/' %} active-section{% endif %}" href="#"
+          id="navbarResearch" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Research
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarResearch">
+          <a class="dropdown-item" href="{{ site.baseurl }}/research/">Overview</a>
+          <a class="dropdown-item" href="{{ site.baseurl }}/research/projects/">Projects</a>
+          <a class="dropdown-item" href="{{ site.baseurl }}/research/datasets/">Datasets</a>
+        </div>
+      </li>
+
+      {%- assign nav_pages = site.pages | where: "nav", true | sort: "nav_order" %}
+      {%- for np in nav_pages %}
+      <li class="nav-item">
+        <a class="nav-link{% if page.url contains np.url %} active-section{% endif %}"
+          href="{{ np.url | relative_url }}">{{ np.nav_label | default: np.title }}</a>
+      </li>
+      {%- endfor %}
+
+    </ul>
+  </div>
+</nav>

@@ -1,0 +1,15 @@
+dataset:
+  class: badge-dataset
+  label: Dataset
+
+system:
+  class: badge-system
+  label: System
+
+interface:
+  class: badge-system
+  label: Interface
+
+ongoing:
+  class: badge-ongoing
+  label: Ongoing

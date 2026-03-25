@@ -1,0 +1,34 @@
+{% include top.html %}
+
+<body class="wrap">
+  <header>
+    {% include header.html %}
+  </header>
+
+  <div class="qanta-hero">
+    <div class="container px-4 text-center hero-body">
+      <img src="{{ site.baseurl }}/assets/images/branding/qanta-logo.png" alt="QANTA" class="mb-3" style="max-height:80px;">
+      <h1 class="hero-title">QANTA</h1>
+      <p class="hero-subtitle">Question Answering is Not a Trivial Activity</p>
+      <p class="hero-tagline">A collaboration between the University of Maryland and UC Berkeley</p>
+      <div>
+        <a href="{{ site.baseurl }}/competition/2026/" class="btn btn-danger btn-lg mr-2 mb-2">
+          2026 Competition
+        </a>
+        <a href="{{ site.baseurl }}/research/" class="btn btn-outline-light btn-lg mb-2">
+          Our Research <i class="bi bi-arrow-right ml-1"></i>
+        </a>
+      </div>
+      {% include socials.html %}
+    </div>
+  </div>
+
+  <div class="container p-4 pt-5">
+    <main role="main" class="pb-5">
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+  </div>
+</body>
+</html>
