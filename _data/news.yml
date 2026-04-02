@@ -1,14 +1,7 @@
-- year: "2015"
-  text: "Question-Answering System Built by UMD, UC Boulder Bests Ken Jennings"
-  url: "https://cmns.umd.edu/news-events/features/2921"
+- year: "2025"
+  text: "Humans and AI Join Forces"
+  url: "https://www.trails.umd.edu/news/humans-and-ai-join-forces"
 
-- year: "2017"
-  text: "UMD Computerized System Beats Human Quiz Bowl Team at Atlanta Exhibition"
-  url: "https://cs.umd.edu/article/2017/01/umd-computerized-system-beats-human-quiz-bowl-team-atlanta-exhibition"
-
-- year: "Video"
-  text: "How to write questions computers cannot answer"
-  url: "https://www.youtube.com/watch?v=YExV8a6xSl0"
-
-- year: "Events"
-  html: "UMD CS undergrads vs. trivia experts &mdash; <a href=\"/competition/2023/\">2023</a> &middot; <a href=\"/competition/2025/\">2025</a>"
+- year: "2024"
+  text: "Jeopardy! @ UMD: Jordan Boyd-Graber Receives Shout-Out on Jeopardy! Masters"
+  url: "https://ischool.umd.edu/news/jeopardy-umd-jordan-boyd-graber-receives-shout-out-on-jeopardy-masters/"

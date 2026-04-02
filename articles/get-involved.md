@@ -3,7 +3,7 @@ layout: article
 title: Get Involved
 description: Ways to contribute to QANTA — compete, write questions, volunteer, partner, or collaborate on research.
 permalink: /get-involved/
-nav: true
+nav: false
 nav_label: "Get Involved"
 nav_order: 5
 ---

@@ -11,7 +11,7 @@ $link-color: $primary;
 // ── Bootstrap ─────────────────────────────────────────────────────────
 // @import required by Bootstrap 4 — @use is not compatible with BS4's
 // variable-override pattern. Dart Sass will emit deprecation warnings about @import; this is expected.
-@import "bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 // ── QANTA styles ──────────────────────────────────────────────────────
 @import "base"; // body, headings, links, code, utility

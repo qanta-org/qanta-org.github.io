@@ -2,111 +2,138 @@
 layout: competition
 title: 2025 Competition
 status: past
-description: The 2025 QANTA competition — Human–AI Cooperative QA, bringing together expert quiz bowl players and AI systems at UMD.
+description: Results and analysis from the 2025 QANTA Human-AI Cooperative QA competition.
 ---
 
-# 🤖 🫱🏻‍🫲🏾 🧠 What is QANTA 2025?
+# 2025 Competition Results
 
 <img src="{{ site.baseurl }}/assets/images/heroes/competition-2025.jpg" alt="QANTA 2025 Competition" class="img-fluid rounded mb-4" style="width:100%;">
 
-Welcome to **QANTA 25**: the world's first **Human–AI Cooperative Trivia** competition!
-
-We're building a fun, interactive battlefield to discover who really reigns supreme in question answering — humans, AI systems, or a perfect team-up.
-The only thing missing is **you**!
-
-## How Can You Participate?
-
-**🤖🛠️ Build an AI Teammate** — Design an AI system that makes accurate guesses with clear explanations, and just the right amount of confidence to help your human partner shine.
-
-→ [Computer Teams](/competition/2025/computer-teams/)
-
-**🧑‍🤝‍🧑 Play as a Human** — Bring your knowledge, strategy, and intuition — then team up with an AI agent to outthink the competition.
-
-→ [Human Teams](/competition/2025/human-teams/)
-
-**✍️📝 Write Challenging Questions** — Author the quizzes that will put teams to the test (and get paid **$5** for every question we use!).
-
-→ [Question Authors](/competition/2025/question-authors/)
-
-No fee to join. QANTA is all about science, community, and curiosity!
-
-💡 **New this year:** Team up with AI for "bonus" questions and more collaborative gameplay!
+QANTA 2025 featured in-person and online Human-AI cooperative play, plus an AI systems leaderboard and adversarial packet writing.
 
 ---
 
-## 🤔 Why Join?
+## Highlights
 
-AI is really good at answering questions — except when it isn't — can they know they don't know?
-
-Our competition digs deep to find out:
-
-**For Tossups:**
-
-- 📊 **Test Calibration** — Can models judge their own confidence accurately?
-- 🤖 **Compare AI & Human Judgment** — Who's better at knowing what they know?
-- 🏅 **Climb the Leaderboard** — See how your system stacks up using our special calibration metrics.
-
-**For Bonuses:**
-
-- 🔺 **Boost Human Performance** — Do AI explanations actually help people score higher?
+- **June 14 (in-person) winner:** Sara's Cias
+- **June 21 (online) winner:** QB They Reader
+- **Top AI system:** BlackRaven (Jaimie Carlson)
+- **Most adversarial packet prize:** Stephen Pachucki
 
 ---
 
-## 📅 Important Dates
+## Stats Reports
 
-| | Deadline |
-|---|---|
-| 📚 Half-Packet Submission | June 1, 2025 |
-| 📝 Question Submission | June 7, 2025 |
-| 🤖 System Submission | June 7, 2025 |
-| 🧑‍💻 Player Registration | June 10, 2025 |
-| 🏟️ In-Person Tournament (College Park, MD) | June 14, 2025 |
-| 🌐 Online Tournament | June 21, 2025 |
+- In-Person: [QANTA_2025_Stats_June_14](http://users.umiacs.umd.edu/~ying/qb/2025_QANTA/QANTA_2025_Stats_June_14.html)
+- Online: [QANTA_2025_Stats_June_21](http://users.umiacs.umd.edu/~ying/qb/2025_QANTA/QANTA_2025_Stats_June_21.html)
+- AI (combined): [QANTA_2025_AI_Stats_Combined](http://users.umiacs.umd.edu/~ying/qb/2025_QANTA/QANTA_2025_AI_Stats_Combined.html)
+
+These reports include player-level and team-level performance, AI contribution/trust metrics on bonuses, and per-packet analysis.
 
 ---
 
-## ✍️ Want to Write for QANTA?
+## Winners and Prize Money
 
-👉 We're seeking creative question writers!
+### June 14, 2025 - Human Teams
 
-👉 Submit at least 10 challenging tossups and bonuses on any theme.
+1. **Sara's Cias (Team 3)** - $150  
+   Sara DelVillano, Warren Grace, Haughton Neppl
+2. **Kicking and Screaming (Team 5)** - $100  
+   Irene Ying, Michael
+3. **Inquizitive (Team 1)** - $50  
+   Kartik Ravisankar
 
-👉 Earn **$5** for every question accepted!
+### June 21, 2025 - Human Teams
+
+1. **QB They Reader (Team 2)** - $150  
+   Mohit Nair, Nate Brown, Angelo Pan
+2. **Dot Gimpel the File (Team 4)** - $100  
+   Ankit Aggarwal, Nikhil Desai, Sinecio Morales
+3. **Cinco Ranch Education (Team 1)** - $50  
+   Alan Lee, Anthony Yin, Ruchir Kodihalli
+
+### AI Builders (Combined)
+
+1. **BlackRaven** (Jaimie Carlson) - $200
+2. **RodeRunner** (Neel Mokaria) - $150
+3. **Tigerclaw** (Amanvir Parhar) - $100
+4. **Sphinx** (Parth Dua, Marek Suppa) - $50
+
+### Packet Writers
+
+Most adversarial question sets by packet-level analysis:
+
+- Packet 3: Noah Sheidlower (Music)
+- Packet 5: Jaimie Carlson (Spatial Reasoning)
+- Packet 7: Jordan Boyd-Graber (house-written; not prize eligible)
+
+House-written packets were not eligible for writer prize payouts. The writing prize was awarded to **Stephen Pachucki ($50)**.
 
 ---
 
-## 🤖 For Computer Teams
+## Most Adversarial Questions (Examples)
 
-→ [Computer Teams](/competition/2025/computer-teams/)
+### Example 1: Rapper identity with decoy clues
 
-## 🙋 For Human Players
+A question with clues intentionally pointing toward nearby entities (e.g., Nas, Kanye West, Machiavelli, Tupac aliases) remained answerable for strong humans while triggering wrong high-confidence AI guesses.
 
-→ [Human Teams](/competition/2025/human-teams/)
+Outcome:
 
-## ✍️ For Human Authors
+- Humans successfully resolved the intended entity from the full clue chain.
+- AI systems were frequently misled by early local associations.
 
-→ [Question Authors](/competition/2025/question-authors/)
+### Example 2: Composer identification under musical detail
+
+A music question referencing specific rhythmic and thematic motifs from multiple works by Clara Schumann created strong discrimination.
+
+Outcome:
+
+- Humans were often cautious and waited.
+- AI systems produced confident wrong guesses (e.g., Franz Liszt, Frederic Chopin).
+
+### Example 3: Magritte visual clue integration
+
+A multimodal art question integrating textual clues and visual object references ("This is not ...", bowler hat imagery, and Magritte works) required compositional reasoning.
+
+Outcome:
+
+- Humans often converged to **apple** midway through the question.
+- Multiple AI systems converged on incorrect alternatives (e.g., skull).
 
 ---
 
-## 📝 Question Writing
+## AI-Misled Human Cases
 
-💪 The questions will be hard — at least 3-dot — and each packet will be themed around topics that computers struggle on.
+The 2025 format allowed direct measurement of when AI suggestions shifted human teams from correct reasoning paths to incorrect final answers.
 
-🖥️ We provide an interface for writing questions. We highly encourage using it; it uses AI-in-the-loop to help construct questions computers stumble on.
+### Case A: Bruegel bonus (Peasant Wedding)
 
-🧩 The target length is around 450 characters.
+- Gold answer: **bowls**
+- AI suggestions included: **loaves of bread**, **pies**
+- Human teams were considering pies; confident AI guesses pushed final answers further away from the gold answer.
 
-The packets are themed, and we have rounds on:
+### Case B: Capital-city proximity bonus
 
-- Military history
-- World literature
-- Music
-- Canadian history
-- And more!
+- Gold answer: **Luxembourg City**
+- AI suggestions included: **Bonn**, **Brussels**
+- Teams that had discussed Luxembourg were pulled toward AI-suggested alternatives.
+
+---
+
+## Acknowledgments
+
+Thanks to Eve Fleisig, Yu Hou, Maharshi Gor, Yoo Yeon Sung, Noah Sheidlower, and all participating writers, players, and system designers.
+
+---
+
+## Related Pages
+
+- [Computer Teams](/competition/2025/computer-teams/)
+- [Human Teams](/competition/2025/human-teams/)
+- [Question Authors](/competition/2025/question-authors/)
 
 ---
 
 ## Contact
 
-[{{ site.contact_email }}](mailto:{{ site.contact_email }})
+If a stats link appears broken or a result looks incorrect, contact [{{ site.contact_email }}](mailto:{{ site.contact_email }}).

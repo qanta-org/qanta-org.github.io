@@ -30,18 +30,6 @@
         </div>
       </li>
 
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle{% if page.url contains '/research/' %} active-section{% endif %}" href="#"
-          id="navbarResearch" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Research
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarResearch">
-          <a class="dropdown-item" href="{{ site.baseurl }}/research/">Overview</a>
-          <a class="dropdown-item" href="{{ site.baseurl }}/research/projects/">Projects</a>
-          <a class="dropdown-item" href="{{ site.baseurl }}/research/datasets/">Datasets</a>
-        </div>
-      </li>
-
       {%- assign nav_pages = site.pages | where: "nav", true | sort: "nav_order" %}
       {%- for np in nav_pages %}
       <li class="nav-item">

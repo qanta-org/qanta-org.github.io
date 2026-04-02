@@ -1,129 +1,133 @@
 ---
 layout: article
-title: How to Stump a Computer
-description: Guide to writing adversarial quiz bowl questions that fool AI systems while remaining fair to expert humans.
+title: What's a Pyramidal Adversarial Question
+description: Guide to writing pyramidal adversarial quiz bowl questions that fool AI systems while remaining fair to expert humans.
 permalink: /stump-a-computer/
 nav: true
 nav_order: 4
-nav_label: "How to Stump a Computer"
+nav_label: "What's a Pyramidal Adversarial Question"
 ---
 
-# How to Stump a Computer
+# What's a Pyramidal Adversarial Question
 
-The goal of this page is to provide information to help you write better adversarial questions.
+Can you write a question that a top computer QA system cannot answer - but an expert human can?
 
-Can you write a question that a top computer QA system can't answer — but an expert human can? Write using our adversarial interface at **[write.qanta.org](http://write.qanta.org)**. The interface provides real-time feedback as you type: words the AI considers important are highlighted, helping you craft clues that fool the machine while remaining fair to expert humans.
+Write using our adversarial interface at **[write.qanta.org](http://write.qanta.org)**. The interface provides real-time feedback as you type.
 
----
+## Jump to a Section
 
-## What Makes a Question Adversarial?
-
-Good adversarial questions use one or more of these strategies:
-
-- **Paraphrased content** — avoid phrasing that directly echoes standard training text; rephrase well-known facts in ways that require understanding, not retrieval
-- **Logical and multi-hop reasoning** — require the reader to chain multiple facts together rather than recall a single association
-- **Commonsense or domain expertise** — draw on knowledge that is tacit for experts but absent from typical QA training data
-- **Mathematical components** — include a calculation or quantity reasoning step the AI must solve correctly
-- **Cross-lingual elements** — use names, terms, or wordplay from other languages that require language knowledge beyond English
-
-These are starting points — creativity is the most important ingredient.
+- [Section 1: Why Pyramidal Questions](#section-1-why-pyramidal-questions)
+- [Section 2: Why Adversarial Questions](#section-2-why-adversarial-questions)
+- [Section 3: Multimodal](#section-3-multimodal)
+- [Section 4: Anti-Patterns](#section-4-anti-patterns)
+- [Section 5: Advice for Text-Based Questions](#section-5-advice-for-text-based-questions)
+- [Section 6: Advice for Multimodal Questions](#section-6-advice-for-multimodal-questions)
 
 ---
 
-## What Makes a Question Bad?
+## Section 1: Why Pyramidal Questions
 
-The following patterns produce questions that look adversarial but are actually flawed. Examples are drawn from a quiz game called *Spiel des Wissens*.
+Pyramidal questions are designed to reward deep knowledge, not reflexes or keyword matching.
+
+In quiz bowl, a good question starts with hard clues and then progressively becomes easier. This format is useful for AI evaluation because it tests whether a system can reason from nuanced evidence early, not just recover the answer from a late giveaway clue.
+
+From [Quizbowl: The Case for Incremental Question Answering](https://arxiv.org/abs/1904.04792):
+
+- Incremental answering better separates skill across both humans and machines.
+- It introduces a decision problem: not just "what is the answer," but also "when should I answer?"
+- It makes calibration matter: strong systems should know when they are likely correct.
+
+Practical takeaway: write clues that are uniquely identifying when combined, and place easier clues later.
+
+---
+
+## Section 2: Why Adversarial Questions
+
+Adversarial questions are useful because standard benchmarks can be solved with shallow patterns. Adversarial writing helps expose where models fail despite strong leaderboard performance.
+
+From [Trick Me If You Can](https://aclanthology.org/Q19-1029/):
+
+- Human-in-the-loop writing produces richer and more diverse failure cases than automatic perturbations.
+- Questions can remain natural and answerable for humans while still stumping strong neural and IR baselines.
+- Adversarial questions reveal weaknesses such as multi-hop reasoning failures and entity-type confusion.
+
+Practical takeaway: target model weaknesses while keeping the question fair and answerable for knowledgeable humans.
+
+---
+
+## Section 3: Multimodal
+
+Multimodal adversarial questions combine text with images (and potentially audio/video) so that solving requires integrating evidence across modalities.
+
+Why this matters:
+
+- There have been multimodal quizbowl tournaments before, but many were not deeply integrated across modalities.
+- In some audio formats, the question is effectively "name the country of the composer," followed by a sequence of audio clips.
+- In some image formats, the question is effectively "name the film," followed by a sequence of stills.
+
+Our goal is different:
+
+- Clues still move from harder to easier, as in standard pyramidal writing.
+- But clues should be interleaved across modalities, not grouped as "all text then all images" (or vice versa).
+- The answer should emerge from how text and media clues interact over time.
+
+This interleaved multimodal pyramidal style is new as an evaluation target for both computer QA and human QA.
+
+---
+
+## Section 4: Anti-Patterns
+
+These make questions hard in a bad way (they do not test skill):
 
 ### Ambiguous answers
 
-> *"What is the name of the literary genre in which elements of the real and the magical world are interwoven?"*
+A question is flawed if multiple answers are defensible for an expert.
 
-This question has multiple defensible answers — "fairy tales," "fantasy," and "magical realism" are all reasonable. A question is bad if a knowledgeable person could argue for more than one answer.
+### Vague scope
 
-### Vague location or scope
-
-> *"Where are the Virunga Volcanoes?"*
-
-"Where" could mean Earth, Africa, Central Africa, or the Democratic Republic of Congo. The intended answer must be unambiguous. Similarly:
-
-> *"Where was the first Iron Man?"*
-
-This is unclear without specifying whether "Iron Man" refers to the Marvel film, a triathlon, or something else.
+Questions like "Where is X?" can have many correct granularities (country, region, city).
 
 ### False presuppositions
 
-> *"What color are flamingo feathers?"*
-
-Flamingo feather color depends on diet — flamingos raised without carotenoids are white. A question that assumes a false fact about its subject is flawed regardless of how well-known the misconception is.
-
-> *"What voltage comes out of the socket?"* &nbsp; *"What connector do you use to charge a phone?"*
-
-Both vary by country and device. Questions that assume a universal answer where none exists are problematic.
+Do not bake incorrect assumptions into the prompt.
 
 ### Subjective qualifiers
 
-> *"What's the name of Christopher Columbus's most famous ship?"*
+Avoid "most famous," "best," or "greatest" unless the criterion is explicit.
 
-"Most famous" is subjective and contested. Adding qualifiers like "most famous," "best," or "greatest" introduces ambiguity that the AI can exploit and that unfairly penalizes knowledgeable humans who know the debate.
+### Unclear answer type
 
-### Unclear pronoun references
-
-> *"What famous novel takes place in an Italian Benedictine Abbey?"*
-
-If a question uses "it," "this," or "the work" without establishing what type of thing the answer is (a novel, a person, a place), a reader cannot immediately verify their answer. Always make the answer type clear early in the question.
+Make the expected answer type clear early (person, place, work, concept, etc.).
 
 ---
 
-## What Makes a Question Good?
+## Section 5: Advice for Text-Based Questions
 
-Ask yourself: **could a human with perfect information produce a certificate to their answer?** If not, the question is too vague.
+- Keep pyramidal structure: hard clues first, easier clues later.
+- Prefer paraphrase and composition over copied canonical phrasing.
+- Force multi-hop reasoning where possible.
+- Ensure a human with strong domain knowledge can verify the answer quickly once they see it.
+- Aim for questions that are challenging but fair (roughly high school nationals level or above).
+- Use accepted answer formats (prefer Wikipedia page titles when possible).
 
-A well-constructed adversarial question satisfies both of these criteria simultaneously:
-
-1. **A knowledgeable human immediately recognizes the correct answer.** Once they have the answer in mind, they can check whether it's correct relatively quickly — the "puzzle pieces fit together" moment.
-2. **The AI system fails to answer correctly.** Ideally, the system is confidently wrong, not simply confused.
-
-The question:
-
-> *"Who was the last Czar of Russia?"*
-
-is an example of a question that is clear and answerable — but not adversarial, because it's easy for AI. Your goal is to maintain that clarity while adding the properties above (paraphrase, reasoning, expertise) that trip up the machine.
-
-**Difficulty target:** Questions should be at least "2-dot" difficulty — roughly equivalent to high school nationals (HSNCT). The first one or two lines of the question should be unanswerable by a baseline AI system.
-
-**Answer format:** Answers should match Wikipedia page titles when possible. Redirects and common alternate names are accepted.
+A useful check: could a strong human explain exactly why each clue points to the answer?
 
 ---
 
-## Questions about Question Writing
+## Section 6: Advice for Multimodal Questions
 
-**How difficult should the questions be?**
+General guidelines:
 
-Questions should range from fairly accessible for experienced trivia players to genuinely challenging. A reasonable benchmark is high school nationals (HSNCT) difficulty. The system should not be able to answer from the first clue alone.
+- Do not rely on a famous image in its original form; many models may have already seen it.
+- Instead, use transformations: crop, annotate, recompose, redraw, or lightly edit.
+- Make sure the question cannot be solved from text alone.
+- Make sure the question cannot be solved from image alone.
+- Require cross-modal reasoning: the text should disambiguate the image, and the image should disambiguate the text.
 
-**What computers should not be able to answer the questions?**
+Example pattern:
 
-It's acceptable — even desirable — if different AI systems fail in different ways. The goal is not to defeat one specific system but to find clues that systematically expose the limits of language model reasoning.
-
-**I can't find my favorite answer in the system. Why is this?**
-
-The answer database includes only answers that appear in mainstream quiz bowl tournaments. This ensures that when a computer fails, it's because of a comprehension gap — not because the answer was never in its training data. If your answer isn't recognized, try an alternate Wikipedia page title.
-
-**How do I make an account on the interface?**
-
-Just log in with a new email and password. This will create a new account automatically.
-
-**What if I forget my password?**
-
-Email [{{ site.contact_email }}](mailto:{{ site.contact_email }}) and we'll help you recover access.
-
-**What are the strange highlighted colors in the interface?**
-
-Words that are highlighted are "important" for our Quizbowl AI system to make its predictions. If you modify those words, there is a high chance the system will get more confused. Use the highlights as a guide — if the AI is latching onto a specific phrase, rephrase it.
-
-**Do I have to use a Wikipedia page title as the answer?**
-
-Answers should match Wikipedia page titles when possible. Non-standard answers are sometimes acceptable, but using the Wikipedia title ensures the computer is penalized for a comprehension failure rather than a lookup failure.
+- Weak pattern: "What religion was George Romney?" plus a recognizable photo where text alone already gives the answer.
+- Better pattern: a photo of George Romney at a march plus textual clues that require identifying the event context and then connecting that context to the final answer.
 
 ---
 
@@ -131,4 +135,4 @@ Answers should match Wikipedia page titles when possible. Non-standard answers a
 
 Write adversarial questions at **[write.qanta.org](http://write.qanta.org)**.
 
-For background on the research behind this interface, see the [Adversarial QA project page](/research/projects/adversarial/). To submit questions to an upcoming competition, see the [current competition](/competition/2026/).
+For background on this line of work, see the [Adversarial QA project page](/research/projects/adversarial/). To submit questions to an upcoming competition, see the [current competition](/competition/2026/).

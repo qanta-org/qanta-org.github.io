@@ -9,14 +9,6 @@ explore:
     badges:
       - label: "Coming 2026"
         class: badge-danger
-  - title: Research
-    url: /research/
-    text: "Projects and datasets spanning adversarial QA, sequential reasoning, conversational contexts, and knowledge graph QA."
-    badges:
-      - label: "4 Projects"
-        class: badge-secondary
-      - label: "5 Datasets"
-        class: badge-secondary
   - title: "Data &amp; Code"
     url: /data-and-code/
     text: "Download QANTA datasets and explore open-source code on GitHub. Evaluate your system on CodaLab."
@@ -50,5 +42,5 @@ Led by **[Jordan Boyd-Graber]({{ site.pi.url }})** (University of Maryland), QAN
 <section class="py-3">
 <h2>Contact</h2>
 
-Questions about QANTA? Email **[{{ site.contact_email }}](mailto:{{ site.contact_email }})** or reach out to [Jordan Boyd-Graber](mailto:{{ site.pi.email }}) directly. Website maintained by the QANTA team.
+Questions about QANTA? Email <a href="mailto:qanta@googlegroups.com">qanta@googlegroups.com</a>.
 </section>

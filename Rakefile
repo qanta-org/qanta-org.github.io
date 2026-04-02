@@ -6,8 +6,11 @@ end
 
 webpacked_js = "javascript/main.js"
 installed_package_lock_json = "node_modules/.package-lock.json"
+js_dependency_files = ["package.json"]
+lockfiles = ["package-lock.json", "npm-shrinkwrap.json", "yarn.lock", "pnpm-lock.yaml"]
+js_dependency_files.concat(lockfiles.select { |file| File.exist?(file) })
 
-file installed_package_lock_json => ["package.json", "package-lock.json"] do
+file installed_package_lock_json => js_dependency_files do
   if production?
     sh("npm", "ci")
   else
