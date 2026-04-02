@@ -44,6 +44,12 @@ Building on the human–AI collaboration format introduced in 2025, QANTA 2026 r
 | In-Person Tournament | To be announced |
 | Online Tournament | To be announced |
 
+## Rules and Scoring
+
+The full gameplay rules — tossup scoring, bonus structure, AI delegation modes, and the serpentine draft — are detailed in the official rules page.
+
+> [Competition Rules](/competition/2026/rules/)
+
 ## How to Participate
 
 There are three ways to join QANTA 2026:
