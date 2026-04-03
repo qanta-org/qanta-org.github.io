@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {},
   "engines": {
-    "node": ">=18.14.2"
+    "node": ">=22"
   },
   "dependencies": {
     "bootstrap": "^4.6.0",
