@@ -1,11 +1,11 @@
 ---
 layout: competition
-title: 2026 Competition
+title: Efficient, Incremental Multimodal Question Answering
 status: current
 description: The world's first multimodal Quizbowl competition — combining text and image clues. Compete as a human team, write questions, or build a multimodal AI system.
 ---
 
-# QANTA 2026: Multimodal Quiz Bowl
+# QANTA 2026: Efficient, Incremental Multimodal Question Answering
 
 <img src="{{ site.baseurl }}/assets/images/heroes/competition-2026.jpg" alt="QANTA 2026 Competition" class="img-fluid rounded mb-4" style="width:100%;">
 
@@ -18,7 +18,7 @@ Building on the human–AI collaboration format introduced in 2025, QANTA 2026 r
     <div class="card shadow-sm h-100">
       <div class="card-body">
         <h5 class="mt-0">In-Person Tournament</h5>
-        <p class="text-meta mb-1">Date: To be announced</p>
+        <p class="text-meta mb-1">Date: Late June 2026 (announced soon)</p>
         <p class="mb-0">Location: To be announced</p>
       </div>
     </div>
@@ -38,11 +38,12 @@ Building on the human–AI collaboration format introduced in 2025, QANTA 2026 r
 
 | Deadline | Date |
 |---|---|
-| Question Submission | To be announced |
-| System Submission | To be announced |
-| Player Registration | To be announced |
-| In-Person Tournament | To be announced |
-| Online Tournament | To be announced |
+| Question Submission | June 1, 2026 |
+| Final System Submission | June 15, 2026 |
+| Last System Submission | Jun 15, 2026 |
+| Player Reg | Jun 21, 2026 |
+| Computer Winner Announced | Jul 8, 2026 |
+| Human Tournament | Late June 2026 (announced soon) |
 
 ## Rules and Scoring
 
