@@ -7,6 +7,8 @@ title: "2026 Competition: Computer Teams"
 
 QANTA 2026 is the first quiz bowl competition to include **multimodal questions** — text clues combined with images. AI systems must handle both modalities to compete.
 
+For the current shared rules document, see the [full rules document](https://docs.google.com/document/d/1i_jGlmL7ygsSUU6X0r56s91GSADhumq832FhriRUIJ0/edit?tab=t.0).
+
 ## What Your System Must Do
 
 Participating systems receive questions incrementally (word by word for text clues, image at display time for visual clues) and may buzz in at any point to answer. A successful system must:
@@ -24,6 +26,8 @@ Scoring details to be announced. The format will follow the QANTA 2025 precedent
 - Early buzz bonus (correct answers with fewer clues seen score higher)
 - Calibration score (confidence should correlate with accuracy)
 - Multimodal bonus track: performance on image-containing questions specifically
+
+The full rules are also available in the [shared rules document](https://docs.google.com/document/d/1i_jGlmL7ygsSUU6X0r56s91GSADhumq832FhriRUIJ0/edit?tab=t.0).
 
 ## Prizes
 

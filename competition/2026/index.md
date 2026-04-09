@@ -50,6 +50,16 @@ Building on the human–AI collaboration format introduced in 2025, QANTA 2026 r
 The full gameplay rules — tossup scoring, bonus structure, AI delegation modes, and the serpentine draft — are detailed in the official rules page.
 
 > [Competition Rules](/competition/2026/rules/)
+>
+> [Full Rules Document](https://docs.google.com/document/d/1i_jGlmL7ygsSUU6X0r56s91GSADhumq832FhriRUIJ0/edit?tab=t.0)
+
+## Publication
+
+We are also preparing publication materials related to QANTA 2026 and its focus on efficient, incremental multimodal question answering.
+
+> [ICML Page](/competition/2026/icml/)
+>
+> [Call for Papers](/competition/2026/call-for-papers/)
 
 ## How to Participate
 

@@ -1,59 +1,123 @@
 ---
 layout: article
-title: "2026 Competition: Call for Papers"
+title: "EMM-QA 2026: Call for Papers"
 ---
 
 # Call for Papers
 
-QANTA 2026 invites submissions on **efficient, incremental multimodal question answering**.
+## Efficient Multimodal Question Answering (EMM-QA)
 
-We are especially interested in work that uses the competition setting to study how systems reason over partial text, visual evidence, and collaboration signals under real-time constraints.
+Efficient multimodal question answering in the era of large language models.
 
-## Topics
+EMM-QA is a medium-broad workshop focused on efficient multimodal question answering and closely related work on multimodal retrieval, reasoning, evaluation, benchmarking, and efficient inference when those contributions are clearly connected to question answering or other knowledge-intensive multimodal tasks.
 
-Relevant topics include:
+The workshop is aimed at researchers in question answering, multimodal ML and NLP, retrieval, efficient modeling, and LLMs across both academia and industry.
 
-- Incremental question answering
-- Multimodal retrieval and reasoning
-- Vision-language modeling for quiz bowl or trivia-style tasks
-- Confidence estimation, abstention, and calibration
-- Efficient inference and latency-aware systems
-- Human-AI collaboration and delegation strategies
-- Evaluation methods for interactive QA systems
-- Dataset creation and multimodal question design
+> [Workshop Page](/competition/2026/icml/)
+>
+> [Computer Teams](/competition/2026/computer-teams/)
 
-## Submission Scope
+## Topics of Interest
 
-We welcome work describing:
+We welcome submissions on topics including:
 
-- System papers for competition entries
-- Analyses of competition behavior and performance
-- New methods for multimodal or incremental answering
-- Studies of human-AI teamwork in question answering
-- Data, benchmarks, or evaluation frameworks related to the competition
+- Efficient multimodal question answering
+- Large language models for QA
+- Open-domain QA under resource constraints
+- Multimodal QA over text + image, text + table, and text + sound
+- Efficient retrieval and answer lookup
+- Synthetic data generation for efficient QA
+- Balancing accuracy against model or system size
+- Token-efficiency and compute-efficiency in QA systems
+- Human verification and evaluation of QA outputs
+
+## Submission Types
+
+We welcome:
+
+- Full papers
+- Short papers
+- Position papers
+- System description papers, including challenge submissions
+- Non-archival submissions of previously published or concurrently submitted work
+
+We do not plan a separate demo-only or poster-without-paper submission category.
+
+## Formatting and Submission
+
+Submissions will be handled through **OpenReview**. The submission link will be posted here when it is available.
+
+Formatting requirements:
+
+- ICML style is required
+- Full papers may use up to 8 pages of main content
+- References do not count toward the page limit
+- Appendices do not count toward the page limit
+- Supplementary material is allowed and may be considered during review
+
+## Review and Publication Policy
+
+- Reviewing will be double-blind
+- Each submission will receive 3 reviews
+- Evaluation will emphasize novelty, relevance, clarity, and discussion value
+- Preliminary work is welcome when it is clearly motivated and useful to the workshop audience
+- Desk rejection is possible for clearly out-of-scope or non-compliant submissions
+
+We support both archival and non-archival participation:
+
+- Archival submissions are welcome
+- Previously published work may be submitted as non-archival
+- Work under review elsewhere may be submitted as non-archival
+- Papers accepted to the main conference may also be presented
+- Accepted submissions will appear publicly on OpenReview and on the workshop website
+
+## Presentation Format
+
+Accepted work will be presented as posters, with a subset selected for contributed talks. The workshop will also include invited talks, a panel discussion, and shared-task programming connected to the competition.
+
+At least one author of each accepted submission should register and attend. Remote presentation is expected to be possible for talks.
 
 ## Important Dates
+
+All deadlines are **Anywhere on Earth (AoE)**.
+
+### Paper Deadlines
+
+| Milestone | Date |
+|---|---|
+| Submission Deadline | May 29, 2026 |
+| Review Deadline | June 7, 2026 |
+| Notification Date | June 10, 2026 |
+| Camera-Ready Deadline | June 21, 2026 |
+| Workshop Date | July 10-11, 2026 |
+
+### Shared Task and Competition Dates
 
 | Milestone | Date |
 |---|---|
 | Question Submission | June 1, 2026 |
 | Final System Submission | June 15, 2026 |
-| Last System Submission | Jun 15, 2026 |
-| Player Reg | Jun 21, 2026 |
-| Computer Winner Announced | Jul 8, 2026 |
-| Human Tournament | Late June 2026 (announced soon) |
+| Player Registration | June 21, 2026 |
+| Human Competition | Late June 2026 |
+| Computer Winners Announced | July 7, 2026 |
 
-## Status
+## Invited Speakers
 
-Formatting requirements and final paper logistics will be posted here once they are finalized.
+Confirmed invited speakers include:
 
-For now, teams should treat this page as the canonical placeholder for publication updates tied to QANTA 2026.
+- Eunsol Choi
+- He He
+- Sewon Min
 
-## Related Pages
+Additional speakers will be announced as they are confirmed.
 
-- [ICML](/competition/2026/icml/)
-- [Rules](/competition/2026/rules/)
-- [Computer Teams](/competition/2026/computer-teams/)
+## Organizers
+
+- Jordan Boyd-Graber, University of Maryland
+- Martin Fajcik, Brno University of Technology
+- George Jojo Boateng, ETH Zurich / Kwame AI
+- Ikuya Yamada, Studio Ousia / Tohoku University / Nagoya University / RIKEN
+- Chen Zhao, NYU Shanghai
 
 ## Contact
 
