@@ -7,11 +7,27 @@ description: The world's first multimodal Quizbowl competition — combining tex
 
 # QANTA 2026: Efficient, Incremental Multimodal Question Answering
 
-<img src="{{ site.baseurl }}/assets/images/branding/icml_2026.png" alt="QANTA 2026 Competition" class="img-fluid rounded mb-4" style="width:100%;">
+<img src="{{ site.baseurl }}/assets/images/branding/icml_2026.png" alt="QANTA 2026 Competition" class="img-fluid rounded mb-4 d-block mx-auto" style="width: 25%; max-width: 100%;">
 
-QANTA 2026 is the world's **first multimodal Quizbowl competition** — questions combine **text and images**, testing whether AI systems and human players can reason across modalities together.
+QANTA 2026 is the world's **first multimodal Quizbowl computer competition** — questions combine **text and images**, testing whether AI systems and human players can reason across modalities together.
 
-Building on the human–AI collaboration format introduced in 2025, QANTA 2026 raises the stakes: clues may include photographs, diagrams, artworks, maps, or scientific figures alongside the pyramid-style text clues. Expert humans read images naturally — can AI do the same?
+Building on the human–AI collaboration format introduced in 2025,
+QANTA 2026 raises the stakes: clues may include photographs, diagrams,
+artworks, maps, or scientific figures. Expert humans read images
+naturally — can AI do the same?  How much can computers help humans
+answer questions?
+
+## Competition structure
+
+Live matches use two kinds of questions, standard in quiz bowl:
+
+- **Tossups** are read clue by clue; anyone on either side can **interrupt** when they think they know the answer. That format rewards **knowing when to commit and when to hold back** — when to buzz with an answer versus abstaining until more evidence appears. Humans and computer systems both face the same pressure to calibrate confidence under incomplete clues.
+
+- **Bonuses** are **team** questions, usually in several parts on a shared theme. They reward **depth of knowledge** and the ability to weigh **explanations and rationales** (including from AI teammates) before the captain gives the team’s final answer.
+
+The team that answers a tossup correctly earns the next bonus. For full match flow, interrupt rules, and scoring, see the rules hub and the human and computer rulebooks.
+
+> [Rules overview](/competition/2026/rules/)
 
 <div class="row mt-4 mb-4">
   <div class="col-md-6">
@@ -34,10 +50,25 @@ Building on the human–AI collaboration format introduced in 2025, QANTA 2026 r
   </div>
 </div>
 
+## ICML 2026 Workshop and Publication
+
+You don't have to submit a paper to our ICML workshop---**EMM-QA
+workshop on efficient multimodal question answering**---if you submit
+a system, but you're strongly encouraged to!  The workshop in Seoul in
+July will reveal the computer winners, feature analysis, and be an
+opportunity to discuss your approaches with other system builders.
+
+> [EMM-QA Workshop at ICML 2026](/competition/2026/icml/)
+>
+> [Call for Papers](/competition/2026/call-for-papers/)
+
+
 ## Important Dates
 
 | Deadline | Date |
 |---|---|
+| Workshop Paper Submission (CFP) | May 29, 2026 (AoE) |
+| Workshop Paper Acceptance Notification | June 10, 2026 (AoE) |
 | Question Submission | June 1, 2026 |
 | Final System Submission | June 15, 2026 |
 | Player Registration | June 21, 2026 |
@@ -47,23 +78,14 @@ Building on the human–AI collaboration format introduced in 2025, QANTA 2026 r
 
 ## Rules and Scoring
 
-QANTA 2026 rules are split by track for clarity.
+The **overview** explains how tossups and bonuses chain together in a match. **Human rules** cover table scoring, muting, and live procedures; **computer rules** cover system outputs and how leaderboards score submissions.
 
-> [Human Rules](/competition/2026/human-rules/)
->
-> [Computer Rules](/competition/2026/computer-rules/)
->
 > [Rules Overview](/competition/2026/rules/)
 >
-> [Full Rules Document](https://docs.google.com/document/d/1i_jGlmL7ygsSUU6X0r56s91GSADhumq832FhriRUIJ0/edit?tab=t.0)
-
-## ICML 2026 Workshop and Publication
-
-QANTA 2026 is directly connected to the ICML 2026 EMM-QA workshop on efficient multimodal question answering. Competition results and workshop papers are part of one shared research track, and computer winners are announced ahead of the workshop.
-
-> [EMM-QA Workshop at ICML 2026](/competition/2026/icml/)
+> [Human Rules](/competition/2026/rules/human/)
 >
-> [Call for Papers](/competition/2026/call-for-papers/)
+> [Computer Rules](/competition/2026/rules/computer/)
+
 
 ## Prizes
 
