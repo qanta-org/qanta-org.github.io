@@ -7,7 +7,7 @@ description: The world's first multimodal Quizbowl competition — combining tex
 
 # QANTA 2026: Efficient, Incremental Multimodal Question Answering
 
-<img src="{{ site.baseurl }}/assets/images/heroes/competition-2026.jpg" alt="QANTA 2026 Competition" class="img-fluid rounded mb-4" style="width:100%;">
+<img src="{{ site.baseurl }}/assets/images/branding/icml_2026.png" alt="QANTA 2026 Competition" class="img-fluid rounded mb-4" style="width:100%;">
 
 QANTA 2026 is the world's **first multimodal Quizbowl competition** — questions combine **text and images**, testing whether AI systems and human players can reason across modalities together.
 
@@ -40,26 +40,36 @@ Building on the human–AI collaboration format introduced in 2025, QANTA 2026 r
 |---|---|
 | Question Submission | June 1, 2026 |
 | Final System Submission | June 15, 2026 |
-| Last System Submission | Jun 15, 2026 |
-| Player Reg | Jun 21, 2026 |
-| Computer Winner Announced | Jul 8, 2026 |
+| Player Registration | June 21, 2026 |
+| Computer Winners Announced | July 7, 2026 |
+| ICML EMM-QA Workshop | July 10-11, 2026 |
 | Human Tournament | Late June 2026 (announced soon) |
 
 ## Rules and Scoring
 
-The full gameplay rules — tossup scoring, bonus structure, AI delegation modes, and the serpentine draft — are detailed in the official rules page.
+QANTA 2026 rules are split by track for clarity.
 
-> [Competition Rules](/competition/2026/rules/)
+> [Human Rules](/competition/2026/human-rules/)
+>
+> [Computer Rules](/competition/2026/computer-rules/)
+>
+> [Rules Overview](/competition/2026/rules/)
 >
 > [Full Rules Document](https://docs.google.com/document/d/1i_jGlmL7ygsSUU6X0r56s91GSADhumq832FhriRUIJ0/edit?tab=t.0)
 
-## Publication
+## ICML 2026 Workshop and Publication
 
-We are also preparing publication materials related to QANTA 2026 and its focus on efficient, incremental multimodal question answering.
+QANTA 2026 is directly connected to the ICML 2026 EMM-QA workshop on efficient multimodal question answering. Competition results and workshop papers are part of one shared research track, and computer winners are announced ahead of the workshop.
 
-> [ICML Page](/competition/2026/icml/)
+> [EMM-QA Workshop at ICML 2026](/competition/2026/icml/)
 >
 > [Call for Papers](/competition/2026/call-for-papers/)
+
+## Prizes
+
+QANTA 2026 includes prizes across competition tracks.
+
+> [Prizes and Awards](/competition/2026/prizes/)
 
 ## How to Participate
 

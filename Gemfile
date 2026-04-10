@@ -5,7 +5,7 @@ ruby RUBY_VERSION
 
 gem "base64"
 gem "csv"
-gem "jekyll", "4.4.1"
+gem "jekyll"
 gem "rake"
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "webrick"
