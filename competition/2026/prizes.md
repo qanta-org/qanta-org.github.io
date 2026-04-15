@@ -1,6 +1,7 @@
 ---
 layout: article
 title: "QANTA 2026 Prizes and Awards"
+permalink: /competition/2026/prizes/
 ---
 
 # Prizes and Awards

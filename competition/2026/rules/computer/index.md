@@ -81,6 +81,8 @@ into account base models for prompt-based systems) on May 1, allow
 potential submitters to comment until May 15, and we will publish the
 final framework May 18.
 
+Feedback on the scoring framework or challenge metric should be sent to [emm-qa-organizers@googlegroups.com](mailto:emm-qa-organizers@googlegroups.com) by June 1, 2026.
+
 ### Leaderboard columns
 
 The public leaderboard reports at least:
@@ -124,4 +126,4 @@ System size is measured from a **fully self-contained** artifact (code, weights,
 
 ## Contact
 
-Questions about computer rules? Email [{{ site.contact_email }}](mailto:{{ site.contact_email }}).
+Questions about computer rules? Email [emm-qa-organizers@googlegroups.com](mailto:emm-qa-organizers@googlegroups.com).

@@ -137,4 +137,4 @@ tournament start once the field is finalized.
 
 ## Contact
 
-Questions about human rules? Email [{{ site.contact_email }}](mailto:{{ site.contact_email }}).
+Questions about human rules? Email [qanta@googlegroups.com](mailto:qanta@googlegroups.com).

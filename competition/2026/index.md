@@ -71,6 +71,7 @@ opportunity to discuss your approaches with other system builders.
 |---|---|
 | Workshop Paper Submission (CFP) | May 29, 2026 (AoE) |
 | Workshop Paper Acceptance Notification | June 10, 2026 (AoE) |
+| Scoring Feedback Deadline | June 1, 2026 |
 | Question Submission | June 1, 2026 |
 | Final System Submission | June 15, 2026 |
 | Player Registration | June 21, 2026 |

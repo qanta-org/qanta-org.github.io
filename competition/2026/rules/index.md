@@ -52,6 +52,10 @@ the human rules.
 
 > [Full Rules Document](https://docs.google.com/document/d/1i_jGlmL7ygsSUU6X0r56s91GSADhumq832FhriRUIJ0/edit?tab=t.0)
 
+## Scoring Feedback
+
+Questions about the scoring framework or feedback on the challenge metric should be sent to [emm-qa-organizers@googlegroups.com](mailto:emm-qa-organizers@googlegroups.com) by June 1, 2026.
+
 ## Contact
 
 Questions about the rules? Email [{{ site.contact_email }}](mailto:{{ site.contact_email }}).

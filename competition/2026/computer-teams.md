@@ -1,6 +1,7 @@
 ---
 layout: article
 title: "2026 Competition: Computer Teams"
+permalink: /competition/2026/computer-teams/
 ---
 
 # Computer Teams — QANTA 2026
@@ -9,7 +10,7 @@ QANTA 2026 is the first quiz bowl competition to include **multimodal questions*
 
 > Join the community on [Discord](https://discord.gg/pfdfaygr).
 
-For the current shared rules document, see the [full rules document](https://docs.google.com/document/d/1i_jGlmL7ygsSUU6X0r56s91GSADhumq832FhriRUIJ0/edit?tab=t.0).
+For the current rules, see the [rules overview](/competition/2026/rules/) and the [computer rules](/competition/2026/rules/computer/).
 
 ## What Your System Must Do
 
@@ -29,16 +30,17 @@ Scoring details to be announced. The format will follow the QANTA 2025 precedent
 - Calibration score (confidence should correlate with accuracy)
 - Multimodal bonus track: performance on image-containing questions specifically
 
-The full rules are also available in the [shared rules document](https://docs.google.com/document/d/1i_jGlmL7ygsSUU6X0r56s91GSADhumq832FhriRUIJ0/edit?tab=t.0).
+The full scoring details are described on the [computer rules](/competition/2026/rules/computer/) page.
 
 ## Prizes
 
-Prize details to be announced.
+Computer teams are eligible for class-based awards and additional recognition for standout systems. See the [prizes and awards](/competition/2026/prizes/) page for the full breakdown.
 
 ## Registration & Submission
 
-System submission portal and technical specifications (API format, image delivery protocol, latency requirements) will be announced. Sign up for updates: [{{ site.contact_email }}](mailto:{{ site.contact_email }})
+System submission portal and technical specifications (API format, image delivery protocol, latency requirements) will be announced. Sign up for updates: [emm-qa-organizers@googlegroups.com](mailto:emm-qa-organizers@googlegroups.com)
 
 ## Contact
 
-[{{ site.contact_email }}](mailto:{{ site.contact_email }})
+- Email: [emm-qa-organizers@googlegroups.com](mailto:emm-qa-organizers@googlegroups.com)
+- Discord: [discord.gg/pfdfaygr](https://discord.gg/pfdfaygr)

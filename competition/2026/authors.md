@@ -1,6 +1,7 @@
 ---
 layout: article
 title: "2026 Competition: For Authors"
+permalink: /competition/2026/authors/
 ---
 
 # Writing Questions for QANTA 2026
@@ -39,8 +40,9 @@ Each multimodal question follows the same pyramid format as a standard tossup â€
 
 ## Submission
 
-Submission details and the question submission portal will be announced. Sign up for updates: [{{ site.contact_email }}](mailto:{{ site.contact_email }})
+Submission details and the question submission portal will be announced. Sign up for updates: [qanta@googlegroups.com](mailto:qanta@googlegroups.com)
 
 ## Contact
 
-[{{ site.contact_email }}](mailto:{{ site.contact_email }})
+- Email: [qanta@googlegroups.com](mailto:qanta@googlegroups.com)
+- Discord: [discord.gg/pfdfaygr](https://discord.gg/pfdfaygr)

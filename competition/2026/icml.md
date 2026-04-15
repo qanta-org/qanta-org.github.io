@@ -1,6 +1,7 @@
 ---
 layout: article
 title: "EMM-QA 2026 Workshop"
+permalink: /competition/2026/icml/
 ---
 
 # Efficient Multimodal Question Answering (EMM-QA)
@@ -46,13 +47,6 @@ EMM-QA is intended for researchers working on question answering, multimodal mac
 ## Schedule
 
 A detailed workshop schedule will be posted here soon.
-
-## Invited Speakers
-
-Confirmed invited speakers include:
-
-- Sewon Min
-- Mrinmaya Sachan
 
 ## Organizers
 

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: "EMM-QA 2026: Call for Papers"
+permalink: /competition/2026/call-for-papers/
 ---
 
 # ICML 2026 Workshop on Efficient Multimodal Question Answering (EMM-QA)

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: "2026 Competition: Human Teams"
+permalink: /competition/2026/human-teams/
 ---
 
 # Human Teams — QANTA 2026
@@ -26,12 +27,13 @@ For the current shared rules document, see the [full rules document](https://doc
 
 ## Registration
 
-Registration details to be announced. Sign up for updates: [{{ site.contact_email }}](mailto:{{ site.contact_email }})
+Registration details to be announced. Sign up for updates: [qanta@googlegroups.com](mailto:qanta@googlegroups.com)
 
 ## Prizes
 
-Prize details to be announced.
+Human teams are eligible for placement awards in the live competition. See the [prizes and awards](/competition/2026/prizes/) page for the full breakdown.
 
 ## Contact
 
-[{{ site.contact_email }}](mailto:{{ site.contact_email }})
+- Email: [qanta@googlegroups.com](mailto:qanta@googlegroups.com)
+- Discord: [discord.gg/pfdfaygr](https://discord.gg/pfdfaygr)
