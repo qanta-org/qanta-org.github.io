@@ -14,23 +14,57 @@ The computer track builds on ideas from the [EfficientQA task](https://efficient
 Systems receive incrementally revealed multimodal clues (text and images) and must output:
 
 1. A predicted **answer string**
-2. A binary **commitment** indicator (`commit` or `do_not_commit`) at each decision point
+2. A binary **commitment** indicator (`commit` or `do_not_commit`) at
+each decision point
+
+Optionally, the models can also output a real-valued confidence, which
+will not be used for scoring but will help us with the analysis.
 
 Commitment is how we measure both **whether the system answers** and **whether it knows when to abstain** until more clues appear.
 
+### Calibrated per-question points
+
+For each question, a system that commits to a correct answer earns a
+base of **10** points plus a term for **how early** it committed on
+the pyramidal question (reported by **quartile** of the reveal
+position: earlier correct commits score higher). In other words, first
+quartile systems get three points, second quartile get two, third
+quartile get one.
+
+An additional two point **power** applies for committing correctly at the
+**first** possible decision point (buzzing “at the very top” of the
+pyramid).
+
+### Uncalibrated per-question points
+
+Other questions are not calibrated.  These "bonus" questions are cases
+where humans will confer on the final answer.  These are scored more
+directly: each correct part gives three points each.
+
+### Commentary
+
+To make the scores more comparable between human and computer teams,
+we upweight the role of the calibrated questions.  In the human
+competition, the bonus is *conditional* on getting the initial
+question correct.
+
 ## Scoring and ranking of systems
 
-Leaderboard ranking uses a **size-adjusted** score built from per-question performance.
-
-### Per-question points
-
-For each question, a system that commits to a correct answer earns a base of **10** points plus a term for **how early** it committed on the pyramidal question (reported by **quartile** of the reveal position: earlier correct commits score higher).
-
-An additional **bonus** applies for committing correctly at the **first** possible decision point (buzzing “at the very top” of the pyramid).
+Leaderboard ranking uses a **size-adjusted** score built from
+per-question accuracy within a class (e.g., we give out a prize for
+each size class such as 500MB, but you can still win that class if you
+have a smaller model that is worse at accuracy if it's much smaller
+than your competitors).
 
 ### Size deflation
 
-Raw totals are **deflated by system size**: accumulated points are divided by a size term derived from the self-contained submission (so smaller, efficient systems are not dominated by larger ones on the same raw accuracy). Exact size measurement matches the restricted-track definitions below.
+Raw totals are **deflated by system size**: accumulated points are
+divided by a size term derived from the self-contained submission (so
+smaller, efficient systems are not dominated by larger ones on the
+same raw accuracy).
+
+If the maximum size of a system in a class is C, and the registered
+size of a system is S, then the score for the system is:
 
 ### Leaderboard columns
 
@@ -48,8 +82,9 @@ Prize amounts and special awards are summarized on the [Prizes](/competition/202
 As in EfficientQA-style evaluation, QANTA 2026 includes restrained and open settings:
 
 - **Restricted (6 GB):** most accurate self-contained system under 6 GB
-- **Restricted (500 MB):** most accurate self-contained system under 500 MB  
-- **Open:** highest performance without the above size caps
+- **Restricted (500 MB):** most accurate self-contained system under 500 MB
+- **Open:** highest performance without the above size caps (but
+  implicitly capped based on what our system submission can support)
 
 System size is measured from a **fully self-contained** artifact (code, weights, data packaged for evaluation). Submissions may **not** call external APIs at evaluation time.
 
