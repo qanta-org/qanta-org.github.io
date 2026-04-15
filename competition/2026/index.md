@@ -29,6 +29,8 @@ The team that answers a tossup correctly earns the next bonus. For full match fl
 
 > [Rules overview](/competition/2026/rules/)
 
+> Join the community on [Discord](https://discord.gg/pfdfaygr).
+
 <div class="row mt-4 mb-4">
   <div class="col-md-6">
     <div class="card shadow-sm h-100">
