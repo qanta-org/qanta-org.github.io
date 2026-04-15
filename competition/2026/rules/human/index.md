@@ -14,7 +14,9 @@ established by ACF.
 
 ## Team formation
 
-Human players remain on the same team throughout the tournament.
+One human can only be on one team per tournament.  A team can have a
+maximum of three humans.  There are no restrictions on what humans can
+serve on a team (i.e., it's an "open" tournament).
 
 Computer players are reassigned each round. At the start of each round:
 
@@ -80,9 +82,10 @@ After a tossup ends and before the next tossup begins, the human
 captain may instruct the moderator to **mute** a computer player. A
 muted player may be barred from interrupting and/or from answering.
 
-This can only change at the half of the game.  The humans can elect to 
-
-Muting cannot be undone for that player in that match.
+This can only change at the half of the game.  The humans can elect to
+unmute a muted player, change to full autonomy, or change to fully
+controlled.  If a computer is muted at this point, it does not count
+as the "once per game" muting, which can interrupt gameplay.
 
 Teams pick a mode before the game and may change it **once**, at halftime, for the second half.
 
@@ -120,6 +123,17 @@ For each bonus part:
 4. The captain has five seconds to discuss with the team.
 5. At the five-second mark, the captain must immediately begin the
    final answer or abstain from answering.
+
+## Ranking of Teams
+
+The ranking of human teams and final prizes is based on games won
+within a bracket (i.e., if the field is large enough to support a
+playoff round-robing bracket, placement will be based on rank in the
+top playoff bracket, even if a team in a lower bracket has a better
+record).  The tournament director may also elect to do a single or
+double elimination playoff structure if that better uses available
+packets.  In any event, the playoff structure will be announced before
+tournament start once the field is finalized.
 
 ## Contact
 
