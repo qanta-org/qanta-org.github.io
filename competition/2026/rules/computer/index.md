@@ -74,51 +74,49 @@ $$
 V' = V \left(1 - \frac{S}{C} \right)
 $$
 
+### Computing the Deflation
+
+We will publish an official plan for computing the deflation (taking
+into account base models for prompt-based systems) on May 1, allow
+potential submitters to comment until May 15, and we will publish the
+final framework May 18.
+
 ### Leaderboard columns
 
 The public leaderboard reports at least:
 
-- **Overall points** (answer correctness under the official evaluation protocol)
+- **Overall points (automatic)** (answer correctness under the official evaluation protocol)
 - **Calibrated accuracy** (rewards committing when correct and refraining when uncertain — reported alongside raw accuracy, not as a replacement)
 
-Final ranks for prizes use the **official post-verification** score where human review resolves ambiguous answer equivalence (see Evaluation process).
+Final ranks for prizes use the **Overall points (human)** score where
+human review resolves ambiguous answer equivalence (see Evaluation
+process).  All adjudications will be made public.
 
 Prize amounts and special awards are summarized on the [Prizes](/competition/2026/prizes/) page.
+
+### Unofficial Prizes
+
+While not for prize money, we will also offer recognition for the
+system that:
+- Best boosted human accuracy (including adjusted by overall accuracy)
+- Was most chosen by human teams(including adjusted by overall
+accuracy)
+- Best system from an academic team
+- Best system from undergraduates
+- Best system from secondary education 
+
 
 ## Track structure
 
 As in EfficientQA-style evaluation, QANTA 2026 includes restrained and open settings:
 
-- **Restricted (6 GB):** most accurate self-contained system under 6 GB
-- **Restricted (500 MB):** most accurate self-contained system under 500 MB
-- **Open:** highest performance without the above size caps (but
+- **Middleweight (6 GB):** most accurate self-contained system under 6 GB
+- **Lightweight (500 MB):** most accurate self-contained system under 500 MB
+- **Heavyweight:** highest performance without the above size caps (but
   implicitly capped based on what our system submission can support)
 
 System size is measured from a **fully self-contained** artifact (code, weights, data packaged for evaluation). Submissions may **not** call external APIs at evaluation time.
 
-## Data and question format
-
-- Questions are **pyramidal**: clues arrive in order; difficulty decreases as more is revealed.
-- **Image** clues may appear with text.
-- Systems choose **when** to output `commit` versus `do_not_commit` as clues stream in.
-
-## Evaluation process
-
-1. **Automatic evaluation** produces initial rankings and metrics.
-2. **Human verification** is applied where needed (e.g., top systems, or when reference answers are incomplete).
-
-Final standings use verified results.
-
-## Submission requirements
-
-Each submission must include:
-
-- A runnable, self-contained system artifact
-- Predictions in the required format
-- A commitment flag at each required decision point
-- Documentation of model size and runtime assumptions
-
-Detailed packaging and file formats will ship with the final submission template.
 
 ## Reference
 

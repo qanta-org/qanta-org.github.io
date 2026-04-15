@@ -17,18 +17,14 @@ Top placements in the live human competition receive:
 
 ## Computer Team Prizes
 
-Computer systems are ranked using size-adjusted performance:
+Computer systems are ranked using size-adjusted performance as
+described in the computer rules.
 
-1. **Per-question points**: systems earn `10 + quartile`, where quartile reflects how early the system commits on the pyramidal question.
-2. **First-answer bonus**: an additional bonus is awarded for committing correctly at the very first possible point.
-3. **Size deflation**: total points are deflated by system size (that is, total points are divided by a size term).
+- **Top Computer Team per Class**: $200
+- **Second Place Computer Team per Class**: $100
 
-Final ranking and prize assignment use this size-adjusted score.
+## Writing Prizes
 
-## Special Awards
-
-- **Most helpful computer system**
-- **Best calibrated computer system**
 - **Best question (quality)**: $50
 - **Best question (adversarial)**: $50
 - **Best packet (quality)**: $100

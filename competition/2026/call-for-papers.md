@@ -3,122 +3,183 @@ layout: article
 title: "EMM-QA 2026: Call for Papers"
 ---
 
-# Call for Papers
+# ICML 2026 Workshop on Efficient Multimodal Question Answering (EMM-QA)
 
-## Efficient Multimodal Question Answering (EMM-QA)
+<span style="color:gray">Efficient multimodal question answering in the era of large language models</span>
 
-Efficient multimodal question answering in the era of large language models.
-
-EMM-QA is a medium-broad workshop focused on efficient multimodal question answering and closely related work on multimodal retrieval, reasoning, evaluation, benchmarking, and efficient inference when those contributions are clearly connected to question answering or other knowledge-intensive multimodal tasks.
-
-The workshop is aimed at researchers in question answering, multimodal ML and NLP, retrieval, efficient modeling, and LLMs across both academia and industry.
-
-> [Workshop Page](/competition/2026/icml/)
->
-> [Computer Teams](/competition/2026/computer-teams/)
-
-## Topics of Interest
-
-We welcome submissions on topics including:
-
-- Efficient multimodal question answering
-- Large language models for QA
-- Open-domain QA under resource constraints
-- Multimodal QA over text + image, text + table, and text + sound
-- Efficient retrieval and answer lookup
-- Synthetic data generation for efficient QA
-- Balancing accuracy against model or system size
-- Token-efficiency and compute-efficiency in QA systems
-- Human verification and evaluation of QA outputs
-
-## Submission Types
-
-We welcome:
-
-- Full papers
-- Short papers
-- Position papers
-- System description papers, including challenge submissions
-- Non-archival submissions of previously published or concurrently submitted work
-
-We do not plan a separate demo-only or poster-without-paper submission category.
-
-## Formatting and Submission
-
-Submissions will be handled through **OpenReview**. The submission link will be posted here when it is available.
-
-Formatting requirements:
-
-- ICML style is required
-- Full papers may use up to 8 pages of main content
-- References do not count toward the page limit
-- Appendices do not count toward the page limit
-- Supplementary material is allowed and may be considered during review
-
-## Review and Publication Policy
-
-- Reviewing will be double-blind
-- Each submission will receive 3 reviews
-- Evaluation will emphasize novelty, relevance, clarity, and discussion value
-- Preliminary work is welcome when it is clearly motivated and useful to the workshop audience
-- Desk rejection is possible for clearly out-of-scope or non-compliant submissions
-
-We support both archival and non-archival participation:
-
-- Archival submissions are welcome
-- Previously published work may be submitted as non-archival
-- Work under review elsewhere may be submitted as non-archival
-- Papers accepted to the main conference may also be presented
-- Accepted submissions will appear publicly on OpenReview and on the workshop website
-
-## Presentation Format
-
-Accepted work will be presented as posters, with a subset selected for contributed talks. The workshop will also include invited talks, a panel discussion, and shared-task programming connected to the competition.
-
-At least one author of each accepted submission should register and attend. Remote presentation is expected to be possible for talks.
+The ICML 2026 Workshop on Efficient Multimodal Question Answering (EMM-QA) invites submissions on methods, resources, evaluations, and systems for question answering over multimodal inputs under realistic resource constraints. The workshop focuses on balancing answer quality with efficiency in modern QA systems, especially in the age of large language models.
 
 ## Important Dates
 
 All deadlines are **Anywhere on Earth (AoE)**.
 
-### Paper Deadlines
+### Paper Track
 
-| Milestone | Date |
-|---|---|
-| Submission Deadline | May 29, 2026 |
-| Review Deadline | June 7, 2026 |
-| Notification Date | June 10, 2026 |
-| Camera-Ready Deadline | June 21, 2026 |
-| Workshop Date | July 10-11, 2026 |
+- **Submission deadline: May 29, 2026**
+- Review deadline: June 7, 2026
+- Notification date: June 10, 2026
+- Camera-ready deadline: June 22, 2026
 
-### Shared Task and Competition Dates
+### Shared Challenge
 
-| Milestone | Date |
-|---|---|
-| Question Submission | June 1, 2026 |
-| Final System Submission | June 15, 2026 |
-| Player Registration | June 21, 2026 |
-| Human Competition | Late June 2026 |
-| Computer Winners Announced | July 7, 2026 |
+- Warmup data release: May 22, 2026
+- Test data release: June 1, 2026
+- Challenge metric feedback by: June 1, 2026
+- **Last system submission: June 15, 2026**
+- System Description Paper Submission: June 22, 2026
+
+### Workshop Date and Venue
+
+- Workshop date: July 10 or July 11, 2026 *(final date to be confirmed by ICML)*, The COEX Convention and Exhibition Center, Seoul, South Korea
+
+## Poster Sessions
+
+The workshop posters must be portrait to fit two per board.
+
+- Poster dimensions: **91cm (H) x 61cm (W)** or **36in (H) x 24in (W)**
+- **These dimensions differ from the main conference**
+
+Workshop poster sessions will differ from previous years due to restrictions on the facilities in Seoul. Instead of displaying posters within individual workshop rooms, all poster sessions for all workshops will be held in a single, large shared space (similar to the main conference).
+
+## Topics of Interest
+
+We welcome submissions on topics including, but not limited to:
+
+- large language models for question answering
+- open-domain QA under resource constraints
+- efficient retrieval and answer lookup
+- multimodal question answering
+- synthetic data generation for efficient QA
+- balancing accuracy against model and system size
+- token-efficient and compute-efficient QA systems
+- multimodal retrieval and reasoning for QA
+- benchmarking and evaluation for efficient multimodal systems
+- human verification and evaluation of QA outputs
+- efficiency in human-computer interaction
+- efficient inference for knowledge-intensive multimodal tasks
+- system descriptions, negative results, and position papers relevant to efficient QA
+
+The scope is intentionally **medium-broad**: the workshop is centered on efficient multimodal QA, while also welcoming closely related work on multimodal retrieval, reasoning, evaluation, and benchmarking when clearly connected to QA or other knowledge-intensive multimodal tasks.
+
+## Guidelines for Submission
+
+### Submission Categories
+
+We invite the following types of submissions:
+
+- full papers
+- short papers
+- position papers
+- system description papers (including shared-challenge submissions)
+- previously published or recently accepted work as non-archival submissions
+
+Papers accepted at ICML 2026 may be submitted as **fast-track submissions**. Fast-track submissions must include the acceptance decision and reviews from ICML. They will still be evaluated by the Area Chairs (ACs) and Program Chairs (PCs) for thematic fit.
+
+We do not plan to accept extended abstracts or poster-only submissions without a paper.
+
+### Formatting
+
+- Submission platform: OpenReview *(submission link TBA)*
+- Review model: double-blind
+- Paper format: ICML style
+- Full paper length: up to 8 pages of main content
+- References: excluded from the page limit
+- Appendices: excluded from the page limit
+- Supplementary material: allowed and may be considered during review
+
+### Review Process
+
+- Each submission will receive 3 reviews
+- Reviews will consider novelty, relevance to the workshop, clarity, technical quality, and discussion value
+- Preliminary but promising work is welcome
+- Desk rejection is possible for submissions that are out of scope, non-anonymized, or non-compliant
+
+### Archival Policy
+
+The workshop will accept both archival and non-archival submissions.
+
+In particular:
+
+- papers already on arXiv may be submitted
+- recently accepted conference papers may be presented
+- work under review elsewhere may be submitted if designated non-archival
+- papers accepted to the main conference may also be presented at the workshop
+
+Accepted submissions are expected to appear publicly on:
+
+- OpenReview
+- the workshop website
+
+Camera-ready versions will be required for accepted archival submissions.
+
+### Conflict of Interest Policy
+
+Workshop organizers will not submit papers.
+
+Program committee members and reviewers may submit papers, but they may not review, handle, or make decisions on submissions for which they have a conflict of interest. Conflicts include recent collaboration, shared institutional affiliation, advisor-advisee relationships, family or close personal relationships, or any other circumstance that could impair objective judgment. Conflicted submissions will be handled by non-conflicted organizers and reviewers.
+
+## About the Shared Challenge
+
+EMM-QA will host a shared challenge on efficient multimodal question answering, extending the spirit of earlier EfficientQA efforts to modern multimodal and LLM-based settings.
+
+The challenge will focus on building systems that answer open-domain multimodal questions under constrained resources, while balancing performance against efficiency. Target modalities include:
+
+- text + image
+- text + table
+- text + sound
+
+We are especially interested in systems that can make strong use of a provided base model while remaining efficient in practice.
+
+### Evaluation
+
+Challenge evaluation will combine:
+
+- automatic metrics, including Exact Match and F1
+- human verification, to account for semantic equivalence and ambiguity
+- efficiency measures, including:
+  - total system / image size
+  - tokens consumed and generated from a provided base model
+
+A tool-use metric is also under consideration.
+
+### Challenge Format
+
+The workshop program will include:
+
+- invited talks
+- contributed paper presentations
+- posters
+- a panel discussion
+- the shared challenge
+- a human vs. computer event
+
+Accepted papers will be presented as posters, with a subset selected for contributed talks.
+
+### Challenge Metric Feedback
+
+To ensure a fair evaluation setting, **participants may provide feedback on the challenge metric** via the Google Group at [emm-qa-organizers@googlegroups.com](mailto:emm-qa-organizers@googlegroups.com) until June 1, 2026.
 
 ## Invited Speakers
 
 Confirmed invited speakers include:
 
-- Eunsol Choi
-- He He
-- Sewon Min
+- Eunsol Choi (NYU)
+- He He (NYU)
+- Sewon Min (UC Berkeley)
 
-Additional speakers will be announced as they are confirmed.
+Additional invited speakers and panelists will be announced on the workshop website.
 
 ## Organizers
 
-- Jordan Boyd-Graber, University of Maryland
-- Martin Fajcik, Brno University of Technology
-- George Jojo Boateng, ETH Zurich / Kwame AI
-- Ikuya Yamada, Studio Ousia / Tohoku University / Nagoya University / RIKEN
-- Chen Zhao, NYU Shanghai
+- Jordan Boyd-Graber — University of Maryland
+- Martin Fajcik — Brno University of Technology
+- George Jojo Boateng — ETH Zurich / Kwame AI
+- Ikuya Yamada — Studio Ousia / Tokyo University of Science / Tohoku University / Nagoya University
+- Chen Zhao — NYU Shanghai
 
-## Contact
+## Website and Contact
 
-Questions can be sent to [{{ site.contact_email }}](mailto:{{ site.contact_email }}).
+- Contact email: [emm-qa-organizers@googlegroups.com](mailto:emm-qa-organizers@googlegroups.com)
+- Workshop website: TBA
+
+Please check the workshop website for updates, submission instructions, FAQs, and final shared-challenge details.
