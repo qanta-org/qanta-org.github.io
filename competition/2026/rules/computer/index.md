@@ -39,14 +39,18 @@ pyramid).
 
 Other questions are not calibrated.  These "bonus" questions are cases
 where humans will confer on the final answer.  These are scored more
-directly: each correct part gives three points each.
+directly: each correct part gives 3.33 points each.
 
-### Commentary
+### Combining and Normalizing
 
 To make the scores more comparable between human and computer teams,
 we upweight the role of the calibrated questions.  In the human
 competition, the bonus is *conditional* on getting the initial
 question correct.
+
+There will be the same number of calibrated and uncalibrated
+questions, and we will divide by the total number of questions to
+create a number between 0 and 1.
 
 ## Scoring and ranking of systems
 
@@ -64,13 +68,17 @@ smaller, efficient systems are not dominated by larger ones on the
 same raw accuracy).
 
 If the maximum size of a system in a class is C, and the registered
-size of a system is S, then the score for the system is:
+size of a system is S, then the points V' for the system that had V
+raw points is:
+$$
+V' = V \left(1 - \frac{S}{C} \right)
+$$
 
 ### Leaderboard columns
 
 The public leaderboard reports at least:
 
-- **Overall accuracy** (answer correctness under the official evaluation protocol)
+- **Overall points** (answer correctness under the official evaluation protocol)
 - **Calibrated accuracy** (rewards committing when correct and refraining when uncertain — reported alongside raw accuracy, not as a replacement)
 
 Final ranks for prizes use the **official post-verification** score where human review resolves ambiguous answer equivalence (see Evaluation process).
