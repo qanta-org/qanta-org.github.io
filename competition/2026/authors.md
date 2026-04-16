@@ -40,7 +40,22 @@ Each multimodal question follows the same pyramid format as a standard tossup â€
 
 ## Submission
 
-Submission details and the question submission portal will be announced. Sign up for updates: [qanta@googlegroups.com](mailto:qanta@googlegroups.com)
+Authors should first sign up here:
+
+- [Author Signup Form](https://docs.google.com/forms/d/1EVaDqkz7k2vJ6Ha3Mg9Hcez1pN1FlIRSZUBz-ip7BzU/edit)
+
+The preferred way to submit questions is through the submission interface:
+
+- [Question Submission Interface](http://advvqa.umd.edu/)
+
+We will also accept submissions through a Google Presentation shared
+with the tournament director:
+
+- [Example Google Presentation](https://docs.google.com/presentation/d/1GpMy93ZYT2BU6V6g7YM1GvXDzks5w-QEwqMYV_PZRMA/edit?usp=sharing)
+
+However, the Google Presentation is **not** the preferred format. The interface is better because it lets you test how computer systems handle your questions while you write and revise them.
+
+Questions about writing or submission can be sent to [qanta@googlegroups.com](mailto:qanta@googlegroups.com).
 
 ## Contact
 
