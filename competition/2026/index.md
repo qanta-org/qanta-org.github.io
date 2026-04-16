@@ -27,8 +27,6 @@ Live matches use two kinds of questions, standard in quiz bowl:
 
 The team that answers a tossup correctly earns the next bonus. For full match flow, interrupt rules, and scoring, see the rules hub and the human and computer rulebooks.
 
-> [Rules overview](/competition/2026/rules/)
-
 > Join the community on [Discord](https://discord.gg/pfdfaygr).
 
 <div class="row mt-4 mb-4">
@@ -36,8 +34,8 @@ The team that answers a tossup correctly earns the next bonus. For full match fl
     <div class="card shadow-sm h-100">
       <div class="card-body">
         <h5 class="mt-0">In-Person Tournament</h5>
-        <p class="text-meta mb-1">Date: Late June 2026 (announced soon)</p>
-        <p class="mb-0">Location: To be announced</p>
+        <p class="text-meta mb-1">Date: June 27, 2026</p>
+        <p class="mb-0"><a href="/competition/2026/human-teams/">Details and signup</a></p>
       </div>
     </div>
   </div>
@@ -45,8 +43,8 @@ The team that answers a tossup correctly earns the next bonus. For full match fl
     <div class="card shadow-sm h-100">
       <div class="card-body">
         <h5 class="mt-0">Online Tournament</h5>
-        <p class="text-meta mb-1">Date: To be announced</p>
-        <p class="mb-0">Open to participants worldwide</p>
+        <p class="text-meta mb-1">Date: June 28, 2026</p>
+        <p class="mb-0"><a href="/competition/2026/human-teams/">Details and signup</a></p>
       </div>
     </div>
   </div>
@@ -77,7 +75,8 @@ opportunity to discuss your approaches with other system builders.
 | [Workshop Paper Acceptance Notification](/competition/2026/call-for-papers/) | June 10, 2026 (AoE) |
 | [Final System Submission](/competition/2026/computer-teams/) | June 15, 2026 |
 | [Player Registration](/competition/2026/human-teams/) | June 21, 2026 |
-| [Human Tournament](/competition/2026/human-teams/) | Late June 2026 (announced soon) |
+| [In-Person Tournament](/competition/2026/human-teams/) | June 27, 2026 |
+| [Online Tournament](/competition/2026/human-teams/) | June 28, 2026 |
 | [Computer Winners Announced](/competition/2026/icml/) | July 7, 2026 |
 | [ICML EMM-QA Workshop](/competition/2026/icml/) | July 10-11, 2026 |
 
@@ -97,7 +96,7 @@ The **overview** explains how tossups and bonuses chain together in a match. **H
 QANTA 2026 includes prizes across competition tracks:
 
 - Placement awards for top human teams in the live event
-- Class-based awards and special recognition for computer systems
+- Class-based (i.e., less than 500GB) awards for computer systems, plus special recognition
 - Awards for standout questions and packets, plus per-question payments for accepted writing
 
 > [Prizes and Awards](/competition/2026/prizes/)
@@ -121,12 +120,6 @@ Author pyramid-style questions that incorporate images alongside text clues. Rec
 
 → [For Authors](/competition/2026/authors/)
 
-## FAQ
-
-Common questions, including what makes QANTA 2026 multimodal and why there is no monetary prize for the "most helpful" computer teammate, are answered here:
-
-> [Frequently Asked Questions](/competition/2026/faq/)
-
 ## Contact
 
-Questions about QANTA 2026? Email [{{ site.contact_email }}](mailto:{{ site.contact_email }}) or reach out to [Jordan Boyd-Graber](mailto:{{ site.pi.email }}).
+Questions about QANTA 2026? Email [qanta@googlegroups.com](mailto:qanta@googlegroups.com).

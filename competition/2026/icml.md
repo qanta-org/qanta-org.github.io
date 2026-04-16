@@ -48,6 +48,11 @@ EMM-QA is intended for researchers working on question answering, multimodal mac
 
 A detailed workshop schedule will be posted here soon.
 
+## Confirmed Keynote Speakers
+
+- Sewon Min
+- Mrinmaya Sachan
+
 ## Organizers
 
 - Jordan Boyd-Graber, University of Maryland

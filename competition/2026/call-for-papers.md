@@ -80,7 +80,7 @@ We do not plan to accept extended abstracts or poster-only submissions without a
 
 ### Formatting
 
-- Submission platform: OpenReview *(submission link TBA)*
+- Submission platform: [OpenReview](https://openreview.net/group?id=ICML.cc/2026/Workshop/EMM-QA#tab-recent-activity)
 - Review model: double-blind
 - Paper format: ICML style
 - Full paper length: up to 8 pages of main content
