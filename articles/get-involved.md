@@ -55,7 +55,7 @@ We are also seeking an independent question editor and packet judges.
 
 ## Research Collaboration
 
-Interested in collaborating on a research project? Reach out to [Jordan Boyd-Graber]({{ site.pi.url }}) or email [{{ site.contact_email }}](mailto:{{ site.contact_email }}). Join the mailing list to stay updated on volunteer opportunities and upcoming events.
+Interested in collaborating on a research project? Reach out to [Jordan Boyd-Graber](https://users.umiacs.umd.edu/~jbg/) or email [{{ site.contact_email }}](mailto:{{ site.contact_email }}). Join the mailing list to stay updated on volunteer opportunities and upcoming events.
 
 ## Contact
 

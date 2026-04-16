@@ -37,10 +37,29 @@ Computer-friendly data derived directly from quiz bowl data:
 
 | Data Direct Download | Huggingface Link | Description | Code |
 |---|---|---|---|
-| [QANTA main datasets](/research/datasets/) | - | Canonical QANTA question data and related dataset docs | [Pinafore/qb]({{ site.github.main }}) |
+| [QANTA main datasets](/data-and-code/) | - | Canonical QANTA question data and related dataset docs | [Pinafore/qb]({{ site.github.main }}) |
 | - | [Quizbowl human responses](https://huggingface.co/collections/mgor/quizbowl-66f8541f46d413c380669551) | Human answer traces and response behavior data | [maharshi95/neural-irt](https://github.com/maharshi95/neural-irt) |
 | - | - | Naturalized questions derived from trivia-style QA | [Pinafore/qb2nq](https://github.com/Pinafore/qb2nq) |
 | [Adversarial questions JSON](../downloads/2019_tacl_trick.json) | - | Adversarial examples in compatible QA format | [Eric-Wallace/trickme-interface](https://github.com/Eric-Wallace/trickme-interface) |
+
+---
+
+## Full Dataset Catalog
+
+The 2021 tossup release is the main benchmark dataset for modern QANTA work:
+
+### QANTA Tossup Dataset (2021)
+
+~100k pyramid-style quiz bowl tossup questions with full text, answers, and metadata (category, tournament, year).
+
+| Split | Download |
+|---|---|
+| Train | [Download](https://obj.umiacs.umd.edu/qanta-jmlr-datasets/qanta.train.2021.12.20.json) |
+| Dev | [Download](https://obj.umiacs.umd.edu/qanta-jmlr-datasets/qanta.dev.2021.12.20.json) |
+
+**Code**: [github.com/Pinafore/qb](https://github.com/Pinafore/qb)
+
+*Historical releases: http://cs.umd.edu/~miyyer/qblearn/*
 
 ---
 
@@ -80,4 +99,4 @@ Computer-friendly data derived directly from quiz bowl data:
 
 ## Contact
 
-For dataset access or questions: [{{ site.contact_email }}](mailto:{{ site.contact_email }})
+For dataset access or questions: [qanta@googlegroups.com](mailto:qanta@googlegroups.com)

@@ -13,7 +13,7 @@
             <td>{{ ds.description | truncatewords: 15 }}</td>
             <td>{% assign dl_splits = ds.splits | where_exp: "s", "s.url" %}{% if dl_splits.size > 0 %}{% for split in
                 dl_splits %}<a href="{{ split.url }}">{{ split.name }}</a>{% unless forloop.last %} · {% endunless %}{%
-                endfor %}{% else %}<a href="mailto:{{ site.contact_email }}">Contact us</a>{% endif %}</td>
+                endfor %}{% else %}<a href="mailto:qanta@googlegroups.com">Contact us</a>{% endif %}</td>
         </tr>
         {%- endfor %}
     </tbody>

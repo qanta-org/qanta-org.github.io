@@ -11,7 +11,7 @@ explore:
         class: badge-danger
   - title: "Data &amp; Code"
     url: /data-and-code/
-    text: "Download QANTA datasets and explore open-source code on GitHub. Evaluate your system on CodaLab."
+    text: "Download QANTA datasets and explore open-source code on GitHub."
     badges:
       - label: "Open Source"
         class: badge-secondary
@@ -22,7 +22,7 @@ explore:
 
 The QANTA project uses trivia competitions to compare computer systems against expert humans in games of question answering. Our goal is to advance question answering — helping computers learn from how trivia experts think, studying human–computer collaboration, and building tools that help humans write challenging questions efficiently.
 
-Led by **[Jordan Boyd-Graber]({{ site.pi.url }})** (University of Maryland), QANTA brings together researchers from computer science, linguistics, and information science at UMD and UC Berkeley.
+Led by **[Jordan Boyd-Graber](https://users.umiacs.umd.edu/~jbg/)** (University of Maryland), QANTA brings together researchers from computer science, linguistics, and information science at UMD and UC Berkeley.
 </section>
 
 <section class="py-4 px-4 my-2 section-card">

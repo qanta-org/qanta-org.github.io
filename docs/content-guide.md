@@ -40,10 +40,9 @@ competition/index.md                  # Competition overview + archive
 competition/2025/index.md             # Current year (+ authors, teams subpages)
 competition/2024/index.md             # Past year recap
 research/index.md                     # Research overview
-research/datasets.md                  # All datasets
 research/projects/index.md            # Projects grid
 research/projects/qblink.md           # Individual project pages
-data-and-code.md                      # GitHub repos, CodaLab, downloads (top-level nav)
+data-and-code.md                      # GitHub repos, datasets, downloads (top-level nav)
 stump-a-computer.md                   # Human challenge
 get-involved.md                       # Volunteer / contribute
 events/index.md                       # Seminars, workshops
@@ -55,7 +54,7 @@ resources.md                          # Papers, tools, external links
 ```
 Home | Competition ▾ | Research ▾ | Data & Code | Get Involved | Events
        2025 (current)   Projects
-       Past Years       Datasets
+       Past Years
 ```
 
 `Data & Code` is a top-level nav link (not a dropdown) pointing directly to `data-and-code.md`.

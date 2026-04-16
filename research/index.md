@@ -22,8 +22,8 @@ QANTA investigates question answering at the intersection of natural language pr
   <div class="col-md-6 mb-3">
     <div class="card shadow-sm h-100">
       <div class="card-body">
-        <h5 class="mt-0"><a href="/research/datasets/">Datasets</a></h5>
-        <p class="mb-0">Quiz bowl corpora and specialized QA benchmarks, freely available for research. Includes real download links.</p>
+        <h5 class="mt-0"><a href="/data-and-code/">Data &amp; Code</a></h5>
+        <p class="mb-0">Quiz bowl corpora, specialized QA benchmarks, starter systems, and download links in one place.</p>
       </div>
     </div>
   </div>
@@ -36,9 +36,9 @@ QANTA investigates question answering at the intersection of natural language pr
 ## Principal Investigator
 
 <div class="d-flex align-items-center mt-3">
-  <img src="{{ site.baseurl }}/assets/images/people/jordan-boyd-graber.png" alt="{{ site.pi.name }}" class="rounded-circle mr-4 avatar-md">
+  <img src="{{ site.baseurl }}/assets/images/people/jordan-boyd-graber.png" alt="Jordan Boyd-Graber" class="rounded-circle mr-4 avatar-md">
   <div>
-    <strong><a href="{{ site.pi.url }}">{{ site.pi.name }}</a></strong> — University of Maryland, College Park.<br>
+    <strong><a href="https://users.umiacs.umd.edu/~jbg/">Jordan Boyd-Graber</a></strong> — University of Maryland, College Park.<br>
     Research interests: machine learning, probabilistic graphical models, and their applications in natural language processing.
   </div>
 </div>

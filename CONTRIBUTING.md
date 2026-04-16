@@ -175,7 +175,7 @@ my-badge:
 
 ## Adding a Dataset
 
-Edit `_data/datasets.yml`. Each entry renders automatically on the [Datasets page](/research/datasets/) and the [Data & Code page](/data-and-code/).
+Edit `_data/datasets.yml`. Each entry renders automatically on the [Data & Code page](/data-and-code/).
 
 ```yaml
 - id: my-dataset                        # unique slug (used for cross-references)

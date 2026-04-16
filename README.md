@@ -114,7 +114,6 @@ competition/
   2025/index.md                      # Past — Human–AI Cooperative QA
 research/
   index.md                           # Research overview + publications
-  datasets.md                        # Dataset catalog (driven by _data/datasets.yml)
   projects/index.md                  # Project card grid
   projects/{qblink,canard,delft,adversarial}.md
 data-and-code.md                     # Repos, datasets, leaderboard
@@ -130,7 +129,7 @@ _data/datasets.yml    # Dataset catalog — name, description, splits, download 
 _data/papers.yml      # Publication list — title, authors, venue, year, URL
 ```
 
-These are consumed by `research/datasets.md`, `research/index.md`, and `data-and-code.md` via Liquid loops. Updating the YAML automatically updates all three pages.
+These are consumed by `research/index.md` and `data-and-code.md` via Liquid loops. Updating the YAML automatically updates both pages.
 
 ---
 

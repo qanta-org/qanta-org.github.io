@@ -61,8 +61,6 @@ opportunity to discuss your approaches with other system builders.
 > [EMM-QA Workshop at ICML 2026](/competition/2026/icml/)
 >
 > [Call for Papers](/competition/2026/call-for-papers/)
->
-> [FAQ](/competition/2026/faq/)
 
 
 ## Important Dates

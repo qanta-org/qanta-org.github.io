@@ -1,5 +1,5 @@
 # QANTA dataset catalog
-# Each entry is rendered by research/datasets.md and data-and-code.md via Liquid loops.
+# Each entry is rendered by data-and-code.md via Liquid loops.
 # Fields:
 #   id          – unique slug
 #   name        – full display name

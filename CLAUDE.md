@@ -86,7 +86,7 @@ competition/2018/index.md
 
 # Research (persistent academic output)
 research/index.md                     # overview + publications table (from _data/papers.yml)
-research/datasets.md                  # dataset catalog (from _data/datasets.yml)
+data-and-code.md                      # dataset catalog + code resources (from _data/datasets.yml)
 research/projects/index.md            # project card grid (auto-populated from project pages)
 research/projects/adversarial.md      # TACL 2019
 research/projects/qblink.md           # EMNLP 2018
@@ -99,7 +99,7 @@ docs/content-guide.md                 # content editor reference
 docs/theme-customization.md           # developer theming reference
 
 # Data files (single source of truth — update once, reflected everywhere)
-_data/datasets.yml                    # consumed by research/datasets.md + articles/data-and-code.md
+_data/datasets.yml                    # consumed by articles/data-and-code.md
 _data/papers.yml                      # consumed by research/index.md
 _data/competitions.yml                # drives Competition dropdown in nav
 _data/news.yml                        # home page news/press items
