@@ -32,7 +32,7 @@ For the current rules, see the [rules overview](/competition/2026/rules/) and th
 
 ## Registration
 
-Register here: [Human Tournament Signup Form](https://docs.google.com/forms/d/e/1FAIpQLSf3yTlKkP9f4_C-CGvFXjrK9pRXHOzGLjJrfbsG2dMidz4hkA/viewform?usp=publish-editor)
+The registration form can be found [here](https://docs.google.com/forms/d/e/1FAIpQLSf3yTlKkP9f4_C-CGvFXjrK9pRXHOzGLjJrfbsG2dMidz4hkA/viewform?usp=publish-editor).
 
 Questions about registration can be sent to [qanta@googlegroups.com](mailto:qanta@googlegroups.com).
 
