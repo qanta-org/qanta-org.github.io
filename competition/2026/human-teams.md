@@ -10,7 +10,7 @@ Play in QANTA 2026 — the first quiz bowl competition to include **multimodal q
 
 > Join the community on [Discord](https://discord.gg/pfdfaygr).
 
-For the current shared rules document, see the [full rules document](https://docs.google.com/document/d/1i_jGlmL7ygsSUU6X0r56s91GSADhumq832FhriRUIJ0/edit?tab=t.0).
+For the current rules, see the [rules overview](/competition/2026/rules/) and the [human rules](/competition/2026/rules/human/).
 
 ## Format
 
@@ -18,6 +18,11 @@ For the current shared rules document, see the [full rules document](https://doc
 - **Human–AI pairs**: you play alongside an AI teammate that sees the same clues you do and offers answers and confidence estimates
 - **Real-time play**: buzz in when you're confident; earlier correct answers score more
 - **In-person and online tracks**: compete at University of Maryland or remotely
+
+## Tournament Dates
+
+- **In-person tournament:** June 27, 2026
+- **Online tournament:** June 28, 2026
 
 ## Who Should Play?
 
@@ -27,7 +32,9 @@ For the current shared rules document, see the [full rules document](https://doc
 
 ## Registration
 
-Registration details to be announced. Sign up for updates: [qanta@googlegroups.com](mailto:qanta@googlegroups.com)
+Register here: [Human Tournament Signup Form](https://docs.google.com/forms/d/e/1FAIpQLSf3yTlKkP9f4_C-CGvFXjrK9pRXHOzGLjJrfbsG2dMidz4hkA/viewform?usp=publish-editor)
+
+Questions about registration can be sent to [qanta@googlegroups.com](mailto:qanta@googlegroups.com).
 
 ## Prizes
 
