@@ -63,21 +63,23 @@ opportunity to discuss your approaches with other system builders.
 > [EMM-QA Workshop at ICML 2026](/competition/2026/icml/)
 >
 > [Call for Papers](/competition/2026/call-for-papers/)
+>
+> [FAQ](/competition/2026/faq/)
 
 
 ## Important Dates
 
 | Deadline | Date |
 |---|---|
-| Workshop Paper Submission (CFP) | May 29, 2026 (AoE) |
-| Workshop Paper Acceptance Notification | June 10, 2026 (AoE) |
-| Scoring Feedback Deadline | June 1, 2026 |
-| Question Submission | June 1, 2026 |
-| Final System Submission | June 15, 2026 |
-| Player Registration | June 21, 2026 |
-| Computer Winners Announced | July 7, 2026 |
-| ICML EMM-QA Workshop | July 10-11, 2026 |
-| Human Tournament | Late June 2026 (announced soon) |
+| [Workshop Paper Submission](/competition/2026/call-for-papers/) | May 29, 2026 (AoE) |
+| [Question Submission](/competition/2026/authors/) | June 1, 2026 |
+| [Scoring Feedback Deadline](/competition/2026/rules/computer/) | June 1, 2026 |
+| [Workshop Paper Acceptance Notification](/competition/2026/call-for-papers/) | June 10, 2026 (AoE) |
+| [Final System Submission](/competition/2026/computer-teams/) | June 15, 2026 |
+| [Player Registration](/competition/2026/human-teams/) | June 21, 2026 |
+| [Human Tournament](/competition/2026/human-teams/) | Late June 2026 (announced soon) |
+| [Computer Winners Announced](/competition/2026/icml/) | July 7, 2026 |
+| [ICML EMM-QA Workshop](/competition/2026/icml/) | July 10-11, 2026 |
 
 ## Rules and Scoring
 
@@ -92,7 +94,11 @@ The **overview** explains how tossups and bonuses chain together in a match. **H
 
 ## Prizes
 
-QANTA 2026 includes prizes across competition tracks.
+QANTA 2026 includes prizes across competition tracks:
+
+- Placement awards for top human teams in the live event
+- Class-based awards and special recognition for computer systems
+- Awards for standout questions and packets, plus per-question payments for accepted writing
 
 > [Prizes and Awards](/competition/2026/prizes/)
 
@@ -115,16 +121,11 @@ Author pyramid-style questions that incorporate images alongside text clues. Rec
 
 → [For Authors](/competition/2026/authors/)
 
-## What Makes It Multimodal?
+## FAQ
 
-Quiz bowl questions are already pyramid-style — starting with obscure clues and becoming progressively more familiar. In QANTA 2026, some clues within a question will be images: a painting detail, a scientific diagram, a map, a photograph. Players (human and AI) must integrate visual and textual clues to buzz in with the correct answer.
+Common questions, including what makes QANTA 2026 multimodal and why there is no monetary prize for the "most helpful" computer teammate, are answered here:
 
-This format tests:
-
-- **Visual reasoning**: Can AI interpret an image clue as reliably as an expert human?
-- **Cross-modal fusion**: Does combining image + text clues help or hurt AI performance relative to humans?
-- **Calibration under uncertainty**: Can AI systems know when their visual interpretation is unreliable?
-- **Human–AI collaboration**: When does an AI teammate's visual reasoning assist a human player?
+> [Frequently Asked Questions](/competition/2026/faq/)
 
 ## Contact
 
