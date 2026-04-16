@@ -14,7 +14,7 @@ Rather than focusing only on larger models, the workshop emphasizes methods that
 
 > Join the community on [Discord](https://discord.gg/pfdfaygr).
 
-> [Call for Papers](/competition/2026/call-for-papers/)
+> [Call for Papers](https://qanta-org.github.io/competition/2026/call-for-papers/)
 >
 > [Computer Teams](/competition/2026/computer-teams/)
 

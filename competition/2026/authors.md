@@ -38,6 +38,8 @@ Each multimodal question follows the same pyramid format as a standard tossup â€
 - **Adversarial for AI**: prefer clues that require reasoning, visual interpretation, or cultural knowledge rather than pattern-matching to common training data
 - **Answerable by experts**: a knowledgeable human should be able to answer correctly after seeing all clues
 
+For more advice on writing strong adversarial questions, see [What's a Pyramidal Adversarial Question?](/stump-a-computer/).
+
 ## Submission
 
 Authors should first sign up here:

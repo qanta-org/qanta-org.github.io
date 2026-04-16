@@ -181,6 +181,6 @@ Additional invited speakers and panelists will be announced on the workshop webs
 ## Website and Contact
 
 - Contact email: [emm-qa-organizers@googlegroups.com](mailto:emm-qa-organizers@googlegroups.com)
-- Workshop website: TBA
+- Workshop website: [https://qanta-org.github.io/competition/2026/icml/](https://qanta-org.github.io/competition/2026/icml/)
 
 Please check the workshop website for updates, submission instructions, FAQs, and final shared-challenge details.

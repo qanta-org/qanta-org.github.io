@@ -12,7 +12,7 @@ nav_label: "What's a Pyramidal Adversarial Question"
 
 Can you write a question that a top computer QA system cannot answer - but an expert human can?
 
-Write using our adversarial interface at **[write.qanta.org](http://write.qanta.org)**. The interface provides real-time feedback as you type.
+Write using our adversarial interface at **[advvqa.umd.edu](http://advvqa.umd.edu/)**. The interface provides real-time feedback as you type.
 
 ## Jump to a Section
 
@@ -133,6 +133,6 @@ Example pattern:
 
 ## Get Started
 
-Write adversarial questions at **[write.qanta.org](http://write.qanta.org)**.
+Write adversarial questions at **[advvqa.umd.edu](http://advvqa.umd.edu/)**.
 
-For background on this line of work, see the [Adversarial QA project page](/research/projects/adversarial/). To submit questions to an upcoming competition, see the [current competition](/competition/2026/).
+To submit questions to the current competition, see the [current competition](/competition/2026/).
