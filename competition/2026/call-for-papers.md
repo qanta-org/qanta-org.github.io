@@ -25,22 +25,15 @@ All deadlines are **Anywhere on Earth (AoE)**.
 
 - Warmup data release: May 22, 2026
 - Test data release: June 1, 2026
-- Challenge metric feedback by: June 1, 2026
+- Challenge metric / scoring feedback deadline: June 1, 2026
 - **Last system submission: June 15, 2026**
 - System Description Paper Submission: June 22, 2026
+- In-person human competition: June 27, 2026
+- Online human competition: June 28, 2026
 
 ### Workshop Date and Venue
 
 - Workshop date: July 10 or July 11, 2026 *(final date to be confirmed by ICML)*, The COEX Convention and Exhibition Center, Seoul, South Korea
-
-## Poster Sessions
-
-The workshop posters must be portrait to fit two per board.
-
-- Poster dimensions: **91cm (H) x 61cm (W)** or **36in (H) x 24in (W)**
-- **These dimensions differ from the main conference**
-
-Workshop poster sessions will differ from previous years due to restrictions on the facilities in Seoul. Instead of displaying posters within individual workshop rooms, all poster sessions for all workshops will be held in a single, large shared space (similar to the main conference).
 
 ## Topics of Interest
 
@@ -71,7 +64,7 @@ We invite the following types of submissions:
 - full papers
 - short papers
 - position papers
-- system description papers (including shared-challenge submissions)
+- system description papers
 - previously published or recently accepted work as non-archival submissions
 
 Papers accepted at ICML 2026 may be submitted as **fast-track submissions**. Fast-track submissions must include the acceptance decision and reviews from ICML. They will still be evaluated by the Area Chairs (ACs) and Program Chairs (PCs) for thematic fit.
@@ -97,21 +90,44 @@ We do not plan to accept extended abstracts or poster-only submissions without a
 
 ### Archival Policy
 
-The workshop will accept both archival and non-archival submissions.
-
-In particular:
-
-- papers already on arXiv may be submitted
-- recently accepted conference papers may be presented
-- work under review elsewhere may be submitted if designated non-archival
-- papers accepted to the main conference may also be presented at the workshop
-
-Accepted submissions are expected to appear publicly on:
-
+The workshop will accept both **archival** and **non-archival** submissions.
+All accepted submissions are expected to appear publicly on:  
 - OpenReview
 - the workshop website
 
 Camera-ready versions will be required for accepted archival submissions.
+
+#### Archival submissions
+
+The following submissions are eligible to be archival:
+
+- newly submitted workshop papers
+- newly submitted system description papers
+
+#### Non-archival submissions
+
+The following submissions are non-archival:
+
+- previously published papers
+- recently accepted conference papers
+- papers accepted to the main conference and presented again at the workshop
+- work currently under review elsewhere
+- any submission explicitly designated as non-archival
+
+Non-archival submissions are welcome for presentation and discussion at the workshop, but they will not be published in proceedings of the workshop.
+
+## Workshop Program
+### Invited Speakers
+The program will include invited talks, contributed presentations, posters, a panel, and shared-challenge results. Accepted papers will be presented as posters, with a subset selected for talks. 
+
+Confirmed invited speakers include:
+
+- Eunsol Choi (NYU)
+- He He (NYU)
+- Sewon Min (UC Berkeley)
+
+Detailed schedule, including additional speakers and panels will be announced on the workshop website later.
+
 
 ### Conflict of Interest Policy
 
@@ -121,56 +137,33 @@ Program committee members and reviewers may submit papers, but they may not revi
 
 ## About the Shared Challenge
 
-EMM-QA will host a shared challenge on efficient multimodal question answering, extending the spirit of earlier EfficientQA efforts to modern multimodal and LLM-based settings.
+EMM-QA 2026 will host the **QANTA 2026 shared challenge**, a multimodal quiz bowl competition on efficient question answering with incrementally revealed clues.
 
-The challenge will focus on building systems that answer open-domain multimodal questions under constrained resources, while balancing performance against efficiency. Target modalities include:
+In QANTA 2026, systems answer pyramid-style questions from streaming text and, for some questions, accompanying images. For computer teams, the core task is to decide when to buzz, produce an answer, and express confidence under realistic efficiency constraints. The challenge is closely aligned with the workshop’s focus on efficient multimodal question answering, retrieval, reasoning, and evaluation.
 
-- text + image
-- text + table
-- text + sound
+The shared challenge includes both **computer-team submissions** and related **live human competition** events. The key challenge deadlines listed above are the **warmup data release**, **test data release**, **challenge metric / scoring feedback deadline**, **last system submission**, and **system description paper submission**. The live human competition will take place on **June 27, 2026** (in person) and **June 28, 2026** (online).
 
-We are especially interested in systems that can make strong use of a provided base model while remaining efficient in practice.
+Detailed task definitions, rules, scoring, technical requirements, and participation instructions are available on the following pages:
 
-### Evaluation
+- [Computer Teams](/competition/2026/computer-teams/) — how to build and submit systems
+- [Human Teams](/competition/2026/human-teams/) — how to register for the live human competition
+- [Rules overview](/competition/2026/rules/) — high-level competition structure
+- [Computer rules](/competition/2026/rules/computer/) — official rules for submitted systems and leaderboard scoring
+- [Human rules](/competition/2026/rules/human/) — official rules for live human–AI gameplay
+- [Prizes and awards](/competition/2026/prizes/) — prizes across competition tracks
 
-Challenge evaluation will combine:
 
-- automatic metrics, including Exact Match and F1
-- human verification, to account for semantic equivalence and ambiguity
-- efficiency measures, including:
-  - total system / image size
-  - tokens consumed and generated from a provided base model
+## Poster Sessions
 
-A tool-use metric is also under consideration.
+The workshop posters must be portrait to fit two per board.
 
-### Challenge Format
+- Poster dimensions: **91cm (H) x 61cm (W)** or **36in (H) x 24in (W)**
+- **These dimensions differ from the main conference**
 
-The workshop program will include:
+Workshop poster sessions will differ from previous years due to restrictions on the facilities in Seoul. Instead of displaying posters within individual workshop rooms, all poster sessions for all workshops will be held in a single, large shared space (similar to the main conference).
 
-- invited talks
-- contributed paper presentations
-- posters
-- a panel discussion
-- the shared challenge
-- a human vs. computer event
 
-Accepted papers will be presented as posters, with a subset selected for contributed talks.
-
-### Challenge Metric Feedback
-
-To ensure a fair evaluation setting, **participants may provide feedback on the challenge metric** via the Google Group at [emm-qa-organizers@googlegroups.com](mailto:emm-qa-organizers@googlegroups.com) until June 1, 2026.
-
-## Invited Speakers
-
-Confirmed invited speakers include:
-
-- Eunsol Choi (NYU)
-- He He (NYU)
-- Sewon Min (UC Berkeley)
-
-Additional invited speakers and panelists will be announced on the workshop website.
-
-## Organizers
+## Workshop Organizers
 
 - Jordan Boyd-Graber — University of Maryland
 - Martin Fajcik — Brno University of Technology
