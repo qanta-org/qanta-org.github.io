@@ -49,6 +49,7 @@ Authors should first sign up here:
 The preferred way to submit questions is through the submission interface:
 
 - [Question Submission Interface](http://advvqa.umd.edu/)
+- [Interface Instructions](https://docs.google.com/presentation/d/1HRHwopgMOYyMh_wWbw6nKfDOfvZHzYcpyHL0b5OumbI/edit?usp=sharing)
 
 We will also accept submissions through a Google Presentation shared
 with the tournament director:
