@@ -42,6 +42,16 @@ nav_order: 5
       <td>-</td>
     </tr>
     <tr>
+      <td>HyoJung Han</td>
+      <td>Adversarial Question Authoring Lead</td>
+      <td><a href="https://h-j-han.github.io/" target="_blank" rel="noopener">Link</a></td>
+    </tr>
+    <tr>
+      <td>Ishan Upadhyay</td>
+      <td>Question Authoring Interface</td>
+      <td>-</td>
+    </tr>
+    <tr>
       <td>Ikuya Yamada</td>
       <td>ICML Workshop Co-Organizer</td>
       <td>-</td>
