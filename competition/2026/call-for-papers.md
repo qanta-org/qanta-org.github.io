@@ -101,17 +101,13 @@ We do not plan to accept extended abstracts or poster-only submissions without a
 
 ### Archival Policy
 
-Submissions in both categories may be **archival** or **non-archival**, based on the preference of the authors.
+Submissions may be **archival** or **non-archival**, based on the preference of the authors.
 
-All archival papers will be published in the workshop proceedings.
-
-Non-archival papers may be submitted to any venue in the future, and we will only link to a preprint if the authors provide such a link.
-
-All accepted submissions are expected to appear publicly on:
+All archival papers will be published in:
 - OpenReview
 - the workshop website
 
-Camera-ready versions will be required for accepted archival submissions.
+Non-archival papers may be submitted to any venue in the future, and we will only link to a preprint if the authors provide such a link.
 
 #### Archival submissions
 
