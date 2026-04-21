@@ -87,6 +87,8 @@ The **overview** explains how tossups and bonuses chain together in a match. **H
 > [Human Rules](/competition/2026/rules/human/)
 >
 > [Computer Rules](/competition/2026/rules/computer/)
+>
+> [Author Rules](/competition/2026/rules/authors/)
 
 
 ## Prizes

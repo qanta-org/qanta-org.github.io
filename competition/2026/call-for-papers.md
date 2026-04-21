@@ -6,9 +6,20 @@ permalink: /competition/2026/call-for-papers/
 
 # ICML 2026 Workshop on Efficient Multimodal Question Answering (EMM-QA)
 
+<img src="{{ site.baseurl }}/assets/images/branding/icml_2026.png" alt="EMM-QA logo" class="img-fluid mb-4 d-block mx-auto" style="width: 28%; max-width: 100%;">
+
 <span style="color:gray">Efficient multimodal question answering in the era of large language models</span>
 
 The ICML 2026 Workshop on Efficient Multimodal Question Answering (EMM-QA) invites submissions on methods, resources, evaluations, and systems for question answering over multimodal inputs under realistic resource constraints. The workshop focuses on balancing answer quality with efficiency in modern QA systems, especially in the age of large language models.
+
+
+## Website and Contact
+
+- Contact email: [emm-qa-organizers@googlegroups.com](mailto:emm-qa-organizers@googlegroups.com)
+- Workshop website: [https://qanta-org.github.io/competition/2026/icml/](https://qanta-org.github.io/competition/2026/icml/)
+
+Please check the workshop website for updates, submission instructions, FAQs, and final shared-challenge details.
+
 
 ## Important Dates
 
@@ -90,8 +101,13 @@ We do not plan to accept extended abstracts or poster-only submissions without a
 
 ### Archival Policy
 
-The workshop will accept both **archival** and **non-archival** submissions.
-All accepted submissions are expected to appear publicly on:  
+Submissions in both categories may be **archival** or **non-archival**, based on the preference of the authors.
+
+All archival papers will be published in the workshop proceedings.
+
+Non-archival papers may be submitted to any venue in the future, and we will only link to a preprint if the authors provide such a link.
+
+All accepted submissions are expected to appear publicly on:
 - OpenReview
 - the workshop website
 
@@ -115,19 +131,6 @@ The following submissions are non-archival:
 - any submission explicitly designated as non-archival
 
 Non-archival submissions are welcome for presentation and discussion at the workshop, but they will not be published in proceedings of the workshop.
-
-## Workshop Program
-### Invited Speakers
-The program will include invited talks, contributed presentations, posters, a panel, and shared-challenge results. Accepted papers will be presented as posters, with a subset selected for talks. 
-
-Confirmed invited speakers include:
-
-- Eunsol Choi (NYU)
-- He He (NYU)
-- Sewon Min (UC Berkeley)
-
-Detailed schedule, including additional speakers and panels will be announced on the workshop website later.
-
 
 ### Conflict of Interest Policy
 
@@ -161,19 +164,3 @@ The workshop posters must be portrait to fit two per board.
 - **These dimensions differ from the main conference**
 
 Workshop poster sessions will differ from previous years due to restrictions on the facilities in Seoul. Instead of displaying posters within individual workshop rooms, all poster sessions for all workshops will be held in a single, large shared space (similar to the main conference).
-
-
-## Workshop Organizers
-
-- Jordan Boyd-Graber — University of Maryland
-- Martin Fajcik — Brno University of Technology
-- George Jojo Boateng — ETH Zurich / Kwame AI
-- Ikuya Yamada — Studio Ousia / Tokyo University of Science / Tohoku University / Nagoya University
-- Chen Zhao — NYU Shanghai
-
-## Website and Contact
-
-- Contact email: [emm-qa-organizers@googlegroups.com](mailto:emm-qa-organizers@googlegroups.com)
-- Workshop website: [https://qanta-org.github.io/competition/2026/icml/](https://qanta-org.github.io/competition/2026/icml/)
-
-Please check the workshop website for updates, submission instructions, FAQs, and final shared-challenge details.
