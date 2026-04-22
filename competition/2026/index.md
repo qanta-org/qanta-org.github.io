@@ -27,7 +27,7 @@ Live matches use two kinds of questions, standard in quiz bowl:
 
 The team that answers a tossup correctly earns the next bonus. For full match flow, interrupt rules, and scoring, see the rules hub and the human and computer rulebooks.
 
-> Join the community on [Discord](https://discord.gg/pfdfaygr).
+> Join the community on [Discord](https://discord.gg/E8Z6asZPRt).
 
 <div class="row mt-4 mb-4">
   <div class="col-md-6">

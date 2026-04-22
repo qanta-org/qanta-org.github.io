@@ -88,4 +88,4 @@ Submit a Hugging Face model pipeline following the provided API specification. S
 
 ## Contact
 
-Questions? Join the [Discord server](https://discord.gg/ChmDVatJ6Y), [open a GitHub issue](https://github.com/qanta-challenge/QANTA25/issues/new), or email [qanta@googlegroups.com](mailto:qanta@googlegroups.com).
+Questions? Join the [Discord server](https://discord.gg/E8Z6asZPRt), [open a GitHub issue](https://github.com/qanta-challenge/QANTA25/issues/new), or email [qanta@googlegroups.com](mailto:qanta@googlegroups.com).

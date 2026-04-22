@@ -14,7 +14,7 @@ EMM-QA is an ICML 2026 workshop focused on question answering systems that must 
 
 Rather than focusing only on larger models, the workshop emphasizes methods that make multimodal question answering usable in real settings, including retrieval-augmented systems, compact models, efficient inference, and human-in-the-loop evaluation.
 
-> Join the community on [Discord](https://discord.gg/pfdfaygr).
+> Join the community on [Discord](https://discord.gg/E8Z6asZPRt).
 
 > [Call for Papers](https://qanta-org.github.io/competition/2026/call-for-papers/)
 >
@@ -66,4 +66,4 @@ A detailed workshop schedule will be posted here soon.
 
 Questions about the workshop can be sent to
 [emm-qa-organizers@googlegroups.com](mailto:emm-qa-organizers@googlegroups.com).
-Or join the [Discord](https://discord.gg/pfdfaygr).
+Or join the [Discord](https://discord.gg/E8Z6asZPRt).

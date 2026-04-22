@@ -93,7 +93,7 @@ Scoring uses [CALSCORE](https://arxiv.org/abs/2502.19684). See the [bonus scorin
 
 ## Contact
 
-Join the [Discord server](https://discord.gg/ChmDVatJ6Y) or email the team:
+Join the [Discord server](https://discord.gg/E8Z6asZPRt) or email the team:
 
 - [ying@umd.edu](mailto:ying@umd.edu)
 - [yysung53@umd.edu](mailto:yysung53@umd.edu)

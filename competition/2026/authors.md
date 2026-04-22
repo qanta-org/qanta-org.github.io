@@ -8,7 +8,7 @@ permalink: /competition/2026/authors/
 
 QANTA 2026 introduces **multimodal questions** — pyramid-style tossups where some clues are images (photographs, artworks, diagrams, maps, or scientific figures) alongside traditional text clues. We're looking for authors who can write questions that challenge AI systems while remaining fair to expert humans reading both text and images.
 
-> Join the community on [Discord](https://discord.gg/pfdfaygr).
+> Join the community on [Discord](https://discord.gg/E8Z6asZPRt).
 
 For submission expectations and conduct rules, see the [author rules](/competition/2026/rules/authors/).
 
@@ -65,4 +65,4 @@ Questions about writing or submission can be sent to [qanta@googlegroups.com](ma
 ## Contact
 
 - Email: [qanta@googlegroups.com](mailto:qanta@googlegroups.com)
-- Discord: [discord.gg/pfdfaygr](https://discord.gg/pfdfaygr)
+- Discord: [discord.gg/E8Z6asZPRt](https://discord.gg/E8Z6asZPRt)

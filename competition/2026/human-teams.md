@@ -8,7 +8,7 @@ permalink: /competition/2026/human-teams/
 
 Play in QANTA 2026 — the first quiz bowl competition to include **multimodal questions**. You'll answer pyramid-style tossups where some clues are images alongside text. Team up with an AI agent and compete against other human–AI pairs, solo humans, and AI-only systems.
 
-> Join the community on [Discord](https://discord.gg/pfdfaygr).
+> Join the community on [Discord](https://discord.gg/E8Z6asZPRt).
 
 For the current rules, see the [rules overview](/competition/2026/rules/) and the [human rules](/competition/2026/rules/human/).
 
@@ -43,4 +43,4 @@ Human teams are eligible for placement awards in the live competition. See the [
 ## Contact
 
 - Email: [qanta@googlegroups.com](mailto:qanta@googlegroups.com)
-- Discord: [discord.gg/pfdfaygr](https://discord.gg/pfdfaygr)
+- Discord: [discord.gg/E8Z6asZPRt](https://discord.gg/E8Z6asZPRt)

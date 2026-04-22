@@ -8,7 +8,7 @@ permalink: /competition/2026/computer-teams/
 
 QANTA 2026 is the first quiz bowl competition to include **multimodal questions** — text clues combined with images. AI systems must handle both modalities to compete.
 
-> Join the community on [Discord](https://discord.gg/pfdfaygr).
+> Join the community on [Discord](https://discord.gg/E8Z6asZPRt).
 
 For the current rules, see the [rules overview](/competition/2026/rules/) and the [computer rules](/competition/2026/rules/computer/).
 
@@ -108,4 +108,4 @@ For future announcements stay on the mailing list: [emm-qa-organizers@googlegrou
 ## Contact
 
 - Email: [emm-qa-organizers@googlegroups.com](mailto:emm-qa-organizers@googlegroups.com)
-- Discord: [discord.gg/pfdfaygr](https://discord.gg/pfdfaygr)
+- Discord: [discord.gg/E8Z6asZPRt](https://discord.gg/E8Z6asZPRt)

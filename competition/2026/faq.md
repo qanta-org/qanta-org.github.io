@@ -6,7 +6,7 @@ permalink: /competition/2026/faq/
 
 # Frequently Asked Questions
 
-> Join the community on [Discord](https://discord.gg/pfdfaygr).
+> Join the community on [Discord](https://discord.gg/E8Z6asZPRt).
 
 ## What makes QANTA 2026 multimodal?
 
@@ -37,4 +37,4 @@ Helpfulness in a live human-computer setting depends on more than raw answer acc
 
 - Competition and workshop questions: [emm-qa-organizers@googlegroups.com](mailto:emm-qa-organizers@googlegroups.com)
 - Human teams and question writing: [qanta@googlegroups.com](mailto:qanta@googlegroups.com)
-- Discord: [discord.gg/pfdfaygr](https://discord.gg/pfdfaygr)
+- Discord: [discord.gg/E8Z6asZPRt](https://discord.gg/E8Z6asZPRt)
