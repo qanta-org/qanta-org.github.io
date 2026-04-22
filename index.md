@@ -43,7 +43,9 @@ Led by **[Jordan Boyd-Graber](https://users.umiacs.umd.edu/~jbg/)** (University 
 <h2>Supported by</h2>
 <div class="d-flex flex-wrap align-items-center justify-content-center mt-3">
   <img src="{{ site.baseurl }}/assets/images/branding/adobe.png" alt="Adobe" class="img-fluid m-3" style="max-height: 80px;">
-  <img src="{{ site.baseurl }}/assets/images/branding/trails.webp" alt="Trails" class="img-fluid m-3" style="max-height: 80px;">
+  <a href="https://www.trails.umd.edu/" target="_blank" rel="noopener noreferrer">
+    <img src="{{ site.baseurl }}/assets/images/branding/trails.webp" alt="TRAILS" class="img-fluid m-3" style="max-height: 80px;">
+  </a>
 </div>
 <p class="text-muted mb-0">The views and opinions expressed here are those of the authors and do not necessarily reflect those of the sponsors.</p>
 </section>
