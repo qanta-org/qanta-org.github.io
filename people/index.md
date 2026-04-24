@@ -49,7 +49,7 @@ nav_order: 5
     <tr>
       <td>Ishan Upadhyay</td>
       <td>Question Authoring Interface</td>
-      <td>-</td>
+      <td><a href="https://www.linkedin.com/in/ishan-upadhyay-04b895135/" target="_blank" rel="noopener">Link</a></td>
     </tr>
     <tr>
       <td>Ikuya Yamada</td>
