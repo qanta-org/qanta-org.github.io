@@ -25,11 +25,17 @@ Please check the workshop website for updates, submission instructions, FAQs, an
 
 All deadlines are **Anywhere on Earth (AoE)**.
 
+Submissions are open now. We are offering an early feedback round for authors who want comments before the later deadline, while keeping the original later round in place for workshop papers and especially shared-system submissions.
+
+In general, we expect the first deadline to be used more often for general workshop submissions and the second deadline to be used more often for system description papers, but authors may submit to either deadline.
+
 ### Paper Track
 
-- **Submission deadline: May 29, 2026**
-- Review deadline: June 7, 2026
-- Notification date: June 10, 2026
+- **Round 1 submission deadline: May 8, 2026**
+- Round 1 notification date: May 15, 2026
+- **Round 2 submission deadline (especially for shared systems): May 29, 2026**
+- Round 2 review deadline: June 7, 2026
+- Round 2 notification date: June 10, 2026
 - Camera-ready deadline: June 22, 2026
 
 ### Shared Challenge

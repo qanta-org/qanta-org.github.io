@@ -67,10 +67,12 @@ opportunity to discuss your approaches with other system builders.
 
 | Deadline | Date |
 |---|---|
-| [Workshop Paper Submission](/competition/2026/call-for-papers/) | May 29, 2026 (AoE) |
+| [Workshop Paper Round 1 Submission](/competition/2026/call-for-papers/) | May 8, 2026 (AoE) |
+| [Workshop Paper Round 1 Notification](/competition/2026/call-for-papers/) | May 15, 2026 (AoE) |
+| [Workshop Paper Round 2 Submission](/competition/2026/call-for-papers/) | May 29, 2026 (AoE) |
 | [Question Submission](/competition/2026/authors/) | June 1, 2026 |
 | [Scoring Feedback Deadline](/competition/2026/rules/computer/) | June 1, 2026 |
-| [Workshop Paper Acceptance Notification](/competition/2026/call-for-papers/) | June 10, 2026 (AoE) |
+| [Workshop Paper Round 2 Notification](/competition/2026/call-for-papers/) | June 10, 2026 (AoE) |
 | [Final System Submission](/competition/2026/computer-teams/) | June 15, 2026 |
 | [Player Registration](/competition/2026/human-teams/) | June 21, 2026 |
 | [In-Person Tournament](/competition/2026/human-teams/) | June 27, 2026 |
