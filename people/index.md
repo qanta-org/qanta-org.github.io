@@ -57,9 +57,9 @@ nav_order: 5
       <td>-</td>
     </tr>
     <tr>
-      <td>Martin</td>
+      <td>Martin Fajčík</td>
       <td>ICML Workshop Co-Organizer</td>
-      <td>-</td>
+      <td><a href="https://mfajcik.github.io/" target="_blank" rel="noopener">Link</a></td>
     </tr>
     <tr>
       <td>Chen</td>
