@@ -57,7 +57,7 @@ A detailed workshop schedule will be posted here soon.
 ## Organizers
 
 - Jordan Boyd-Graber, University of Maryland
-- Martin Fajcik, Brno University of Technology
+- Martin Fajčík, Brno University of Technology
 - George Jojo Boateng, ETH Zurich / Kwame AI
 - Ikuya Yamada, Studio Ousia / Tohoku University / Nagoya University / RIKEN
 - Chen Zhao, NYU Shanghai
@@ -67,3 +67,6 @@ A detailed workshop schedule will be posted here soon.
 Questions about the workshop can be sent to
 [emm-qa-organizers@googlegroups.com](mailto:emm-qa-organizers@googlegroups.com).
 Or join the [Discord](https://discord.gg/E8Z6asZPRt).
+
+## Sponsors/Acknowledgements
+- This workshop is partially supported by Horizon EU programme through project ELOQUENCE, grant no. 101135916.
