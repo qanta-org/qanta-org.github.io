@@ -12,6 +12,8 @@ permalink: /competition/2026/call-for-papers/
 
 The ICML 2026 Workshop on Efficient Multimodal Question Answering (EMM-QA) invites submissions on methods, resources, evaluations, and systems for question answering over multimodal inputs under realistic resource constraints. The workshop focuses on balancing answer quality with efficiency in modern QA systems, especially in the age of large language models.
 
+## Workshop Schedule
+Is available at the [workshop website](/competition/2026/icml/).
 
 ## Website and Contact
 
@@ -50,7 +52,7 @@ In general, we expect the first deadline to be used more often for general works
 
 ### Workshop Date and Venue
 
-- Workshop date: July 10 or July 11, 2026 *(final date to be confirmed by ICML)*, The COEX Convention and Exhibition Center, Seoul, South Korea
+- Workshop date: July 11, 2026, The COEX Convention and Exhibition Center, Seoul, South Korea
 
 ## Topics of Interest
 
