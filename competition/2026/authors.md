@@ -10,7 +10,6 @@ QANTA 2026 introduces **multimodal questions** — pyramid-style tossups where s
 
 > Join the community on [Discord](https://discord.gg/E8Z6asZPRt).
 
-For submission expectations and conduct rules, see the [author rules](/competition/2026/rules/authors/).
 
 ## Compensation
 
