@@ -78,7 +78,7 @@ opportunity to discuss your approaches with other system builders.
 | [In-Person Tournament](/competition/2026/human-teams/) | June 27, 2026 |
 | [Online Tournament](/competition/2026/human-teams/) | June 28, 2026 |
 | [Computer Winners Announced](/competition/2026/icml/) | July 7, 2026 |
-| [ICML EMM-QA Workshop](/competition/2026/icml/) | July 10-11, 2026 |
+| [ICML EMM-QA Workshop](/competition/2026/icml/) | July 11, 2026 |
 
 ## Rules and Scoring
 
