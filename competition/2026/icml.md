@@ -20,6 +20,34 @@ Rather than focusing only on larger models, the workshop emphasizes methods that
 >
 > [Computer Teams](/competition/2026/computer-teams/)
 
+## Schedule
+| Time | Activity | Duration |
+|---|---|---|
+| 08:00&#8209;08:10 | Welcome & Workshop Overview | 10 min |
+| 08:10&#8209;08:50 | 🟦 Robin Jia: TBA | 40 min |
+| 08:50&#8209;09:00 | Q&A | 10 min |
+| 09:00&#8209;09:30 | 🟨 Contributed Paper Spotlights I | 30 min |
+| 09:30&#8209;10:30 | 🟧 Workshop Posters + Coffee | 60 min |
+| 10:30&#8209;11:10 | 🟦 Sewon Min: TBA | 40 min |
+| 11:10&#8209;11:20 | Q&A | 10 min |
+| 11:20&#8209;11:50 | 🟨 Contributed Paper Spotlights II | 30 min |
+| 11:50&#8209;12:50 | Lunch | 60 min |
+| 12:50&#8209;13:30 | 🟦 Mrinmaya Sachan: TBA | 40 min |
+| 13:30&#8209;13:40 | Q&A | 10 min |
+| 13:40&#8209;14:20 | 🟦 Naman Goyal & Jenni Ni: Multimodal Robustness Under Distribution Shift: Evaluation Frameworks for Real-World AI Deployment | 40 min |
+| 14:20&#8209;14:30 | Q&A | 10 min |
+| 14:30&#8209;14:50 | Shared Challenge Introduction & Results Overview | 20 min |
+| 14:50&#8209;15:25 | 🟨 Best Challenge Team Talks | 35 min |
+| 15:25&#8209;16:25 | 🟧 Challenge Posters & Demos + Coffee | 60 min |
+| 16:25&#8209;16:45 | Challenge Discussion & Future Directions | 20 min |
+| 16:45&#8209;16:55 | 🏆 Challenge Awards | 10 min |
+| 16:55&#8209;17:00 | Closing Remarks | 5 min |
+
+### Legend
+- 🟦 Invited Talks
+- 🟧 Poster Sessions
+- 🟨 Paper/Challenge Team Spotlights
+
 ## Scope
 
 The workshop is centered on efficient multimodal question answering. It also welcomes closely related work on multimodal retrieval, reasoning, evaluation, benchmarking, and efficient inference when those contributions are clearly connected to question answering or other knowledge-intensive multimodal tasks.
