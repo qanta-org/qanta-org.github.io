@@ -32,8 +32,8 @@ In general, we expect the first deadline to be used more often for general works
 ### Paper Track
 
 - **Round 1 submission deadline: May 8, 2026**
-- Round 1 notification date: May 15, 2026
-- **Round 2 submission deadline (especially for shared systems): May 29, 2026**
+- Round 1 notification date: May 22, 2026
+- **Round 2 submission deadline: May 29, 2026**
 - Round 2 review deadline: June 7, 2026
 - Round 2 notification date: June 10, 2026
 - Camera-ready deadline: June 22, 2026
