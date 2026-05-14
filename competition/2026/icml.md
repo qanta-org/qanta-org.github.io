@@ -51,8 +51,10 @@ A detailed workshop schedule will be posted here soon.
 
 ## Confirmed Keynote Speakers
 
-- Sewon Min
-- Mrinmaya Sachan
+- Sewon Min (UC Berkeley EECS & Allen Institute for AI)
+- Mrinmaya Sachan (ETH Zürich)
+- Robin Jia (University of Southern California)
+- Naman Goyal & Jenni Ni (Google DeepMind)
 
 ## Organizers
 
