@@ -54,7 +54,7 @@ A detailed workshop schedule will be posted here soon.
 - Sewon Min (UC Berkeley EECS & Allen Institute for AI)
 - Mrinmaya Sachan (ETH Zürich)
 - Robin Jia (University of Southern California)
-- Naman Goyal & Jenni Ni (Google DeepMind)
+- Naman Goyal (Google DeepMind) & Jenny Ni (Google)
 
 ## Organizers
 
