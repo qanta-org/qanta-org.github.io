@@ -56,7 +56,7 @@ The workshop will also serve as the venue where we announce the winning systems 
 | 08:10&#8209;08:50 | 🟦 Naman Goyal & Jenny Ni: Multimodal Robustness Under Distribution Shift | 40 min |
 | 08:50&#8209;09:00 | Q&A | 10 min |
 | 09:00&#8209;09:15 | ☕ Coffee Break | 15 min |
-| 09:15&#8209;09:55 | 🟦 Sewon Min: TBA | 40 min |
+| 09:15&#8209;09:55 | 🟦 Sewon Min: PIXELRAG: Web Screenshots Beat Text for Retrieval-Augmented Generation | 40 min |
 | 09:55&#8209;10:05 | Q&A | 10 min |
 | 10:05&#8209;10:50 | 🟨 Contributed Paper Spotlights | 45 min |
 | 10:50&#8209;11:50 | 🟧 Workshop Posters | 60 min |
