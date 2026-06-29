@@ -39,7 +39,7 @@ Computer-friendly data derived directly from quiz bowl data:
 |---|---|---|---|
 | [QANTA main datasets](/data-and-code/) | [QANTA_dataset](https://huggingface.co/datasets/TasnimKabir12/qanta) | Canonical QANTA question data and related dataset docs | [Pinafore/qb]({{ site.github.main }}) |
 | - | [Quizbowl human responses](https://huggingface.co/collections/mgor/quizbowl-66f8541f46d413c380669551) | Human answer traces and response behavior data | [maharshi95/neural-irt](https://github.com/maharshi95/neural-irt) |
-| - | - | Naturalized questions derived from trivia-style QA | [Pinafore/qb2nq](https://github.com/Pinafore/qb2nq) |
+| [QB_2021](https://huggingface.co/datasets/TasnimKabir12/QB2NQ/resolve/main/qb_2021_train_naturalized.json?download=1) [2018](https://huggingface.co/datasets/TasnimKabir12/QB2NQ/resolve/main/qb_2018_train_naturalized.json) | [QB2NQ](https://huggingface.co/datasets/TasnimKabir12/QB2NQ) | Naturalized questions derived from trivia-style QA | [Pinafore/qb2nq](https://github.com/Pinafore/qb2nq) |
 | [Adversarial questions JSON](../downloads/2019_tacl_trick.json) | - | Adversarial examples in compatible QA format | [Eric-Wallace/trickme-interface](https://github.com/Eric-Wallace/trickme-interface) |
 
 ---
@@ -51,19 +51,19 @@ The 2021 tossup release is the main benchmark dataset for modern QANTA work:
 ### QANTA Tossup Dataset 
 
 ~100k pyramid-style quiz bowl tossup questions with full text, answers, and metadata (category, tournament, year).
-#### (2021)
+#### 2021
 
 | Split | Download |
 |---|---|
 | Train | [Download](https://huggingface.co/datasets/TasnimKabir12/qanta/resolve/main/qanta.train.2021.12.20.json?download=1) |
 | Dev | [Download](https://huggingface.co/datasets/TasnimKabir12/qanta/resolve/main/qanta.dev.2021.12.20.json?download=1) |
 
-#### (2018)
+#### 2018
 
 | Split | Download |
 |---|---|
 | Train | [Download](https://huggingface.co/datasets/TasnimKabir12/qanta/resolve/main/qanta.train.2018.04.18.json?download=1) |
-| Dev | [Download](https://huggingface.co/datasets/TasnimKabir12/qanta/resolve/main/qanta.dev.2018.04.18.json?download=1) |
+| Dev | [Download](https://huggingface.co/datasets/TasnimKabir12/qanta/resolve/main/qanta.dev.2018.04.18.json?download=true) |
 
 **Code**: [github.com/Pinafore/qb](https://github.com/Pinafore/qb)
 
@@ -81,7 +81,7 @@ The 2021 tossup release is the main benchmark dataset for modern QANTA work:
 | [Which of These Best Describes Multiple Choice Evaluation with LLMs? A) Forced B) Flawed C) Fixable D) All of the Above](http://cs.umd.edu/~jbg//docs/2025_acl_mcqa_bad.pdf) | - | - | ACL 2025 evaluation methods | - |
 | [ADVSCORE: A Metric for the Evaluation and Creation of Adversarial Benchmarks](http://cs.umd.edu/~jbg//docs/2025_naacl_advscore.pdf) | - | - | NAACL 2025 adversarialness metric | - |
 | [Do great minds think alike? Investigating Human-AI Complementarity in Question Answering with CAIMIRA](http://cs.umd.edu/~jbg//docs/2024_emnlp_caimira.pdf) | - | [Quizbowl collection](https://huggingface.co/collections/mgor/quizbowl-66f8541f46d413c380669551) | EMNLP 2024 complementarity | [maharshi95/neural-irt](https://github.com/maharshi95/neural-irt) |
-| [You Make me Feel like a Natural Question: Training QA Systems on Transformed Trivia Questions](http://cs.umd.edu/~jbg//docs/2024_emnlp_natural.pdf) | - | - | EMNLP 2024 naturalized QA | [Pinafore/qb2nq](https://github.com/Pinafore/qb2nq) |
+| [You Make me Feel like a Natural Question: Training QA Systems on Transformed Trivia Questions](http://cs.umd.edu/~jbg//docs/2024_emnlp_natural.pdf) | [QB_2021](https://huggingface.co/datasets/TasnimKabir12/QB2NQ/resolve/main/qb_2021_train_naturalized.json?download=1) [2018](https://huggingface.co/datasets/TasnimKabir12/QB2NQ/resolve/main/qb_2018_train_naturalized.json) | [QB2NQ](https://huggingface.co/datasets/TasnimKabir12/QB2NQ) | EMNLP 2024 naturalized QA | [Pinafore/qb2nq](https://github.com/Pinafore/qb2nq) |
 | [PEDANTS (Precise Evaluations of Diverse Answer Nominee Text for Skinflints): Use Evaluation Metrics Wisely---Efficient Evaluation Analysis and Benchmarking for Open-Domain Question Answering](https://arxiv.org/abs/2402.11161) | - | - | EMNLP Findings 2024 evaluation | [zli12321/PEDANTS-LLM-Evaluation](https://github.com/zli12321/PEDANTS-LLM-Evaluation) |
 | [Automatic Explicitation to Bridge the Background Knowledge Gap in Translation and its Evaluation with Multilingual QA](http://cs.umd.edu/~jbg//docs/2023_emnlp_explicitation.pdf) | - | - | EMNLP 2023 translation and QA | - |
 | [Learning to Explain Selectively: A Case Study on Question Answering](http://cs.umd.edu/~jbg//docs/2022_emnlp_augment.pdf) | [Data](https://bit.ly/selective_explanation) | - | EMNLP 2022 explanations | - |
