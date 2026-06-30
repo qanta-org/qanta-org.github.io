@@ -46,9 +46,10 @@ The workshop is planned as a one-day event combining:
 The workshop will also serve as the venue where we announce the winning systems from the QANTA 2026 computer competition.
 
 ## Schedule
-- Workshop takes place on July 11th.
-- All talk sessions (invited talks, spotlights, challenge talks, awards, etc.) will take place in the main workshop room at COEX.
-- All poster sessions will take place separately in **Hall A** outside the workshop room area at COEX.
+- Workshop takes place on July 11th. Both poster sessions
+- All talk sessions (invited talks, spotlights, challenge talks, awards, etc.) will take place in the **ASEM Ballroom 201** at COEX.
+- All poster sessions will take place separately in **Hall A**, poster boards 1612–1617, 1700–1711, outside the workshop room area at COEX.You can review the Hall A plan [here](https://qanta-org.github.io/competition/2026/Poster%20Board_Hall%20A.pdf).
+
 
 | Time | Activity | Duration |
 |---|---|---|
