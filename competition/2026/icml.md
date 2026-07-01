@@ -12,9 +12,11 @@ EMM-QA is an ICML 2026 workshop focused on question answering systems that must 
 
 Rather than focusing only on larger models, the workshop emphasizes methods that make multimodal question answering usable in real settings, including retrieval-augmented systems, compact models, efficient inference, and human-in-the-loop evaluation.
 
-
+> **ANNOUNCEMENTS**  
 > 📌 Check [Poster Sessions and Board Assignments](#poster-sessions-and-board-assignments) section at the bottom of this page to find your poster ID, session, and board number in Hall A.
 >
+> 📌 [Workshop Schedule](#schedule) is now available.
+> 
 > 📌 [Call for Papers](https://qanta-org.github.io/competition/2026/call-for-papers/)
 >
 > 📌 [Computer Teams](/competition/2026/computer-teams/)
@@ -42,7 +44,6 @@ The workshop is planned as a one-day event combining:
 - Invited keynotes
 - Shared-task highlights
 - A live human-computer question answering event
-- A panel discussion
 
 The workshop will also serve as the venue where we announce the winning systems from the QANTA 2026 computer competition.
 
