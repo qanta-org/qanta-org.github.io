@@ -117,7 +117,7 @@ The workshop will also serve as the venue where we announce the winning systems 
 | 09:15&#8209;09:55 | 🟦 Sewon Min: PIXELRAG: Web Screenshots Beat Text for Retrieval-Augmented Generation | 40 min |
 | 09:55&#8209;10:05 | Q&A | 10 min |
 | 10:05&#8209;10:50 | 🟨 Contributed Paper Spotlights | 45 min |
-| 10:50&#8209;11:50 | 🟧 Workshop Posters | 60 min |
+| 10:50&#8209;11:50 | 🟧 Workshop Posters I | 60 min |
 | 11:50&#8209;12:50 | Lunch | 60 min |
 | 12:50&#8209;13:20 | 🤖 Live AI QA Competition | 30 min |
 | 13:20&#8209;14:00 | 🟦 Mrinmaya Sachan: TBA | 40 min |
@@ -129,7 +129,7 @@ The workshop will also serve as the venue where we announce the winning systems 
 | 15:35&#8209;15:55 | 🟨 Best Challenge Team Talks | 20 min |
 | 15:55&#8209;16:05 | 🏆 Challenge Awards | 10 min |
 | 16:05&#8209;16:10 | Closing Remarks | 5 min |
-| 16:10&#8209;17:00 | 🟧 Shared Challenge Posters | 50 min |
+| 16:10&#8209;17:00 | 🟧 Workshop Posters II + Shared Challenge Posters | 50 min |
 
 ### Legend
 - 🟦 Invited Talks  
