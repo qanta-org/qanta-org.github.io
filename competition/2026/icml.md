@@ -4,6 +4,61 @@ title: "EMM-QA 2026 Workshop"
 permalink: /competition/2026/icml/
 ---
 
+<style>
+/* Page-local width adjustment for the ICML workshop page. */
+body.wrap > .container {
+  max-width: 1200px !important;
+}
+
+.container > .col-lg-8.mx-auto {
+  flex: 0 0 100%;
+  max-width: 1200px !important;
+}
+
+.poster-table-wrapper {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.poster-table-wrapper table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+  line-height: 1.25;
+}
+
+.poster-table-wrapper th,
+.poster-table-wrapper td {
+  padding: 6px 8px;
+  vertical-align: top;
+}
+
+.poster-table-wrapper th:nth-child(1),
+.poster-table-wrapper td:nth-child(1),
+.poster-table-wrapper th:nth-child(2),
+.poster-table-wrapper td:nth-child(2),
+.poster-table-wrapper th:nth-child(3),
+.poster-table-wrapper td:nth-child(3) {
+  white-space: nowrap;
+  width: 1%;
+}
+
+.poster-table-wrapper th:nth-child(4),
+.poster-table-wrapper td:nth-child(4) {
+  min-width: 140px;
+}
+
+.poster-table-wrapper th:nth-child(5),
+.poster-table-wrapper td:nth-child(5) {
+  min-width: 280px;
+}
+
+.poster-table-wrapper th:nth-child(6),
+.poster-table-wrapper td:nth-child(6) {
+  min-width: 220px;
+}
+</style>
+
 # Efficient Multimodal Question Answering (EMM-QA)
 
 <img src="{{ site.baseurl }}/assets/images/branding/icml_2026.png" alt="EMM-QA logo" class="img-fluid mb-4 d-block mx-auto" style="width: 28%; max-width: 100%;">
@@ -105,6 +160,8 @@ Or join the [Discord](https://discord.gg/E8Z6asZPRt).
 ## Poster Sessions and Board Assignments
 🗺️ The plan of the Hall A is [here](https://qanta-org.github.io/competition/2026/Poster%20Board_Hall%20A.pdf).  
   
+<div class="poster-table-wrapper" markdown="1">
+
 | Poster ID | Session | Board | Topic | Paper | Authors |
 |---|---:|---:|---|---|---|
 | P01 | 1 | 1612 | Multimodal Retrieval QA | Scaling Down: Multi-Hop Information Retrieval in Resource-Constrained Environments | Nikolay Staroverov |
@@ -152,6 +209,8 @@ Or join the [Discord](https://discord.gg/E8Z6asZPRt).
 | P43 | 2 | 1703 | Reasoning Evaluation | Coherence Under Commitment: Probing Generalization and Vacuous Memorization in LLM Logical Reasoning | Noor Islam S. Mohammad; Mahmudul Hasan |
 | P44 | 2 | 1704 | Model Alignment | Co-LoRA: Collaborative Model Personalization on Heterogeneous Multi-Modal Clients | Minhyuk Seo; Taeheon Kim; Hankook Lee; Jonghyun Choi; Tinne Tuytelaars |
 | P45 | 2 | 1704 | Model Alignment | SOTAlign: Semi-Supervised Alignment of Unimodal Vision and Language Models via Optimal Transport | Simon Roschmann; Paul KRZAKALA; Sonia Mazelet; Quentin Bouniot; Zeynep Akata |
+
+</div>
 
 ## Sponsors/Acknowledgements
 - This workshop is partially supported by Horizon EU programme through project ELOQUENCE, grant no. 101135916.
