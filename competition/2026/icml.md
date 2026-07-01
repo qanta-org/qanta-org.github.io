@@ -102,7 +102,8 @@ Questions about the workshop can be sent to
 Or join the [Discord](https://discord.gg/E8Z6asZPRt).
 
 ## Poster Sessions and Board Assignments
-🗺️ The plan of the Hall A is [here](https://qanta-org.github.io/competition/2026/Poster%20Board_Hall%20A.pdf).
+🗺️ The plan of the Hall A is [here](https://qanta-org.github.io/competition/2026/Poster%20Board_Hall%20A.pdf).  
+  
 | Poster ID | Session | Board | Topic | Paper | Authors |
 |---|---:|---:|---|---|---|
 | P01 | 1 | 1612 | Multimodal Retrieval QA | Scaling Down: Multi-Hop Information Retrieval in Resource-Constrained Environments | Nikolay Staroverov |
