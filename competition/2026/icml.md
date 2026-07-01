@@ -68,7 +68,7 @@ EMM-QA is an ICML 2026 workshop focused on question answering systems that must 
 Rather than focusing only on larger models, the workshop emphasizes methods that make multimodal question answering usable in real settings, including retrieval-augmented systems, compact models, efficient inference, and human-in-the-loop evaluation.
 
 > **ANNOUNCEMENTS**  
-> 📌 Check [Poster Sessions and Board Assignments](#poster-sessions-and-board-assignments) section at the bottom of this page to find your poster ID, session, and board number in Hall A.
+> 📌 Check [Accepted Papers, Poster Sessions and Board Assignments](#accepted-papers-poster-sessions-and-board-assignments) section at the bottom of this page to find your poster ID, session, and board number in Hall A.
 >
 > 📌 [Workshop Schedule](#schedule) is now available.
 > 
@@ -157,7 +157,7 @@ Questions about the workshop can be sent to
 [emm-qa-organizers@googlegroups.com](mailto:emm-qa-organizers@googlegroups.com).
 Or join the [Discord](https://discord.gg/E8Z6asZPRt).
 
-## Poster Sessions and Board Assignments
+## Accepted Papers, Poster Sessions and Board Assignments
 🗺️ The plan of the Hall A is [here](https://qanta-org.github.io/competition/2026/Poster%20Board_Hall%20A.pdf).  
   
 <div class="poster-table-wrapper" markdown="1">
@@ -209,7 +209,6 @@ Or join the [Discord](https://discord.gg/E8Z6asZPRt).
 | P43 | 2 | 1703 | Reasoning Evaluation | [Coherence Under Commitment: Probing Generalization and Vacuous Memorization in LLM Logical Reasoning](https://openreview.net/forum?id=PPp4Tq32Ud) | Noor Islam S. Mohammad; Mahmudul Hasan |
 | P44 | 2 | 1704 | Model Alignment | [Co-LoRA: Collaborative Model Personalization on Heterogeneous Multi-Modal Clients](https://openreview.net/forum?id=dwzWoScN41) | Minhyuk Seo; Taeheon Kim; Hankook Lee; Jonghyun Choi; Tinne Tuytelaars |
 | P45 | 2 | 1704 | Model Alignment | [SOTAlign: Semi-Supervised Alignment of Unimodal Vision and Language Models via Optimal Transport](https://openreview.net/forum?id=6sFeyxn3iR) | Simon Roschmann; Paul KRZAKALA; Sonia Mazelet; Quentin Bouniot; Zeynep Akata |
-
 
 </div>
 
