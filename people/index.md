@@ -32,14 +32,14 @@ nav_order: 5
       <td><a href="https://mgor.info/" target="_blank" rel="noopener">Link</a></td>
     </tr>
     <tr>
-      <td>Andy Yu</td>
+      <td>Atrey Desai/Andy Yu</td>
       <td>Tournament Director</td>
-      <td>-</td>
+      <td><a href="https://atreydesai.com/" target="_blank" rel="noopener">Link</a></td>
     </tr>
     <tr>
       <td>Michael Xie</td>
       <td>Submission Lead</td>
-      <td>-</td>
+      <td><a href="https://www.linkedin.com/in/michael-xie-29139b220/" target="_blank" rel="noopener">Link</a></td>
     </tr>
     <tr>
       <td>HyoJung Han</td>
