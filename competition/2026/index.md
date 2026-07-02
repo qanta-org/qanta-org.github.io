@@ -25,6 +25,12 @@ We need you to take part to make this a success, and there are three ways to do 
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VrsEn_69Nb8?si=ygfKMA1iSIXQCPeL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
+## Tournament Stats
+
+Stats and standings from the QANTA 2026 tournament.
+
+> [Tournament Stats](/competition/2026/stats/)
+
 ## How to Participate
 
 There are three ways to join QANTA 2026:
