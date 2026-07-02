@@ -8,3 +8,4 @@ vendor/
 # Node / Webpack
 node_modules/
 javascript/main.js
+openreview.sh
