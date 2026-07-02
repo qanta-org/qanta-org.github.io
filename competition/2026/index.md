@@ -115,9 +115,9 @@ opportunity to discuss your approaches with other system builders.
 | [Editor Packet Submission](/competition/2026/authors/) | June 17, 2026 |
 | [Final System Submission](/competition/2026/computer-teams/) | June 20, 2026 |
 | [Player Registration](/competition/2026/human-teams/) | June 21, 2026 |
-| [System Description Paper Submission](/competition/2026/call-for-papers/)| June 22, 2026 |
 | [In-Person Tournament](/competition/2026/human-teams/) | June 27, 2026 |
 | [Online Tournament](/competition/2026/human-teams/) | June 28, 2026 |
+| [System Description Paper Submission](/competition/2026/call-for-papers/)| July 4, 2026 |
 | [Computer Winners Announced](/competition/2026/icml/) | July 7, 2026 |
 | [ICML EMM-QA Workshop](/competition/2026/icml/) | July 11, 2026 |
 
