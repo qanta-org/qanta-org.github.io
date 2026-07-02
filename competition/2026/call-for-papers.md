@@ -59,9 +59,9 @@ In general, we expect the first deadline to be used more often for general works
 - Test data release: June 1, 2026
 - Challenge metric / scoring feedback deadline: June 1, 2026
 - **Last system submission: June 17, 2026**
-- System Description Paper Submission: June 22, 2026
 - In-person human competition: June 27, 2026
 - Online human competition: June 28, 2026
+- System Description Paper Submission: July 4, 2026
 
 ### Workshop Date and Venue
 
