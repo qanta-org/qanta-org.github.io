@@ -57,7 +57,7 @@ body.wrap > .container {
 
 # EMM-QA 2026 Accepted  & Shared Challenge Papers
 
-[Back to EMM-QA 2026 Workshop](/competition/2026/icml/)
+[⬅ Back to EMM-QA 2026 Workshop](/competition/2026/icml/)
 
 <div class="accepted-papers-table-wrapper" markdown="1">
 
