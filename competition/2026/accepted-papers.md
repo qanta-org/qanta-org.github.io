@@ -55,9 +55,8 @@ body.wrap > .container {
 }
 </style>
 
-# EMM-QA 2026 Accepted Papers
+# EMM-QA 2026 Accepted  & Shared Challenge Papers
 
-The accepted papers are listed below. Paper titles link to the downloaded PDFs.
 
 <div class="accepted-papers-table-wrapper" markdown="1">
 
