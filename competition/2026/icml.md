@@ -69,7 +69,7 @@ Rather than focusing only on larger models, the workshop emphasizes methods that
 
 
 > **ANNOUNCEMENTS**  
-> 📌 [List Accepted Papers and Shared Challenge Papers](/competition/2026/accepted-papers/) is now available!
+> 📌 [List of Accepted Papers and Shared Challenge Papers](/competition/2026/accepted-papers/) is now available!
 >
 > 📌 Check [Accepted Papers, Poster Sessions and Board Assignments](#accepted-papers-poster-sessions-and-board-assignments) section at the bottom of this page to find your poster ID, session, and board number in Hall A.
 >
