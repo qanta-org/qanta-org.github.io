@@ -123,7 +123,7 @@ The workshop will also serve as the venue where we announce the winning systems 
 | 10:50&#8209;11:50 | 🟧 Workshop Posters I | 60 min |
 | 11:50&#8209;12:50 | Lunch | 60 min |
 | 12:50&#8209;13:20 | 🤖 Live AI QA Competition | 30 min |
-| 13:20&#8209;14:00 | 🟦 Mrinmaya Sachan: TBA | 40 min |
+| 13:20&#8209;14:00 | 🟦 Mrinmaya Sachan: Behavioral Shortcuts and Cross-Modal Alignment Failures of Multimodal Large Language Models | 40 min |
 | 14:00&#8209;14:10 | Q&A | 10 min |
 | 14:10&#8209;14:50 | 🟦 Robin Jia: The Golden Age of Adversarial Evaluation | 40 min |
 | 14:50&#8209;15:00 | Q&A | 10 min |
