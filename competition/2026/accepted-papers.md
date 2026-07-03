@@ -63,7 +63,7 @@ body.wrap > .container {
 
 | Topic                             | Paper | Archival | Authors |
 |-----------------------------------|---|:---:|---|
-| 🤖 QANTA26 Challenge              | [Task-Specific Multimodal Question Answering Agents via Confidence]({{ site.baseurl }}/assets/papers/2026/challenge/QANTA26_Task-Specific%20Multimodal%20Question%20Answering%20Agents%20via%20Confidence.pdf) | ✗ | Nirjhar Das; Md. Al-Mamun Provath |
+| 🤖 QANTA26 Challenge 🏆            | [Task-Specific Multimodal Question Answering Agents via Confidence]({{ site.baseurl }}/assets/papers/2026/challenge/QANTA26_Task-Specific%20Multimodal%20Question%20Answering%20Agents%20via%20Confidence.pdf) | ✗ | Nirjhar Das; Md. Al-Mamun Provath |
 | Multimodal Retrieval QA           | [Scaling Down: Multi-Hop Information Retrieval in Resource-Constrained Environments]({{ site.baseurl }}/assets/papers/2026/accepted/S0011_%5BArchival%5D_Scaling_Down__Multi-Hop_Information_Retrieval_in_Resource-Constrained_Environments.pdf) | ✓ | Nikolay Staroverov |
 | Multimodal Retrieval QA           | [Latent Abstraction for Retrieval-Augmented Generation]({{ site.baseurl }}/assets/papers/2026/accepted/S0003_%5BNon-Archival%5D_Latent_Abstraction_for_Retrieval-Augmented_Generation.pdf) | ✗ | Ha-Lan Nguyen; Nguyen A Minh; Dung D. Le |
 | Multimodal Retrieval QA           | [Salient Knowledge Pathways: Sparse Cross-Modal Routing for Efficient Knowledge-Intensive Multimodal Question Answering]({{ site.baseurl }}/assets/papers/2026/accepted/S0026_Salient_Knowledge_Pathways__Sparse_Cross-Modal_Routing_for_Efficient_Knowledge-Intensive_Multimodal_Question_Answering.pdf) | ✗ | Noor Islam S. Mohammad |
