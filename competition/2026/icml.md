@@ -63,6 +63,10 @@ body.wrap > .container {
 
 <img src="{{ site.baseurl }}/assets/images/branding/icml_2026.png" alt="EMM-QA logo" class="img-fluid mb-4 d-block mx-auto" style="width: 28%; max-width: 100%;">
 
+<div class="alert alert-primary text-center mb-4" role="alert">
+  <strong>Workshop room:</strong> ASEM Ballroom 201
+</div>
+
 EMM-QA is an ICML 2026 workshop focused on question answering systems that must balance accuracy, efficiency, and adaptability across multiple input modalities. The workshop brings together researchers from academia and industry working on knowledge-intensive multimodal systems that operate under practical resource constraints.
 
 Rather than focusing only on larger models, the workshop emphasizes methods that make multimodal question answering usable in real settings, including retrieval-augmented systems, compact models, efficient inference, and human-in-the-loop evaluation.
