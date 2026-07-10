@@ -75,7 +75,7 @@ Rather than focusing only on larger models, the workshop emphasizes methods that
 > **ANNOUNCEMENTS**  
 > 📌 The exact [Contributed Paper Spotlight Schedule](#schedule) is now available. Four papers will be presented from **10:05 to 10:48**.
 > 
-> 📌 [List of Accepted Papers and Shared Challenge Papers](/competition/2026/accepted-papers/) is now available!
+> 📌 [List of Accepted Papers and Shared Challenge Papers](/competition/2026/accepted-papers/) is now available! ⚠️ Virtual poster presentations are also available here under ▶️ icon!
 >
 > 📌 Check [Accepted Papers, Poster Sessions and Board Assignments](#accepted-papers-poster-sessions-and-board-assignments) section at the bottom of this page to find your poster ID, session, and board number in Hall A.
 >
