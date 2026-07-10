@@ -123,7 +123,11 @@ The workshop will also serve as the venue where we announce the winning systems 
 | 09:00&#8209;09:15 | ☕ Coffee Break | 15 min |
 | 09:15&#8209;09:55 | 🟦 Sewon Min: PIXELRAG: Web Screenshots Beat Text for Retrieval-Augmented Generation | 40 min |
 | 09:55&#8209;10:05 | Q&A | 10 min |
-| 10:05&#8209;10:50 | 🟨 Contributed Paper Spotlights | 45 min |
+| 10:05&#8209;10:50 | 🟨 Contributed Paper Spotlights | 45 min |  
+| 10:05&#8209;10:15 | 🟨 Mirage Probes: How Vision Models Fake Visual Understanding — *Daniel Ben-Levi et al.*  | 10 min |   
+| 10:16&#8209;10:26 | 🟨 VLMs Trace Without Tracking: Diagnosing Failures in Visual Path Following — *Hyesoo Hong et al.* | 10 min |   
+| 10:27&#8209;10:37 | 🟨 DistortBench: Benchmarking Vision Language Models on Image Distortion Identification — *Divyanshu Goyal et al.* | 10 min |  
+| 10:38&#8209;10:48 | 🟨 CCDiff: Inverse Canonical Correlation Analysis for Discovering Visual Differences in Natural Language *(Virtual)* — *Neelesh Bisht et al.* | 10 min |  
 | 10:50&#8209;11:50 | 🟧 Workshop Posters I | 60 min |
 | 11:50&#8209;12:50 | Lunch | 60 min |
 | 12:50&#8209;13:20 | 🤖 Live AI QA Competition | 30 min |
