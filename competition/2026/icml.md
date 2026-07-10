@@ -72,7 +72,7 @@ EMM-QA is an ICML 2026 workshop focused on question answering systems that must 
 Rather than focusing only on larger models, the workshop emphasizes methods that make multimodal question answering usable in real settings, including retrieval-augmented systems, compact models, efficient inference, and human-in-the-loop evaluation.
 
 
-> **ANNOUNCEMENTS**
+> **ANNOUNCEMENTS**  
 > 📌 The exact [Contributed Paper Spotlight Schedule](#schedule) is now available. Four papers will be presented from **10:05 to 10:48**.
 > 
 > 📌 [List of Accepted Papers and Shared Challenge Papers](/competition/2026/accepted-papers/) is now available!
