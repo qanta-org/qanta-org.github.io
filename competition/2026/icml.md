@@ -126,7 +126,7 @@ The workshop will also serve as the venue where we announce the winning systems 
 | 09:00&#8209;09:15 | ☕ Coffee Break | 15 min |
 | 09:15&#8209;09:55 | 🟦 Sewon Min: PIXELRAG: Web Screenshots Beat Text for Retrieval-Augmented Generation | 40 min |
 | 09:55&#8209;10:05 | Q&A | 10 min |
-| 10:05&#8209;10:50 | 🟨 Contributed Paper Spotlights | 45 min |  
+| 10:05&#8209;10:50 | 🟨 Contributed Paper Spotlights I | 45 min |  
 | 10:05&#8209;10:15 | 🟨 Mirage Probes: How Vision Models Fake Visual Understanding — *Daniel Ben-Levi et al.*  | 10 min |   
 | 10:16&#8209;10:26 | 🟨 VLMs Trace Without Tracking: Diagnosing Failures in Visual Path Following — *Hyesoo Hong et al.* | 10 min |   
 | 10:27&#8209;10:37 | 🟨 DistortBench: Benchmarking Vision Language Models on Image Distortion Identification — *Divyanshu Goyal et al.* | 10 min |  
@@ -139,7 +139,8 @@ The workshop will also serve as the venue where we announce the winning systems 
 | 14:10&#8209;14:50 | 🟦 Robin Jia: The Golden Age of Adversarial Evaluation | 40 min |
 | 14:50&#8209;15:00 | Q&A | 10 min |
 | 15:00&#8209;15:15 | ☕ Coffee Break | 15 min |
-| 15:15&#8209;15:35 | Shared Challenge Introduction & Results Overview | 20 min |  
+| 15:15&#8209;15:35 | Shared Challenge Introduction & Results Overview | 20 min | 
+| 15:35&#8209;15:55 | 🟨 Contributed Paper Spotlights II | 20 min |  
 | 15:35&#8209;15:45 | 🟨 Stop Thinking, Start Looking: Efficient Post-Training for Multimodal Document Question Answering via Reasoning-Free Alignment — *Harikrishnan Puthan Madathil et al.* | 10 min |  
 | 15:45&#8209;15:55 | 🟨 FAGER: Factually Grounded Evaluation and Refinement of Text-to-Image Models *(Virtual)* — *Youngsun Lim et al.* | 10 min |  
 | 15:55&#8209;16:05 | 🏆 Challenge Awards | 10 min |  
