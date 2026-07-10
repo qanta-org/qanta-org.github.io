@@ -138,9 +138,10 @@ The workshop will also serve as the venue where we announce the winning systems 
 | 14:10&#8209;14:50 | 🟦 Robin Jia: The Golden Age of Adversarial Evaluation | 40 min |
 | 14:50&#8209;15:00 | Q&A | 10 min |
 | 15:00&#8209;15:15 | ☕ Coffee Break | 15 min |
-| 15:15&#8209;15:35 | Shared Challenge Introduction & Results Overview | 20 min |
-| 15:35&#8209;15:55 | 🟨 Best Challenge Team Talks | 20 min |
-| 15:55&#8209;16:05 | 🏆 Challenge Awards | 10 min |
+| 15:15&#8209;15:35 | Shared Challenge Introduction & Results Overview | 20 min |  
+| 15:35&#8209;15:45 | 🟨 Stop Thinking, Start Looking: Efficient Post-Training for Multimodal Document Question Answering via Reasoning-Free Alignment — *Harikrishnan Puthan Madathil et al.* | 10 min |  
+| 15:45&#8209;15:55 | 🟨 FAGER: Factually Grounded Evaluation and Refinement of Text-to-Image Models *(Virtual)* — *Youngsun Lim et al.* | 10 min |  
+| 15:55&#8209;16:05 | 🏆 Challenge Awards | 10 min |  
 | 16:05&#8209;16:10 | Closing Remarks | 5 min |
 | 16:10&#8209;17:00 | 🟧 Workshop Posters II + Shared Challenge Posters | 50 min |
 
