@@ -65,6 +65,7 @@ body.wrap > .container {
 
 <div class="alert alert-primary text-center mb-4" role="alert">
   <strong>Workshop room:</strong> ASEM Ballroom 201
+  *How to get there:* From the registration desk on the ground floor, follow the hallway to the Auditorium, then take the escalator inside the Auditorium to the second floor.
 </div>
 
 EMM-QA is an ICML 2026 workshop focused on question answering systems that must balance accuracy, efficiency, and adaptability across multiple input modalities. The workshop brings together researchers from academia and industry working on knowledge-intensive multimodal systems that operate under practical resource constraints.
