@@ -64,7 +64,7 @@ body.wrap > .container {
 <img src="{{ site.baseurl }}/assets/images/branding/icml_2026.png" alt="EMM-QA logo" class="img-fluid mb-4 d-block mx-auto" style="width: 28%; max-width: 100%;">
 
 <div class="alert alert-primary text-center mb-4" role="alert">
-  <strong>Workshop room:</strong> ASEM Ballroom 201
+  <strong>Workshop room:</strong> ASEM Ballroom 201   
   *How to get there:* From the registration desk on the ground floor, follow the hallway to the Auditorium, then take the escalator inside the Auditorium to the second floor.
 </div>
 
