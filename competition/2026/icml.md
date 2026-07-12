@@ -64,7 +64,8 @@ body.wrap > .container {
 <img src="{{ site.baseurl }}/assets/images/branding/icml_2026.png" alt="EMM-QA logo" class="img-fluid mb-4 d-block mx-auto" style="width: 28%; max-width: 100%;">
 
 <div class="alert alert-primary text-center mb-4" role="alert">
-  <strong>Workshop room:</strong> ASEM Ballroom 201
+  <strong>Workshop room:</strong> ASEM Ballroom 201<br>
+  <em>How to get there:</em> From the registration desk on the ground floor, follow the hallway to the Auditorium, then take the escalator inside the Auditorium to the second floor.
 </div>
 
 EMM-QA is an ICML 2026 workshop focused on question answering systems that must balance accuracy, efficiency, and adaptability across multiple input modalities. The workshop brings together researchers from academia and industry working on knowledge-intensive multimodal systems that operate under practical resource constraints.
@@ -73,7 +74,9 @@ Rather than focusing only on larger models, the workshop emphasizes methods that
 
 
 > **ANNOUNCEMENTS**  
-> 📌 [List of Accepted Papers and Shared Challenge Papers](/competition/2026/accepted-papers/) is now available!
+> 📌 The exact [Contributed Paper Spotlight Schedule](#schedule) is now available.
+> 
+> 📌 [List of Accepted Papers and Shared Challenge Papers](/competition/2026/accepted-papers/) is now available! ⚠️ Virtual poster presentations are also available here under ▶️ icon!
 >
 > 📌 Check [Accepted Papers, Poster Sessions and Board Assignments](#accepted-papers-poster-sessions-and-board-assignments) section at the bottom of this page to find your poster ID, session, and board number in Hall A.
 >
@@ -134,7 +137,11 @@ The QANTA 2026 challenge data is available as CSV files for Google Sheets:
 | 09:00&#8209;09:15 | ☕ Coffee Break | 15 min |
 | 09:15&#8209;09:55 | 🟦 Sewon Min: PIXELRAG: Web Screenshots Beat Text for Retrieval-Augmented Generation | 40 min |
 | 09:55&#8209;10:05 | Q&A | 10 min |
-| 10:05&#8209;10:50 | 🟨 Contributed Paper Spotlights | 45 min |
+| 10:05&#8209;10:50 | 🟨 Contributed Paper Spotlights I | 45 min |  
+| 10:05&#8209;10:15 | 🟨 Mirage Probes: How Vision Models Fake Visual Understanding — *Daniel Ben-Levi et al.*  | 10 min |   
+| 10:16&#8209;10:26 | 🟨 VLMs Trace Without Tracking: Diagnosing Failures in Visual Path Following — *Hyesoo Hong et al.* | 10 min |   
+| 10:27&#8209;10:37 | 🟨 DistortBench: Benchmarking Vision Language Models on Image Distortion Identification — *Divyanshu Goyal et al.* | 10 min |  
+| 10:38&#8209;10:48 | 🟨 CCDiff: Inverse Canonical Correlation Analysis for Discovering Visual Differences in Natural Language *(Virtual)* — *Neelesh Bisht et al.* | 10 min |  
 | 10:50&#8209;11:50 | 🟧 Workshop Posters I | 60 min |
 | 11:50&#8209;12:50 | Lunch | 60 min |
 | 12:50&#8209;13:20 | 🤖 Live AI QA Competition | 30 min |
@@ -143,9 +150,11 @@ The QANTA 2026 challenge data is available as CSV files for Google Sheets:
 | 14:10&#8209;14:50 | 🟦 Robin Jia: The Golden Age of Adversarial Evaluation | 40 min |
 | 14:50&#8209;15:00 | Q&A | 10 min |
 | 15:00&#8209;15:15 | ☕ Coffee Break | 15 min |
-| 15:15&#8209;15:35 | Shared Challenge Introduction & Results Overview | 20 min |
-| 15:35&#8209;15:55 | 🟨 Best Challenge Team Talks | 20 min |
-| 15:55&#8209;16:05 | 🏆 Challenge Awards | 10 min |
+| 15:15&#8209;15:35 | Shared Challenge Introduction & Results Overview | 20 min | 
+| 15:35&#8209;15:55 | 🟨 Contributed Paper Spotlights II | 20 min |  
+| 15:35&#8209;15:45 | 🟨 Stop Thinking, Start Looking: Efficient Post-Training for Multimodal Document Question Answering via Reasoning-Free Alignment — *Harikrishnan Puthan Madathil et al.* | 10 min |  
+| 15:45&#8209;15:55 | 🟨 FAGER: Factually Grounded Evaluation and Refinement of Text-to-Image Models *(Virtual)* — *Youngsun Lim et al.* | 10 min |  
+| 15:55&#8209;16:05 | 🏆 Challenge Awards | 10 min |  
 | 16:05&#8209;16:10 | Closing Remarks | 5 min |
 | 16:10&#8209;17:00 | 🟧 Workshop Posters II + Shared Challenge Posters | 50 min |
 
