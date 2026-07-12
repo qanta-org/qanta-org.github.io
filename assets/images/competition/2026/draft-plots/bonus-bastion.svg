@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+<title id="title">Bastion (Bonus) online and offline draft percentiles</title>
+<desc id="desc">Lower percentile values appear higher. Red shows online draft order percentile; blue shows offline draft order percentile.</desc>
+<rect width="100%" height="100%" fill="#ffffff" />
+<text x="78" y="32" font-size="22" font-weight="700" fill="#222">Bastion (Bonus)</text>
+<text x="78" y="52" font-size="13" fill="#555">Lower draft percentile is better and appears higher</text>
+<line x1="78" y1="64.0" x2="692" y2="64.0" stroke="#e5e5e5" /><text x="68" y="69.0" text-anchor="end" font-size="12" fill="#555">Top</text><line x1="78" y1="135.0" x2="692" y2="135.0" stroke="#e5e5e5" /><text x="68" y="140.0" text-anchor="end" font-size="12" fill="#555">25%</text><line x1="78" y1="206.0" x2="692" y2="206.0" stroke="#e5e5e5" /><text x="68" y="211.0" text-anchor="end" font-size="12" fill="#555">50%</text><line x1="78" y1="277.0" x2="692" y2="277.0" stroke="#e5e5e5" /><text x="68" y="282.0" text-anchor="end" font-size="12" fill="#555">75%</text><line x1="78" y1="348.0" x2="692" y2="348.0" stroke="#e5e5e5" /><text x="68" y="353.0" text-anchor="end" font-size="12" fill="#555">Bottom</text>
+<line x1="78" y1="64" x2="78" y2="348" stroke="#999" />
+<line x1="78" y1="348" x2="692" y2="348" stroke="#999" />
+<text x="78.0" y="386" text-anchor="middle" font-size="13" fill="#333">R1</text><text x="231.5" y="386" text-anchor="middle" font-size="13" fill="#333">R2</text><text x="385.0" y="386" text-anchor="middle" font-size="13" fill="#333">R3</text><text x="538.5" y="386" text-anchor="middle" font-size="13" fill="#333">R4</text><text x="692.0" y="386" text-anchor="middle" font-size="13" fill="#333">R5</text>
+<polyline points="78.0,89.8 231.5,89.8 385.0,89.8 538.5,64.0 692.0,95.6" fill="none" stroke="#CC412F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" /><circle cx="78.0" cy="89.8" r="4" fill="#CC412F" /><circle cx="231.5" cy="89.8" r="4" fill="#CC412F" /><circle cx="385.0" cy="89.8" r="4" fill="#CC412F" /><circle cx="538.5" cy="64.0" r="4" fill="#CC412F" /><circle cx="692.0" cy="95.6" r="4" fill="#CC412F" />
+<polyline points="78.0,348.0 231.5,64.0 385.0,145.1 538.5,145.1 692.0,206.0" fill="none" stroke="#2E6F95" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" /><circle cx="78.0" cy="348.0" r="4" fill="#2E6F95" /><circle cx="231.5" cy="64.0" r="4" fill="#2E6F95" /><circle cx="385.0" cy="145.1" r="4" fill="#2E6F95" /><circle cx="538.5" cy="145.1" r="4" fill="#2E6F95" /><circle cx="692.0" cy="206.0" r="4" fill="#2E6F95" />
+<line x1="78" y1="402" x2="102" y2="402" stroke="#CC412F" stroke-width="3" /><text x="110" y="406" font-size="13" fill="#333">Online</text>
+<line x1="208" y1="402" x2="232" y2="402" stroke="#2E6F95" stroke-width="3" /><text x="240" y="406" font-size="13" fill="#333">Offline</text>
+</svg>

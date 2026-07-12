@@ -85,6 +85,10 @@ Rather than focusing only on larger models, the workshop emphasizes methods that
 > 
 > 📌 Join the community on [Discord](https://discord.gg/E8Z6asZPRt).
 
+> QANTA 2026 challenge CSVs are available for Google Sheets:
+> [tossup question difficulty]({{ site.baseurl }}/assets/data/2026/tossup_questions.csv) and
+> [bonus question difficulty]({{ site.baseurl }}/assets/data/2026/bonus_questions.csv).
+
 ## Scope
 
 The workshop is centered on efficient multimodal question answering. It also welcomes closely related work on multimodal retrieval, reasoning, evaluation, benchmarking, and efficient inference when those contributions are clearly connected to question answering or other knowledge-intensive multimodal tasks.
@@ -108,6 +112,13 @@ The workshop is planned as a one-day event combining:
 - A live human-computer question answering event
 
 The workshop will also serve as the venue where we announce the winning systems from the QANTA 2026 computer competition.
+
+## Challenge Data
+
+The QANTA 2026 challenge data is available as CSV files for Google Sheets:
+
+- [Tossup question difficulty]({{ site.baseurl }}/assets/data/2026/tossup_questions.csv): packet IDs, question IDs, clean answers, model buzz counts, average first-buzz positions, and difficulty ranks/scores.
+- [Bonus question difficulty]({{ site.baseurl }}/assets/data/2026/bonus_questions.csv): packet IDs, question IDs, titles, average part accuracy, and difficulty ranks/scores.
 
 ## Schedule
 - Workshop takes place on July 11th. Both poster sessions

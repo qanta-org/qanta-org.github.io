@@ -1,0 +1,10 @@
+type,model,leaderboard,offline_ppg,offline_ppg_rank,online_ppg,online_ppg_rank,offline_consults,offline_consults_rank,offline_accuracy,offline_accuracy_rank,online_consults,online_consults_rank,online_accuracy,online_accuracy_rank
+tossup,Flash,1140,10.0,2,23.0,3,,,,,,,,
+bonus,Bastion,802.53,,,,,93,1,76.3,4,62,3,69.4,5
+tossup,Blitz,1005,1.3,10,6.8,7,,,,,,,,
+bonus,Ensemble,889.11,,,,,20,6,75.0,5,53,4,81.1,2
+tossup,Glint,986,8.8,3,28.2,1,,,,,,,,
+bonus,Guild,905.76,,,,,68,3,85.3,2,73,1,71.2,4
+tossup,Dash,1064,8.2,4,10.0,5,,,,,,,,
+tossup,Jolt,826,5.0,6,1.6,9,,,,,,,,
+tossup,Edge,753,5.0,6,11.2,4,,,,,,,,
