@@ -8,7 +8,7 @@ permalink: /competition/2026/human-teams/
 
 Play in QANTA 2026 — the first quiz bowl competition to include **multimodal questions**. You'll answer pyramid-style tossups where some clues are images alongside text. Team up with an AI agent and compete against other human–AI pairs, solo humans, and AI-only systems.
 
-> Join the community on [Discord](https://discord.gg/E8Z6asZPRt).
+<!-- > Join the community on [Discord](https://discord.gg/E8Z6asZPRt). -->
 
 For the current rules, see the [rules overview](/competition/2026/rules/) and the [human rules](/competition/2026/rules/human/).
 
@@ -21,10 +21,10 @@ For the current rules, see the [rules overview](/competition/2026/rules/) and th
 
 Check out last year's questions [here](https://drive.google.com/drive/folders/16T-Yx1S3WTs3t9qPr3r38AIaM-Unb65y). 
 
-## Tournament Dates
+<!-- ## Tournament Dates
 
 - **In-person tournament:** June 27, 2026
-- **Online tournament:** June 28, 2026
+- **Online tournament:** June 28, 2026 -->
 
 ## Who Should Play?
 
@@ -32,17 +32,17 @@ Check out last year's questions [here](https://drive.google.com/drive/folders/16
 - Trivia enthusiasts with broad knowledge including visual arts, science, geography, and history — categories where image clues will be common
 - Anyone interested in human–AI collaboration experiments
 
-## Registration
+<!-- ## Registration
 
 The registration form can be found [here](https://docs.google.com/forms/d/e/1FAIpQLSf3yTlKkP9f4_C-CGvFXjrK9pRXHOzGLjJrfbsG2dMidz4hkA/viewform?usp=publish-editor).
 
-Questions about registration can be sent to [qanta@googlegroups.com](mailto:qanta@googlegroups.com).
+Questions about registration can be sent to [qanta@googlegroups.com](mailto:qanta@googlegroups.com). -->
 
 ## Prizes
 
 Human teams are eligible for placement awards in the live competition. See the [prizes and awards](/competition/2026/prizes/) page for the full breakdown.
 
-## Contact
+<!-- ## Contact
 
 - Email: [qanta@googlegroups.com](mailto:qanta@googlegroups.com)
-- Discord: [discord.gg/E8Z6asZPRt](https://discord.gg/E8Z6asZPRt)
+- Discord: [discord.gg/E8Z6asZPRt](https://discord.gg/E8Z6asZPRt) -->

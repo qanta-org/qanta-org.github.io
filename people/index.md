@@ -10,6 +10,19 @@ nav_order: 5
 
 # People
 
+## Future
+
+We are looking for talented, motivated people to join us.
+
+If you want to get inolved in the research, there are several straightforward ways to do that:
+
+* Submit systems
+* Improve our submission infrastructure
+* Help us ingest new questions
+* Improve our authoring interface
+
+Doing something like this (and hopefully we've provided good instructions on how to do that), helps us show you're capable and motivated, and afterward this can expand to more focused research.
+
 ## Current
 
 <table>
@@ -62,12 +75,12 @@ nav_order: 5
       <td><a href="https://mfajcik.github.io/" target="_blank" rel="noopener">Link</a></td>
     </tr>
     <tr>
-      <td>Chen</td>
+      <td>Chen Zhao</td>
       <td>ICML Workshop Co-Organizer</td>
       <td>-</td>
     </tr>
     <tr>
-      <td>George</td>
+      <td>George Boateng</td>
       <td>ICML Workshop Co-Organizer</td>
       <td>-</td>
     </tr>

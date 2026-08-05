@@ -19,7 +19,7 @@ artworks, maps, or scientific figures. Expert humans read images
 naturally — can AI do the same?  How much can computers help humans
 answer questions?
 
-We need you to take part to make this a success, and there are three ways to do that: writing questions, submitting systems, and playing as a human team.
+<!-- We need you to take part to make this a success, and there are three ways to do that: writing questions, submitting systems, and playing as a human team. -->
 
 <div class="embed-responsive embed-responsive-16by9 mb-4">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VrsEn_69Nb8?si=ygfKMA1iSIXQCPeL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -53,7 +53,32 @@ Author pyramid-style questions that incorporate images alongside text clues. Rec
 
 → [For Authors](/competition/2026/authors/)
 
-## Prizes
+## Results
+
+The post-event materials highlight a few winners and takeaways from QANTA 2026:
+
+- Human team winners included **Groove** and **CoPR**.
+- Heavyweight champions and runners-up were **Moksh Jain** and **Ronit Singh**.
+- Middleweight champions and runners-up were **George Li** and **Nirjhar Das**.
+- Best question went to **Jamie Carlson**.
+- Most adversarial question and packet went to **Chauncey Lo**.
+- Best packet went to **Stephen Pachucki**.
+
+The bigger lesson from the deck is that multimodal systems are strong but still brittle on surprising visual clues, explanation quality, calibration, and adversarial robustness.
+
+## Supported By
+
+This year's competition was supported by TRAILS, NSF, and Adobe.
+
+<div class="d-flex flex-wrap align-items-center justify-content-center mt-3">
+  <a href="https://www.trails.umd.edu/" target="_blank" rel="noopener noreferrer">
+    <img src="{{ site.baseurl }}/assets/images/branding/trails.png" alt="TRAILS" class="img-fluid m-3" style="max-height: 80px;">
+  </a>
+  <span class="badge badge-light border m-3 px-4 py-3" style="font-size: 1rem;">NSF</span>
+  <img src="{{ site.baseurl }}/assets/images/branding/adobe.png" alt="Adobe" class="img-fluid m-3" style="max-height: 80px;">
+</div>
+
+<!-- ## Prizes
 
 QANTA 2026 includes prizes across competition tracks:
 
@@ -61,7 +86,7 @@ QANTA 2026 includes prizes across competition tracks:
 - Class-based (i.e., less than 500GB) awards for computer systems, plus special recognition
 - Awards for standout questions and packets, plus per-question payments for accepted writing
 
-> [Prizes and Awards](/competition/2026/prizes/)
+> [Prizes and Awards](/competition/2026/prizes/) -->
 
 ## Competition structure
 
@@ -75,7 +100,7 @@ The team that answers a tossup correctly earns the next bonus. For full match fl
 
 > Join the community on [Discord](https://discord.gg/E8Z6asZPRt).
 
-<div class="row mt-4 mb-4">
+<!-- <div class="row mt-4 mb-4">
   <div class="col-md-6">
     <div class="card shadow-sm h-100">
       <div class="card-body">
@@ -94,9 +119,9 @@ The team that answers a tossup correctly earns the next bonus. For full match fl
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
-## ICML 2026 Workshop and Publication
+<!-- ## ICML 2026 Workshop and Publication
 
 You don't have to submit a paper to our ICML workshop---**EMM-QA
 workshop on efficient multimodal question answering**---if you submit
@@ -106,9 +131,9 @@ opportunity to discuss your approaches with other system builders.
 
 > [EMM-QA Workshop at ICML 2026](/competition/2026/icml/)
 >
-> [Call for Papers](/competition/2026/call-for-papers/)
+> [Call for Papers](/competition/2026/call-for-papers/) -->
 
-## Important Dates
+<!-- ## Important Dates
 
 | Deadline | Date |
 |---|---|
@@ -125,7 +150,7 @@ opportunity to discuss your approaches with other system builders.
 | [Online Tournament](/competition/2026/human-teams/) | June 28, 2026 |
 | [System Description Paper Submission](/competition/2026/call-for-papers/)| July 4, 2026 |
 | [Computer Winners Announced](/competition/2026/icml/) | July 7, 2026 |
-| [ICML EMM-QA Workshop](/competition/2026/icml/) | July 11, 2026 |
+| [ICML EMM-QA Workshop](/competition/2026/icml/) | July 11, 2026 | -->
 
 ## Rules and Scoring
 

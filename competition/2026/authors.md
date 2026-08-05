@@ -8,7 +8,7 @@ permalink: /competition/2026/authors/
 
 QANTA 2026 introduces **multimodal questions** — pyramid-style tossups where some clues are images (photographs, artworks, diagrams, maps, or scientific figures) alongside traditional text clues. We're looking for authors who can write questions that challenge AI systems while remaining fair to expert humans reading both text and images.
 
-> Join the community on [Discord](https://discord.gg/E8Z6asZPRt).
+<!-- > Join the community on [Discord](https://discord.gg/E8Z6asZPRt). -->
 
 ## Rules
 - Submit under a single account at [https://advvqa-author-firebase.web.app/author/pyramidal](https://advvqa-author-firebase.web.app/author/pyramidal)
@@ -16,9 +16,9 @@ QANTA 2026 introduces **multimodal questions** — pyramid-style tossups where s
 - No communication between question writers and computer competition teams
 - Distribution follows PACE guidelines
 
-## Compensation
+<!-- ## Compensation
 
-Authors receive **$5 per accepted question**.
+Authors receive **$5 per accepted question**. -->
 
 ## Question Guidelines
 
@@ -46,7 +46,7 @@ Each multimodal question follows the same pyramid format as a standard tossup �
 
 For more advice on writing strong adversarial questions, see [What's a Pyramidal Adversarial Question?](/stump-a-computer/).
 
-## Submission
+<!-- ## Submission
 
 Authors should first sign up here:
 
@@ -65,9 +65,9 @@ with the tournament director:
 
 However, the Google Presentation is **not** the preferred format. The interface is better because it lets you test how computer systems handle your questions while you write and revise them.
 
-Questions about writing or submission can be sent to [qanta@googlegroups.com](mailto:qanta@googlegroups.com).
+Questions about writing or submission can be sent to [qanta@googlegroups.com](mailto:qanta@googlegroups.com). -->
 
-## Contact
+<!-- ## Contact
 
 - Email: [qanta@googlegroups.com](mailto:qanta@googlegroups.com)
-- Discord: [discord.gg/E8Z6asZPRt](https://discord.gg/E8Z6asZPRt)
+- Discord: [discord.gg/E8Z6asZPRt](https://discord.gg/E8Z6asZPRt) -->

@@ -63,16 +63,23 @@ body.wrap > .container {
 
 <img src="{{ site.baseurl }}/assets/images/branding/icml_2026.png" alt="EMM-QA logo" class="img-fluid mb-4 d-block mx-auto" style="width: 28%; max-width: 100%;">
 
+<!--
 <div class="alert alert-primary text-center mb-4" role="alert">
   <strong>Workshop room:</strong> ASEM Ballroom 201<br>
   <em>How to get there:</em> From the registration desk on the ground floor, follow the hallway to the Auditorium, then take the escalator inside the Auditorium to the second floor.
 </div>
+-->
 
 EMM-QA is an ICML 2026 workshop focused on question answering systems that must balance accuracy, efficiency, and adaptability across multiple input modalities. The workshop brings together researchers from academia and industry working on knowledge-intensive multimodal systems that operate under practical resource constraints.
 
 Rather than focusing only on larger models, the workshop emphasizes methods that make multimodal question answering usable in real settings, including retrieval-augmented systems, compact models, efficient inference, and human-in-the-loop evaluation.
 
+This year's shared challenge explored that idea in a game setting: players and systems answered pyramid-style questions that mixed text with images, then adapted through tossups, bonuses, confidence, and human-computer teaming. We also used adversarial question writing to probe where multimodal models are still brittle, especially on surprising clues that are easy for humans but hard for systems.
 
+For the human-computer matches, the AI teammates shown in the presentation as a grid of model logos were drafted into teams in ranking order: weaker human teams chose first, then the draft continued upward through the standings and reversed if AI teammates were still available. That pairing of roster and draft order is what makes the teammate selection visually meaningful.
+
+
+<!--
 > **ANNOUNCEMENTS**  
 > 📌 The exact [Contributed Paper Spotlight Schedule](#schedule) is now available.
 > 
@@ -87,6 +94,7 @@ Rather than focusing only on larger models, the workshop emphasizes methods that
 > 📌 [Computer Teams](/competition/2026/computer-teams/)
 > 
 > 📌 Join the community on [Discord](https://discord.gg/E8Z6asZPRt).
+-->
 
 > QANTA 2026 challenge CSVs are available for Google Sheets:
 > [tossup question difficulty]({{ site.baseurl }}/assets/data/2026/tossup_questions.csv) and
@@ -116,12 +124,14 @@ The workshop is planned as a one-day event combining:
 
 The workshop will also serve as the venue where we announce the winning systems from the QANTA 2026 computer competition.
 
-## Challenge Data
+The presentation also closes with a few reflections: multimodal systems remain strong overall, but they still struggle with surprising visual clues, explanation quality, calibration, and adversarial generation. That makes the competition useful not just as a leaderboard, but as a way to study the jagged frontier between human and machine performance.
+
+<!-- ## Challenge Data
 
 The QANTA 2026 challenge data is available as CSV files for Google Sheets:
 
 - [Tossup question difficulty]({{ site.baseurl }}/assets/data/2026/tossup_questions.csv): packet IDs, question IDs, clean answers, model buzz counts, average first-buzz positions, and difficulty ranks/scores.
-- [Bonus question difficulty]({{ site.baseurl }}/assets/data/2026/bonus_questions.csv): packet IDs, question IDs, titles, average part accuracy, and difficulty ranks/scores.
+- [Bonus question difficulty]({{ site.baseurl }}/assets/data/2026/bonus_questions.csv): packet IDs, question IDs, titles, average part accuracy, and difficulty ranks/scores. -->
 
 ## Schedule
 - Workshop takes place on July 11th. Both poster sessions
@@ -161,9 +171,9 @@ The QANTA 2026 challenge data is available as CSV files for Google Sheets:
 ### Legend
 - 🟦 Invited Talks  
 - 🟨 Contributed Paper Spotlights / Best Challenge Team Talk  
-- 🟧 Poster Sessions  
+- 🟧 Poster Sessions
 
-## Confirmed Keynote Speakers
+<!-- ## Confirmed Keynote Speakers
 
 - Sewon Min (UC Berkeley EECS & Allen Institute for AI)
 - Mrinmaya Sachan (ETH Zürich)
@@ -176,15 +186,15 @@ The QANTA 2026 challenge data is available as CSV files for Google Sheets:
 - Martin Fajčík, Brno University of Technology
 - George Jojo Boateng, ETH Zurich / Kwame AI
 - Ikuya Yamada, Studio Ousia / Tohoku University / Nagoya University / RIKEN
-- Chen Zhao, NYU Shanghai
+- Chen Zhao, NYU Shanghai -->
 
-## Contact
+<!-- ## Contact
 
 Questions about the workshop can be sent to
 [emm-qa-organizers@googlegroups.com](mailto:emm-qa-organizers@googlegroups.com).
-Or join the [Discord](https://discord.gg/E8Z6asZPRt).
+Or join the [Discord](https://discord.gg/E8Z6asZPRt). -->
 
-## Accepted Papers, Poster Sessions and Board Assignments
+<!-- ## Accepted Papers, Poster Sessions and Board Assignments
 🗺️ The plan of the Hall A is [here](https://qanta-org.github.io/competition/2026/Poster%20Board_Hall%20A.pdf).  
   
 <div class="poster-table-wrapper" markdown="1">
@@ -237,7 +247,7 @@ Or join the [Discord](https://discord.gg/E8Z6asZPRt).
 | P44 | 2 | 1704 | Model Alignment | [Co-LoRA: Collaborative Model Personalization on Heterogeneous Multi-Modal Clients](https://openreview.net/forum?id=dwzWoScN41) | Minhyuk Seo; Taeheon Kim; Hankook Lee; Jonghyun Choi; Tinne Tuytelaars |
 | P45 | 2 | 1704 | Model Alignment | [SOTAlign: Semi-Supervised Alignment of Unimodal Vision and Language Models via Optimal Transport](https://openreview.net/forum?id=6sFeyxn3iR) | Simon Roschmann; Paul KRZAKALA; Sonia Mazelet; Quentin Bouniot; Zeynep Akata |
 
-</div>
+</div> -->
 
 ## Sponsors/Acknowledgements
 - This workshop is partially supported by Horizon EU programme through project ELOQUENCE, grant no. 101135916.

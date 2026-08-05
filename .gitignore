@@ -9,3 +9,5 @@ vendor/
 node_modules/
 javascript/main.js
 openreview.sh
+*.md#
+*.md~

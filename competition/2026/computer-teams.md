@@ -8,7 +8,7 @@ permalink: /competition/2026/computer-teams/
 
 QANTA 2026 is the first quiz bowl competition to include **multimodal questions** — text clues combined with images. AI systems must handle both modalities to compete.
 
-> Join the community on [Discord](https://discord.gg/E8Z6asZPRt).
+<!-- > Join the community on [Discord](https://discord.gg/E8Z6asZPRt). -->
 
 For the current rules, see the [rules overview](/competition/2026/rules/) and the [computer rules](/competition/2026/rules/computer/).
 
@@ -21,7 +21,7 @@ Participating systems receive questions incrementally (word by word for text clu
 - **Integrate both modalities** to update its answer hypothesis and confidence as new clues arrive
 - **Express calibrated confidence** — the scoring rewards systems that know when they don't know
 
-## Scoring
+<!-- ## Scoring
 
 Scoring details to be announced. The format will follow the QANTA 2025 precedent with extensions for multimodal calibration evaluation:
 
@@ -30,11 +30,11 @@ Scoring details to be announced. The format will follow the QANTA 2025 precedent
 - Calibration score (confidence should correlate with accuracy)
 - Multimodal bonus track: performance on image-containing questions specifically
 
-The full scoring details are described on the [computer rules](/competition/2026/rules/computer/) page.
+The full scoring details are described on the [computer rules](/competition/2026/rules/computer/) page. -->
 
-## Prizes
+<!-- ## Prizes
 
-Computer teams are eligible for class-based awards and additional recognition for standout systems. See the [prizes and awards](/competition/2026/prizes/) page for the full breakdown.
+Computer teams are eligible for class-based awards and additional recognition for standout systems. See the [prizes and awards](/competition/2026/prizes/) page for the full breakdown. -->
 
 ## Developing your model
 
@@ -105,9 +105,9 @@ Use the **Hugging Face Pipelines** tab to submit a **public, non-gated** model o
 
 Some teams will want to submit a **Docker image** that runs their own inference stack end-to-end, instead of using the prompting workflow UI or a Hub `pipeline` model. We support **container-based submissions** in the Docker tab of the submission interface.
 
-For future announcements stay on the mailing list: [emm-qa-organizers@googlegroups.com](mailto:emm-qa-organizers@googlegroups.com)
+<!-- For future announcements stay on the mailing list: [emm-qa-organizers@googlegroups.com](mailto:emm-qa-organizers@googlegroups.com) -->
 
-## Contact
+<!-- ## Contact
 
 - Email: [emm-qa-organizers@googlegroups.com](mailto:emm-qa-organizers@googlegroups.com)
-- Discord: [discord.gg/E8Z6asZPRt](https://discord.gg/E8Z6asZPRt)
+- Discord: [discord.gg/E8Z6asZPRt](https://discord.gg/E8Z6asZPRt) -->
