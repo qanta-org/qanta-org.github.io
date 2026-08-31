@@ -38,11 +38,27 @@ Computer-friendly data derived directly from quiz bowl data:
 | Data Direct Download | Huggingface Link | Description | Code |
 |---|---|---|---|
 | [QANTA main datasets](/data-and-code/) | [QANTA_dataset](https://huggingface.co/datasets/TasnimKabir12/qanta) | Canonical QANTA question data and related dataset docs | [Pinafore/qb]({{ site.github.main }}) |
-| - | [Quizbowl human responses](https://huggingface.co/collections/mgor/quizbowl-66f8541f46d413c380669551) | Human answer traces and response behavior data | [maharshi95/neural-irt](https://github.com/maharshi95/neural-irt) |
+| [Raw Protobowl](https://github.com/qanta-org/qanta-org.github.io/tree/main/research/data/protobowl) · [Sample buzzes](/research/data/protobowl/protobowl-buzzes-sample.json) | - | Human gameplay traces grouped by user, plus normalized question references and preview statistics |  |
+| - | [Clustered Protobowl Responses](https://huggingface.co/collections/mgor/quizbowl-66f8541f46d413c380669551) | Human answer traces and response behavior data | [maharshi95/neural-irt](https://github.com/maharshi95/neural-irt) |
 | [QB_2021](https://huggingface.co/datasets/TasnimKabir12/QB2NQ/resolve/main/qb_2021_train_naturalized.json?download=1) [2018](https://huggingface.co/datasets/TasnimKabir12/QB2NQ/resolve/main/qb_2018_train_naturalized.json) | [QB2NQ](https://huggingface.co/datasets/TasnimKabir12/QB2NQ) | Naturalized questions derived from trivia-style QA | [Pinafore/qb2nq](https://github.com/Pinafore/qb2nq) |
 | [Adversarial questions JSON](../downloads/2019_tacl_trick.json) | - | Adversarial examples in compatible QA format | [Eric-Wallace/trickme-interface](https://github.com/Eric-Wallace/trickme-interface) |
 
 ---
+
+## Protobowl Human Gameplay Preview
+
+The Protobowl release includes normalized question records, user-grouped buzz traces, a small
+sample file for inspection, and a manifest documenting the sharded gzip archives.
+
+- [Manifest and provenance](/research/data/protobowl/README.md)
+- [Question records](/research/data/protobowl/protobowl-questions.json)
+- [Grouped buzz sample](/research/data/protobowl/protobowl-buzzes-sample.json)
+- [Buzz ratio histogram](/research/data/protobowl/protobowl-buzz-ratios.svg)
+
+![Protobowl buzz ratio preview](/research/data/protobowl/protobowl-buzz-ratios.svg)
+
+This dataset supports work on incremental answering, opponent modeling, and human behavior in
+quiz bowl systems.
 
 ## Full Dataset Catalog
 
@@ -96,7 +112,8 @@ The 2021 tossup release is the main benchmark dataset for modern QANTA work:
 | [Multi-Step Reasoning Over Unstructured Text with Beam Dense Retrieval](http://cs.umd.edu/~jbg//docs/2021_naacl_multi_ance.pdf) | - | - | NAACL 2021 multistep retrieval | - |
 | [Complex Factoid Question Answering with a Free-Text Knowledge Graph](http://cs.umd.edu/~jbg//docs/2020_www_delft.pdf) | - | - | WWW 2020 free-text KG QA | [henryzhao5852/DELFT](https://github.com/henryzhao5852/DELFT) |
 | [Meta Answering for Machine Reading](https://arxiv.org/abs/1911.04156) | - | - | ArXiv 2020 machine reading | - |
-| [Quizbowl: The Case for Incremental Question Answering](https://arxiv.org/abs/1904.04792) | - | - | ArXiv 2020 incremental QA | [QANTA site](http://www.qanta.org) |
+| [Quizbowl: The Case for Incremental Question Answering](https://arxiv.org/abs/1904.04792) | [Protobowl gameplay data](/research/data/protobowl/README.md) | - | ArXiv 2020 incremental QA with linked human gameplay traces | [QANTA site](http://www.qanta.org) |
+| [Opponent Modeling](https://arxiv.org/abs/1609.05559) | [Protobowl gameplay data](/research/data/protobowl/README.md) | - | Human buzz behavior and player modeling from online quiz bowl play | - |
 | [What Question Answering can Learn from Trivia Nerds](http://cs.umd.edu/~jbg//docs/2020_acl_trivia.pdf) | - | - | ACL 2020 perspective paper | - |
 | [Mitigating Noisy Inputs for Question Answering](http://cs.umd.edu/~jbg//docs/2019_interspeech_asr) | - | - | Interspeech 2019 noisy QA inputs | - |
 | [Can You Unpack That? Learning to Rewrite Questions-in-Context](http://cs.umd.edu/~jbg//docs/2019_emnlp_sequentialqa.pdf) | [Data](http://canard.qanta.org) | - | EMNLP 2019 question rewriting | [aagohary/canard](https://github.com/aagohary/canard) |
