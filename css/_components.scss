@@ -18,6 +18,67 @@
   border-left: 4px solid $primary !important;
 }
 
+// ── Click-to-reveal panels ───────────────────────────────────────────
+.reveal-panel {
+  margin: 0 0 0.75rem;
+  border: 1px solid rgba(0, 0, 0, 0.11);
+  border-left: 4px solid $primary;
+  border-radius: 0.3rem;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+
+  summary {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 1.1rem;
+    color: $dark;
+    font-weight: 700;
+    cursor: pointer;
+    list-style: none;
+
+    &::-webkit-details-marker { display: none; }
+
+    &::before {
+      content: "+";
+      flex: 0 0 1.25rem;
+      color: $primary;
+      font-size: 1.25rem;
+      line-height: 1;
+      text-align: center;
+    }
+
+    span {
+      margin-left: auto;
+      color: #6c757d;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    }
+
+    &:focus-visible {
+      outline: 3px solid rgba($primary, 0.28);
+      outline-offset: 2px;
+    }
+  }
+
+  &[open] {
+    padding-bottom: 0.3rem;
+
+    summary {
+      margin-bottom: 0.9rem;
+      border-bottom: 1px solid #eee;
+
+      &::before { content: "−"; }
+    }
+  }
+
+  > :not(summary) { margin-left: 1.1rem; margin-right: 1.1rem; }
+}
+
+.reveal-panel-faq { border-left-color: $dark; }
+
 // ── Tables ────────────────────────────────────────────────────────────
 main table {
   width: 100%;

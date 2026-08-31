@@ -3,9 +3,6 @@ layout: article
 title: What's a Pyramidal Adversarial Question
 description: Guide to writing pyramidal adversarial quiz bowl questions that fool AI systems while remaining fair to expert humans.
 permalink: /stump-a-computer/
-nav: true
-nav_order: 4
-nav_label: "What's a Pyramidal Adversarial Question"
 ---
 
 # What's a Pyramidal Adversarial Question
